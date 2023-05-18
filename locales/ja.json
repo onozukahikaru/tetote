@@ -233,7 +233,7 @@
     "login": {
       "title": "ログイン",
       "instructions": "以下の情報をご入力ください:",
-      "no_account": "アカウント作成は",
+      "no_account": "アカウントをお持ちですか？",
       "email": "メールアドレス",
       "password": "パスワード",
       "submit": "ログイン",
