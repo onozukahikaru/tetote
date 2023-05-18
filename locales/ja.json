@@ -243,7 +243,7 @@
     "recover_password": {
       "title": "パスワードの再設定",
       "instructions": "メールアドレスを入力してパスワードを回復してください:",
-      "remember_password": "パスワードを記憶しますか？",
+      "remember_password": "",
       "email": "メールアドレス",
       "submit": "送信",
       "back_to_login": "ログイン画面に戻る",
