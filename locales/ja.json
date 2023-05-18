@@ -250,7 +250,7 @@
       "success_message": "あなたのメールアドレスに、パスワードを復元するための手順を記載したメールを送信しました。"
     },
     "register": {
-      "title": "登録",
+      "title": "アカウントを作成",
       "instructions": "以下に情報を入力してください:",
       "already_have_account": "すでにアカウントをお持ちですか？",
       "first_name": "名",
