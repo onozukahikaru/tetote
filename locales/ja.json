@@ -232,7 +232,7 @@
     },
     "login": {
       "title": "ログイン",
-      "instructions": "以下の情報をご入力ください:",
+      "instructions": "以下の情報をご入力ください。",
       "no_account": "",
       "email": "メールアドレス",
       "password": "パスワード",
@@ -271,7 +271,7 @@
     },
     "reset_password": {
       "title": "パスワードをリセットする",
-      "instructions": "新しいパスワードを入力してください:",
+      "instructions": "新しいパスワードをご入力ください。",
       "password": "パスワード",
       "password_confirmation": "パスワードの確認",
       "submit": "リセット"
@@ -313,10 +313,10 @@
       "default_address": "デフォルトの住所",
       "address_title": "登録された住所数 {{ position }}",
       "delete_confirm": "この住所を削除してよろしいですか？",
-      "fill_form": "以下のフォームを入力してください：",
+      "fill_form": "以下のフォームをご入力ください。",
       "first_name": "名",
       "last_name": "姓",
-      "company": "勤め先",
+      "company": "会社名",
       "phone": "電話番号",
       "address1": "住所1",
       "address2": "住所2",
