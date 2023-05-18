@@ -245,9 +245,9 @@
       "instructions": "メールアドレスを入力してパスワードを回復してください:",
       "remember_password": "パスワードを記憶しますか？",
       "email": "メールアドレス",
-      "submit": "復元",
+      "submit": "送信",
       "back_to_login": "ログイン画面に戻る",
-      "success_message": "あなたのメールアドレスに、パスワードを復元するための手順を記載したメールを送信しました。"
+      "success_message": "パスワードを再設定するためのメールを送信しました。"
     },
     "register": {
       "title": "アカウントを作成",
