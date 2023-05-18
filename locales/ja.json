@@ -213,10 +213,10 @@
   "contact": {
     "form": {
       "name": "お名前 *",
-      "email": "メールアドレス",
+      "email": "メールアドレス *",
       "message": "お問い合わせ内容 *",
       "submit": "送信",
-      "success_message": "あなたのメールは送信されました"
+      "success_message": "お問い合わせを送信しました"
     }
   },
   "customer": {
