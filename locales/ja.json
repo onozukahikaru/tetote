@@ -233,12 +233,12 @@
     "login": {
       "title": "ログイン",
       "instructions": "以下の情報をご入力ください:",
-      "no_account": "アカウントをお持ちでないですか？",
+      "no_account": "",
       "email": "メールアドレス",
       "password": "パスワード",
       "submit": "ログイン",
       "forgot_password": "パスワードをお忘れですか？",
-      "sign_up": "アカウント作成"
+      "sign_up": "アカウント作成はこちら"
     },
     "recover_password": {
       "title": "パスワードの再設定",
@@ -252,14 +252,14 @@
     "register": {
       "title": "アカウントを作成",
       "instructions": "以下の情報をご入力ください。",
-      "already_have_account": "すでにアカウントをお持ちですか？",
+      "already_have_account": "",
       "first_name": "名",
       "last_name": "姓",
       "email": "メールアドレス",
       "password": "パスワード",
       "accepts_marketing": "メールマガジンに登録する",
       "submit": "作成",
-      "login": "ログイン"
+      "login": "すでにアカウントをお持ちの方はこちら"
     },
     "activate_account": {
       "title": "アカウントを有効にする",
