@@ -123,7 +123,9 @@
       "cannot_add_more": "これ以上追加できません"
     },
     "rating_count": {
-      "other": "{{ count }}件"
+      "other": "{{ count }}件",
+      "zero": "",
+      "one": ""
     },
     "inventory": {
       "in_stock": "在庫あり",
@@ -156,7 +158,8 @@
       "continue_shopping": "ショッピングを開始する"
     },
     "products_count": {
-      "other": "{{ count }} 製品"
+      "other": "{{ count }} 製品",
+      "one": ""
     },
     "faceting": {
       "filters": "フィルター",
@@ -202,13 +205,14 @@
       "comment_sent": "あなたのコメントが送信されました。ショップオーナーが承認すると表示されます！",
       "comment_published": "あなたのコメントが掲載されました",
       "count": {
-        "other": "{{ count }} コメント"
+        "other": "{{ count }} コメント",
+        "one": ""
       }
     }
   },
   "contact": {
     "form": {
-      "name": "氏名",
+      "name": "お名前",
       "email": "メールアドレス",
       "message": "メッセージ",
       "submit": "提出",
@@ -389,10 +393,12 @@
       "no_results": "結果は見つかりませんでした"
     },
     "results_count": {
-      "other": "{{count}}件"
+      "other": "{{count}}件",
+      "one": ""
     },
     "results_count_for_terms": {
-      "other": "「{{ terms }}」の検索結果{{count}}件"
+      "other": "「{{ terms }}」の検索結果{{count}}件",
+      "one": ""
     }
   },
   "gift_card": {
