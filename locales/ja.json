@@ -221,14 +221,14 @@
   },
   "customer": {
     "account": {
-      "title": "あなたのアカウント",
-      "primary_address": "プライマリ住所",
-      "manage_addresses": "管理",
-      "tagline": "注文と個人情報",
+      "title": "マイページ",
+      "primary_address": "メインのお届け先",
+      "manage_addresses": "編集",
+      "tagline": "注文履歴／アカウント情報",
       "orders": "注文履歴",
       "logout": "ログアウト",
-      "no_orders": "あなたはまだ何も注文していません",
-      "continue_shopping": "ショッピングを開始する"
+      "no_orders": "注文履歴がありません",
+      "continue_shopping": "ショッピングを続ける"
     },
     "login": {
       "title": "ログイン",
