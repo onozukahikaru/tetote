@@ -7,6 +7,44 @@
         "page_width": "xs"
       }
     },
+    "db93b192-dcb6-4722-ba6c-5b1c7466ff07": {
+      "type": "faq",
+      "blocks": {
+        "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-1": {
+          "type": "question",
+          "settings": {
+            "question": "テキストテキスト？",
+            "answer": "<p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト。<\/p>"
+          }
+        },
+        "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-2": {
+          "type": "question",
+          "settings": {
+            "question": "テキストテキスト？",
+            "answer": "<p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト。<\/p>"
+          }
+        },
+        "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-3": {
+          "type": "question",
+          "settings": {
+            "question": "テキストテキスト？",
+            "answer": "<p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-1",
+        "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-2",
+        "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-3"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": "<p>【お問い合わせの多いご質問】<\/p>"
+      }
+    },
     "contact-form": {
       "type": "contact",
       "blocks": {
@@ -58,6 +96,7 @@
   },
   "order": [
     "main",
+    "db93b192-dcb6-4722-ba6c-5b1c7466ff07",
     "contact-form"
   ]
 }
