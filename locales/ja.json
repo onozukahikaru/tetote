@@ -222,7 +222,7 @@
   "customer": {
     "account": {
       "title": "マイページ",
-      "primary_address": "メインのお届け先",
+      "primary_address": "お届け先",
       "manage_addresses": "編集",
       "tagline": "注文履歴／アカウント情報",
       "orders": "注文履歴",
