@@ -17,10 +17,27 @@
             "use_long_text": false,
             "required": false
           }
+        },
+        "e677ca3d-30c2-4814-887b-cb9dbb7470a6": {
+          "type": "text",
+          "settings": {
+            "title": "サンプル",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "3e490824-5ccb-486f-9cba-18595e5ec38c": {
+          "type": "dropdown",
+          "settings": {
+            "title": "サンプル",
+            "values": "サンプル1,サンプル2,サンプル3"
+          }
         }
       },
       "block_order": [
-        "e5791e38-ad82-4afc-bec8-6009a0dd8b71"
+        "e5791e38-ad82-4afc-bec8-6009a0dd8b71",
+        "e677ca3d-30c2-4814-887b-cb9dbb7470a6",
+        "3e490824-5ccb-486f-9cba-18595e5ec38c"
       ],
       "settings": {
         "separate_section_with_border": false,
