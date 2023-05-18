@@ -214,7 +214,7 @@
     "form": {
       "name": "お名前",
       "email": "メールアドレス",
-      "message": "メッセージ",
+      "message": "お問い合わせ内容",
       "submit": "提出",
       "success_message": "あなたのメールは送信されました"
     }
