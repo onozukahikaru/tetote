@@ -331,7 +331,7 @@
     "general": {
       "title": "カート",
       "empty": "カートが空です",
-      "continue_shopping": "ショッピングを開始する",
+      "continue_shopping": "ショッピングを続ける",
       "weight": "重量",
       "subtotal": "小計",
       "total": "合計",
