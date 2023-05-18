@@ -2,13 +2,31 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
+        "show_title": true,
+        "page_width": "xs"
       }
     },
     "contact-form": {
       "type": "contact",
+      "blocks": {
+        "e5791e38-ad82-4afc-bec8-6009a0dd8b71": {
+          "type": "text",
+          "settings": {
+            "title": "お電話番号",
+            "use_long_text": false,
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "e5791e38-ad82-4afc-bec8-6009a0dd8b71"
+      ],
       "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     }
   },
