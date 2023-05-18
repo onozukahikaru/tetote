@@ -373,9 +373,9 @@
   },
   "404": {
     "general": {
-      "title": "404",
-      "continue_shopping": "ショッピングを開始する",
-      "not_found_info": "お探しのページが見つかりませんでした。ウェブサイトに戻るには、ナビゲーションか下のボタンを使用してください。"
+      "title": "NOT FOUND",
+      "continue_shopping": "ショッピングを続ける",
+      "not_found_info": "お探しのページが見つかりませんでした。"
     }
   },
   "search": {
