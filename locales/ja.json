@@ -233,12 +233,12 @@
     "login": {
       "title": "ログイン",
       "instructions": "以下の情報をご入力ください:",
-      "no_account": "アカウントをお持ちですか？",
+      "no_account": "アカウントをお持ちでないですか？",
       "email": "メールアドレス",
       "password": "パスワード",
       "submit": "ログイン",
       "forgot_password": "パスワードをお忘れですか？",
-      "sign_up": "こちら"
+      "sign_up": "アカウント作成"
     },
     "recover_password": {
       "title": "パスワードの復元",
