@@ -251,7 +251,7 @@
     },
     "register": {
       "title": "アカウントを作成",
-      "instructions": "情報をご入力ください。",
+      "instructions": "以下の情報をご入力ください。",
       "already_have_account": "すでにアカウントをお持ちですか？",
       "first_name": "名",
       "last_name": "姓",
