@@ -232,7 +232,7 @@
     },
     "login": {
       "title": "ログイン",
-      "instructions": "メールアドレスとパスワード入力してログインしてください:",
+      "instructions": "以下の情報をご入力ください:",
       "no_account": "アカウント作成は",
       "email": "メールアドレス",
       "password": "パスワード",
