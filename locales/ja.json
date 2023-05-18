@@ -241,7 +241,7 @@
       "sign_up": "アカウント作成"
     },
     "recover_password": {
-      "title": "パスワードの復元",
+      "title": "パスワードの再設定",
       "instructions": "メールアドレスを入力してパスワードを回復してください:",
       "remember_password": "パスワードを記憶しますか？",
       "email": "メールアドレス",
