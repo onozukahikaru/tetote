@@ -222,7 +222,7 @@
   "customer": {
     "account": {
       "title": "マイページ",
-      "primary_address": "お届け先",
+      "primary_address": "ご住所",
       "manage_addresses": "編集",
       "tagline": "注文履歴",
       "orders": "注文履歴",
@@ -263,7 +263,7 @@
     },
     "activate_account": {
       "title": "アカウントを有効にする",
-      "instructions": "パスワードを入力してください：",
+      "instructions": "パスワードをご入力ください。",
       "password": "パスワード",
       "password_confirmation": "パスワードの確認",
       "submit": "有効にする",
