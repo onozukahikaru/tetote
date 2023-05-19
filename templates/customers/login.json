@@ -20,7 +20,7 @@
           "type": "link",
           "settings": {
             "text": "パスワード再設定",
-            "url": ""
+            "url": "\/account\/login#recover"
           }
         }
       },
