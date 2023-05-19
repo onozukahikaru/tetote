@@ -232,7 +232,7 @@
     },
     "login": {
       "title": "ログイン",
-      "instructions": "以下の情報をご入力ください。",
+      "instructions": "",
       "no_account": "",
       "email": "メールアドレス",
       "password": "パスワード",
@@ -251,7 +251,7 @@
     },
     "register": {
       "title": "アカウントを作成",
-      "instructions": "以下の情報をご入力ください。",
+      "instructions": "",
       "already_have_account": "",
       "first_name": "名",
       "last_name": "姓",
