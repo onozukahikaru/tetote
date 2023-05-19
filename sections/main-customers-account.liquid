@@ -135,11 +135,12 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
-      <a href="/account?hbSubscriptionPath=/">定期購買一覧</a>
+      <div class="v-stack gap-10">
+        <a href="/account?hbSubscriptionPath=/">定期購買一覧</a>
+      </div>
     </div>
   </div>
 </div>
-{% render 'huckleberry-subscription-customer-portal' %}
 {% schema %}
 {
   "name": "t:sections.main_customers_account.name",
