@@ -6,11 +6,16 @@
         "fields": {
           "type": "fields",
           "settings": {
+            "show_marketing_consent": false
           }
         }
       },
       "block_order": [
         "fields"
+      ],
+      "custom_css": [
+        ".gap-4 {gap: 0;}",
+        "a {text-decoration: underline;}"
       ],
       "settings": {
       }
