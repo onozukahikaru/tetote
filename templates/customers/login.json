@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "text": "【てとて、ぺっとのごはん】からのご利用者様へ",
-            "heading_tag": "h3"
+            "heading_tag": "h4"
           }
         },
         "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-2": {
@@ -20,6 +20,9 @@
       "block_order": [
         "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-1",
         "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-2"
+      ],
+      "custom_css": [
+        "div {margin-bottom: -80px;}"
       ],
       "settings": {
         "separate_section_with_border": true,
