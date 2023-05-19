@@ -6,6 +6,7 @@
         "fields": {
           "type": "fields",
           "settings": {
+            "return_to": ""
           }
         }
       },
@@ -14,9 +15,45 @@
       ],
       "settings": {
       }
+    },
+    "7992c723-2af7-49e8-a121-92193dc3e412": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "お願い"
+          }
+        },
+        "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "【てとて、ぺっとのごはん】からのご利用者様へ",
+            "heading_tag": "h3"
+          }
+        },
+        "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>サイトリニューアルに伴い、パスワードがリセットされています。<br\/>お手数をお掛け致しますが、パスワードの再設定をお願い申し上げます。<\/p><p><a href=\"\/pages\/contact\" title=\"お問い合わせ\">パスワード再設定<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-0",
+        "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-1",
+        "template--19100854092081__7992c723-2af7-49e8-a121-92193dc3e412-1684490523c85c3f3c-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7992c723-2af7-49e8-a121-92193dc3e412"
   ]
 }
