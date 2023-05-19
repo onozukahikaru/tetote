@@ -1,21 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-customers-login",
-      "blocks": {
-        "fields": {
-          "type": "fields",
-          "settings": {
-            "return_to": ""
-          }
-        }
-      },
-      "block_order": [
-        "fields"
-      ],
-      "settings": {
-      }
-    },
     "7992c723-2af7-49e8-a121-92193dc3e412": {
       "type": "rich-text",
       "blocks": {
@@ -50,10 +34,26 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "main": {
+      "type": "main-customers-login",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+            "return_to": ""
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
-    "7992c723-2af7-49e8-a121-92193dc3e412"
+    "7992c723-2af7-49e8-a121-92193dc3e412",
+    "main"
   ]
 }
