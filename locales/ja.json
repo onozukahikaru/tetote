@@ -237,7 +237,7 @@
       "email": "メールアドレス",
       "password": "パスワード",
       "submit": "ログイン",
-      "forgot_password": "パスワードをお忘れですか？",
+      "forgot_password": "パスワードの再設定",
       "sign_up": "アカウント作成はこちら"
     },
     "recover_password": {
