@@ -152,7 +152,7 @@
   },
   "collection": {
     "general": {
-      "empty_collection": "このコレクションにはまだ商品がありません",
+      "empty_collection": "このカテゴリーにはまだ商品がありません",
       "all_collections": "コレクション",
       "no_collections": "このストアにコレクションはありません。",
       "continue_shopping": "ショッピングを続ける"
