@@ -13,7 +13,7 @@
     "900979be-9a66-4738-9808-1997944847e2": {
       "type": "recently-viewed-products",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_count": 9,
@@ -22,7 +22,7 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "",
-        "title": "Recently viewed products",
+        "title": "最近チェックした商品",
         "content": ""
       }
     }
