@@ -184,7 +184,7 @@
   },
   "blog": {
     "general": {
-      "empty_blog": "このブログには記事がありません",
+      "empty_blog": "このカテゴリーにはまだストーリーがありません",
       "back_to_home": "ホームページに戻る",
       "view": "見る",
       "all_posts": "全てを見る",
@@ -386,7 +386,7 @@
       "products": "商品",
       "suggestions": "候補",
       "collections": "コレクション",
-      "posts": "ブログ",
+      "posts": "ストーリー",
       "pages": "ページ",
       "clear": "リゼット",
       "view_all_results": "全ての検索結果を表示",
