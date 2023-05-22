@@ -42,27 +42,9 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "separate_section_with_border": true,
-        "blog": "",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
-      }
     }
   },
   "order": [
-    "slideshow",
-    "blog-posts"
+    "slideshow"
   ]
 }

@@ -2,62 +2,35 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
-      "type": "text-with-icons",
+    "4b1d9890-7457-4e0a-975d-dfb2610b4ca1": {
+      "type": "logo-list",
       "blocks": {
-        "icon-1": {
-          "type": "item",
+        "sections--19100853502257__4b1d9890-7457-4e0a-975d-dfb2610b4ca1-1684755621304221af-3": {
+          "type": "logo",
           "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Free delivery worldwide",
-            "content": "<p>Short content about your store<\/p>"
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "icon-2": {
-          "type": "item",
+        "sections--19100853502257__4b1d9890-7457-4e0a-975d-dfb2610b4ca1-1684755621304221af-4": {
+          "type": "logo",
           "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Satisfied or refunded",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "icon-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "icon-4": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
+            "logo_width": 120,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
+        "sections--19100853502257__4b1d9890-7457-4e0a-975d-dfb2610b4ca1-1684755621304221af-3",
+        "sections--19100853502257__4b1d9890-7457-4e0a-975d-dfb2610b4ca1-1684755621304221af-4"
       ],
       "settings": {
-        "separate_section_with_border": true,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "items_per_row": 3,
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "footer": {
@@ -76,22 +49,13 @@
           "type": "links",
           "settings": {
             "menu": "footer",
-            "show_menu_title": true
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-            "enable_follow_on_shop": true
+            "show_menu_title": false
           }
         }
       },
       "block_order": [
         "newsletter",
-        "links",
-        "text"
+        "links"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -105,7 +69,7 @@
     }
   },
   "order": [
-    "text-with-icons",
+    "4b1d9890-7457-4e0a-975d-dfb2610b4ca1",
     "footer"
   ]
 }
