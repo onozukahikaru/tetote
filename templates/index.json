@@ -42,38 +42,9 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
-    },
-    "c0a91800-df30-4a51-9076-ea2718bbe47f": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19100854059313__c0a91800-df30-4a51-9076-ea2718bbe47f-168475582369c83ea7-1": {
-          "type": "heading",
-          "settings": {
-            "text": "5\/1～5\/20まで○○○キャンペーン実施中！（通常非表示）",
-            "heading_tag": "h3"
-          }
-        },
-        "template--19100854059313__c0a91800-df30-4a51-9076-ea2718bbe47f-168475582369c83ea7-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>「てとて、ぺっとのごはん」サイトは大きくリニューアルしました。<\/p><p>旧サイトの商品は<a href=\"\/collections\/katei-doubutsu\" title=\"家庭どうぶつ\">こちらのページ<\/a>にまとめてあります。是非ご利用下さい。<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19100854059313__c0a91800-df30-4a51-9076-ea2718bbe47f-168475582369c83ea7-1",
-        "template--19100854059313__c0a91800-df30-4a51-9076-ea2718bbe47f-168475582369c83ea7-2"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
     }
   },
   "order": [
-    "slideshow",
-    "c0a91800-df30-4a51-9076-ea2718bbe47f"
+    "slideshow"
   ]
 }
