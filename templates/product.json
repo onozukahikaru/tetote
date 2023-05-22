@@ -25,18 +25,6 @@
           "settings": {
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -97,6 +85,18 @@
           "type": "shopify:\/\/apps\/\/blocks\/app-block\/8c410064-0703-476d-add4-f33699a7cbf7",
           "settings": {
           }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
         }
       },
       "block_order": [
@@ -104,22 +104,22 @@
         "title",
         "price",
         "payment_terms",
-        "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "complementary_products",
         "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
         "1719ecfe-c05e-473c-a63c-3f97c18dee36",
-        "d1aea2fc-59ab-4836-a57a-8c8a13ed145e"
+        "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
+        "separator",
+        "description"
       ],
       "settings": {
         "container_size": "lg",
-        "product_info_size": 35,
+        "product_info_size": 45,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
-        "desktop_media_layout": "grid",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "desktop_media_grid_gap": 30,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
