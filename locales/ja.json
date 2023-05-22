@@ -155,7 +155,7 @@
       "empty_collection": "このコレクションにはまだ商品がありません",
       "all_collections": "コレクション",
       "no_collections": "このストアにコレクションはありません。",
-      "continue_shopping": "ショッピングを開始する"
+      "continue_shopping": "ショッピングを続ける"
     },
     "products_count": {
       "other": "{{ count }} 製品",
