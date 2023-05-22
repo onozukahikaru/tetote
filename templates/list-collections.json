@@ -3,6 +3,21 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
+        "show_title": true,
+        "collections": [
+          "katei-doubutsu",
+          "yasei-doubutsu",
+          "畜産どうぶつ",
+          "umi",
+          "mori",
+          "metabows"
+        ],
+        "collections_per_row_desktop": 3,
+        "image_size": "auto",
+        "content_position": "place-self-end-start text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
