@@ -20,7 +20,32 @@
     "heading_letter_spacing": 18,
     "text_font": "century_gothic_n4",
     "text_font_size_desktop": 14,
-    "button_letter_spacing": 18
+    "button_letter_spacing": 18,
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "16344147307131298503": {
+        "type": "shopify:\/\/apps\/\/blocks\/app-embed\/8c410064-0703-476d-add4-f33699a7cbf7",
+        "disabled": false,
+        "settings": {
+          "button_label": "再入荷時に連絡を希望する",
+          "sale_button_label": "新商品の販売告知を希望する",
+          "button_color": "#FFFFFF",
+          "button_bg_color": "#000000",
+          "sale_button_bg_color": "#FF0000",
+          "font_size": 16,
+          "button_height": 50,
+          "button_width": 300,
+          "button_radius": 0,
+          "button_border_color": "#FFFFFF",
+          "button_border": 1,
+          "modal_title": "商品の再入荷通知を受け取る",
+          "sale_modal_title": "新商品の販売通知を受け取る",
+          "modal_variation_label": "バリエーション"
+        }
+      }
+    }
   },
   "presets": {
     "Allure": {

@@ -92,6 +92,11 @@
             "selected_background_color": "#ffffff",
             "selected_border_size": 2
           }
+        },
+        "d1aea2fc-59ab-4836-a57a-8c8a13ed145e": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/8c410064-0703-476d-add4-f33699a7cbf7",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -106,7 +111,8 @@
         "buy_buttons",
         "complementary_products",
         "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
-        "1719ecfe-c05e-473c-a63c-3f97c18dee36"
+        "1719ecfe-c05e-473c-a63c-3f97c18dee36",
+        "d1aea2fc-59ab-4836-a57a-8c8a13ed145e"
       ],
       "settings": {
         "container_size": "lg",
