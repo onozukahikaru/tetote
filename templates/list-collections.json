@@ -13,7 +13,7 @@
           "metabows"
         ],
         "collections_per_row_desktop": 3,
-        "image_size": "auto",
+        "image_size": "xs",
         "content_position": "place-self-end-start text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
