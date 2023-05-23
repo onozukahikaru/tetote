@@ -9,17 +9,10 @@
             "text": "Image with text overlay",
             "heading_tag": "h4"
           }
-        },
-        "template--19100853829937__407abc40-0ce7-49c9-8c6b-4504f08300e0-168483099965c8946a-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--19100853829937__407abc40-0ce7-49c9-8c6b-4504f08300e0-168483099965c8946a-0",
-        "template--19100853829937__407abc40-0ce7-49c9-8c6b-4504f08300e0-168483099965c8946a-1"
+        "template--19100853829937__407abc40-0ce7-49c9-8c6b-4504f08300e0-168483099965c8946a-0"
       ],
       "settings": {
         "image_size": "xs",
