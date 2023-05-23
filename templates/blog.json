@@ -22,7 +22,7 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "{{ blog.tags }} ストーリー",
+        "liquid": "<h1>{{ blog.tags }}・ストーリー<\/h1>",
         "text_alignment": "center"
       }
     }
