@@ -42,9 +42,27 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
+    },
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
+      "type": "blog-posts",
+      "settings": {
+        "separate_section_with_border": true,
+        "blog": "stories",
+        "posts_count": 9,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "show_read_more": false,
+        "subheading": "New Story",
+        "title": "新着ストーリー",
+        "content": "",
+        "button_link": "",
+        "button_text": "MORE VIEW"
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
   ]
 }
