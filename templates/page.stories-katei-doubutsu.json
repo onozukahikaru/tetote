@@ -3,10 +3,23 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "c43b7ea0-2ace-49f5-89b5-7f0ad2483dba": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Write or copy\/paste Liquid code<\/p>",
+        "text_alignment": "center"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c43b7ea0-2ace-49f5-89b5-7f0ad2483dba"
   ]
 }

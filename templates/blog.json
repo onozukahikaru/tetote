@@ -15,20 +15,9 @@
         "show_excerpt": true,
         "show_read_more": true
       }
-    },
-    "34cd349c-ec31-420a-9608-1373db028b25": {
-      "type": "custom-liquid",
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<h1>{{ blog.tags }}・ストーリー<\/h1>",
-        "text_alignment": "center"
-      }
     }
   },
   "order": [
-    "main",
-    "34cd349c-ec31-420a-9608-1373db028b25"
+    "main"
   ]
 }
