@@ -3,7 +3,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        ".tag-list {list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 10px;}"
+        ".tag-list {list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 20px; font-size: 95%;}"
       ],
       "settings": {
         "image_size": "auto",
