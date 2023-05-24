@@ -3,7 +3,7 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "collections": [
           "家庭どうぶつ",
           "野生どうぶつ",
