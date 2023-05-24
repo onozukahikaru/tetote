@@ -3,8 +3,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        ".tag-list {list-style: none; display: flex; justify-content: center;}",
-        ".tag-list a {text-decoration: none;}"
+        ".tag-list {list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 10px;}"
       ],
       "settings": {
         "image_size": "auto",
@@ -14,7 +13,7 @@
         "show_collection_title": true,
         "show_collection_description": true,
         "show_breadcrumb": true,
-        "content_width": "xs",
+        "content_width": "lg",
         "background": "#000000",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
