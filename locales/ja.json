@@ -343,7 +343,7 @@
       "edit_order_note": "お店への連絡事項を編集する",
       "order_note": "お店への連絡事項",
       "save_note": "保存",
-      "note_placeholder": "お困りですか？",
+      "note_placeholder": "",
       "update_cart": "カートを更新",
       "view_cart": "カートを見る",
       "checkout": "チェックアウト",
