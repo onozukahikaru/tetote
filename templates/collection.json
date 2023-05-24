@@ -24,7 +24,7 @@
       "type": "main-collection",
       "settings": {
         "hide_product_information": false,
-        "products_per_page": 48,
+        "products_per_page": 20,
         "products_per_row_mobile": "2",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": true,
