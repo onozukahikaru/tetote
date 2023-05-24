@@ -14,6 +14,7 @@
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
+      "disabled": true,
       "settings": {
         "apparition_delay": 5,
         "show_only_on_index": true,
@@ -31,8 +32,8 @@
     "privacy-banner": {
       "type": "privacy-banner",
       "settings": {
-        "title": "🍪 Cookie policy",
-        "content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>",
+        "title": "クッキーポリシー",
+        "content": "<p>本サイトではお客様に最高のエクスペリエンスを提供するために Cookieを使用しています。詳細については、当社の<a href=\"\/policies\/privacy-policy\" title=\"\/policies\/privacy-policy\">プライバシー ポリシー<\/a>を参照してください。<\/p>",
         "background": "#1c1c1c",
         "text_color": "#ffffff"
       }
