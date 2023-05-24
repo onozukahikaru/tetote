@@ -460,5 +460,10 @@
       "view_products": "商品を見る",
       "view_product": "商品を見る"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
