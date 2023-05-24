@@ -32,8 +32,8 @@
     "privacy-banner": {
       "type": "privacy-banner",
       "settings": {
-        "title": "クッキーポリシー",
-        "content": "<p>本サイトではお客様に最高のエクスペリエンスを提供するために Cookieを使用しています。詳細については、当社の<a href=\"\/policies\/privacy-policy\" title=\"\/policies\/privacy-policy\">プライバシー ポリシー<\/a>を参照してください。<\/p>",
+        "title": "クッキーの利用について",
+        "content": "<p>当サイトでは、お客様により適したサービスを提供するため、Cookieを使用しています。詳細については、当社の<a href=\"\/policies\/privacy-policy\" title=\"\/policies\/privacy-policy\">プライバシー ポリシー<\/a>を参照してください。<\/p>",
         "background": "#1c1c1c",
         "text_color": "#ffffff"
       }
