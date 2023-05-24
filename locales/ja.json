@@ -62,7 +62,7 @@
       "blog_post_title": "記事",
       "blog_post_excerpt": "記事の説明",
       "product_vendor": "販売者",
-      "product_title": "製品",
+      "product_title": "商品",
       "product_description": "商品の説明",
       "collection_title": "コレクション"
     }
@@ -158,7 +158,7 @@
       "continue_shopping": "ショッピングを続ける"
     },
     "products_count": {
-      "other": "{{ count }} 製品",
+      "other": "{{ count }} 商品",
       "one": ""
     },
     "faceting": {
