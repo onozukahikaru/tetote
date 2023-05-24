@@ -159,7 +159,7 @@
     },
     "products_count": {
       "other": "{{ count }} 商品",
-      "one": "{{ count }} 商品"
+      "one": "商品 {{ count }} 点"
     },
     "faceting": {
       "filters": "フィルター",
