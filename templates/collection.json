@@ -3,7 +3,9 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        "ul {list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 20px; font-size: 90%;}"
+        "ul {list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 20px; font-size: 80%;}",
+        "ul li {border: 1px solid #ddd; border-radius: 5px; padding: 8px 12px;}",
+        "ul a {background: none;}"
       ],
       "settings": {
         "image_size": "auto",
