@@ -8,8 +8,8 @@
         "ul a {background: none;}"
       ],
       "settings": {
-        "image_size": "auto",
-        "allow_transparent_header": true,
+        "image_size": "xs",
+        "allow_transparent_header": false,
         "reveal": true,
         "enable_parallax": true,
         "show_collection_title": true,
@@ -19,7 +19,7 @@
         "background": "#000000",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "main": {
