@@ -16,7 +16,7 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 80%; }"
+        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 80%; display: inline-block}"
       ],
       "settings": {
         "show_blog_title": false,
