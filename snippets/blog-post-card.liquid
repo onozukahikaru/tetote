@@ -35,7 +35,7 @@ Supported parameters
       <a href="{{ blog.url }}/tagged/{{ article.tags.first | handle }}" class="blog-post-card__category {{ category_class | default: 'h6' }} link-faded">{{ article.tags | first }}</a>
     {%- endif -%}
     {%- for tag in article.tags -%}
-      {{ tag }}
+      <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="blog-post-card__category {{ category_class | default: 'h6' }} link-faded">{{ tag }}</a>
     {%- endfor -%}
 
 
