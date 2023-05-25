@@ -464,6 +464,14 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "filters": {
+      "availability": {
+        "label": "在庫あり"
+      },
+      "tags": {
+        "label": "カテゴリー"
+      }
     }
   }
 }
