@@ -4,6 +4,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".title {height: 350px; background-size: cover; background-position: center; position: relative;}",
+        ".title::before {}",
         "h1 {font-size: 30px; color: white;}"
       ],
       "settings": {
