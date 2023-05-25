@@ -69,7 +69,7 @@
                   <span class="separator-dot text-subdued"></span>
                 {%- endif -%}
 
-                <div>
+                <div class="article-categries">
                   {%- for tag in article.tags -%}
                     <a href="{{ blog.url }}/tagged/{{ tag.first | handle }}" class="h6 link-faded">{{ tag }}</a>
                   {%- endfor -%}
