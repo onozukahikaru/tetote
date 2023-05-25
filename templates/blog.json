@@ -4,7 +4,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".title {height: 350px; background-size: cover; background-position: center; position: relative;}",
-        ".title::before {top: 0; bottom: 0; left: 0; right: 0; background: black; opacity: 0.3;}",
+        ".title::before {position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: black; opacity: 0.3;}",
         "h1 {font-size: 30px; color: white;}"
       ],
       "settings": {
