@@ -42,9 +42,9 @@
         "show_results_count": true,
         "show_filter_group_name": false,
         "show_empty_filter_values": false,
-        "show_filter_values_count": false,
+        "show_filter_values_count": true,
         "show_color_swatch": false,
-        "open_filters_by_default": false
+        "open_filters_by_default": true
       }
     },
     "b458eaef-e766-4490-b1dc-1ecb65f85f1a": {
