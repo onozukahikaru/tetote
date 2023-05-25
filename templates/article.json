@@ -29,10 +29,21 @@
         "background": "#1c1c1c",
         "text_color": "#ffffff"
       }
+    },
+    "97417d10-d94b-4733-9cbf-a179d6b6c9e3": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{{ blog.all_tags }}",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
     "main",
-    "prev-next-blog-posts"
+    "prev-next-blog-posts",
+    "97417d10-d94b-4733-9cbf-a179d6b6c9e3"
   ]
 }
