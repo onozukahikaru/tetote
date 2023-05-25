@@ -45,6 +45,9 @@
     },
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
       "type": "blog-posts",
+      "custom_css": [
+        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "blog": "stories",
