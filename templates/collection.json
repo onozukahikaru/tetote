@@ -19,7 +19,7 @@
         "background": "#000000",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 20
       }
     },
     "main": {
