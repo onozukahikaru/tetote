@@ -70,7 +70,6 @@
                 {%- endif -%}
 
                 <div class="article-categries">
-                  <span>tags</span>
                   {%- for tag in article.tags -%}
                     <a href="{{ blog.url }}/tagged/{{ tag.first | handle }}" class="h6 link-faded">{{ tag }}</a>
                   {%- endfor -%}
