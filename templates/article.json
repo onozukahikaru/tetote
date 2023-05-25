@@ -1,15 +1,5 @@
 {
   "sections": {
-    "97417d10-d94b-4733-9cbf-a179d6b6c9e3": {
-      "type": "custom-liquid",
-      "settings": {
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{{ article.tags }}",
-        "text_alignment": "center"
-      }
-    },
     "main": {
       "type": "main-article",
       "custom_css": [
@@ -45,7 +35,6 @@
     }
   },
   "order": [
-    "97417d10-d94b-4733-9cbf-a179d6b6c9e3",
     "main",
     "prev-next-blog-posts"
   ]
