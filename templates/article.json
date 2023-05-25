@@ -3,7 +3,7 @@
     "main": {
       "type": "main-article",
       "custom_css": [
-        ".article-categries a {border: 1px solid #ccc; padding: 2px 6px; margin-bottom: 10px; font-size: 85%; margin-right: 12px; display: inline-block;}"
+        ".article-categries a {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; margin: 3px 12px 3px 0; display: inline-block;}"
       ],
       "settings": {
         "show_image": true,
