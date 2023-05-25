@@ -15,7 +15,7 @@
         "show_collection_title": true,
         "show_collection_description": true,
         "show_breadcrumb": true,
-        "content_width": "md",
+        "content_width": "sm",
         "background": "#000000",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
