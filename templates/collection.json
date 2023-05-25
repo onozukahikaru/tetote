@@ -24,6 +24,9 @@
     },
     "main": {
       "type": "main-collection",
+      "custom_css": [
+        "label.color-swatch {display: none;}"
+      ],
       "settings": {
         "hide_product_information": false,
         "products_per_page": 50,
