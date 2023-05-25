@@ -65,10 +65,6 @@
               {%- endif -%}
 
               {%- if section.settings.show_category and article.tags.size > 0 -%}
-                {%- if section.settings.show_date -%}
-                  
-                {%- endif -%}
-
                 <div class="article-categries">
                   {%- for tag in article.tags -%}
                     <a href="{{ blog.url }}/tagged/{{ tag.first | handle }}" class="h6 link-faded">{{ tag }}</a>
