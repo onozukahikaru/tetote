@@ -32,11 +32,12 @@ Supported parameters
 
   <div class="blog-post-card__info">
     {%- if show_category and article.tags.size > 0 -%}
-      {%- for tag in article.tags -%}
-        <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="blog-post-card__category {{ category_class | default: 'h6' }} link-faded">{{ tag }}</a>
-      {%- endfor -%}
+      <ul class="blog-post-card__categries">
+        {%- for tag in article.tags -%}
+          <li><a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="blog-post-card__category {{ category_class | default: 'h6' }} link-faded">{{ tag }}</a></li>
+        {%- endfor -%}
+      <ul>
     {%- endif -%}
-
 
     {%- if article -%}
       <p>
