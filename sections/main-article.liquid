@@ -66,10 +66,11 @@
 
               {%- if section.settings.show_category and article.tags.size > 0 -%}
                 {%- if section.settings.show_date -%}
-                  tags<span class="separator-dot text-subdued"></span>
+                  ／<span class="separator-dot text-subdued"></span>
                 {%- endif -%}
 
                 <div class="article-categries">
+                  <span>tags</span>
                   {%- for tag in article.tags -%}
                     <a href="{{ blog.url }}/tagged/{{ tag.first | handle }}" class="h6 link-faded">{{ tag }}</a>
                   {%- endfor -%}
