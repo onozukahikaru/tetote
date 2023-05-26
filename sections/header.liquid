@@ -99,9 +99,7 @@
     {%- endcomment -%}
 
     {%- assign menu = section.settings.menu -%}
-    {%- assign menu2 = section.settings.menu2 -%}
     {%- assign sidebar_menu = section.settings.sidebar_menu -%}
-    {%- assign sidebar_menu2 = section.settings.sidebar_menu2 -%}
 
     {%- if menu.links.size > 0 or sidebar_menu.links.size > 0 -%}
       <nav class="header__primary-nav {% if section.settings.layout == 'logo_center_navigation_below' or section.settings.layout == 'logo_left_navigation_center' %}header__primary-nav--center{% endif %}" aria-label="{{ 'header.general.primary_navigation' | t | escape }}">
@@ -328,11 +326,7 @@
 {%- endcomment -%}
 
     {%- if sidebar_menu.links.size > 0 -%}
-      {%- if sidebar_menu2.links.size > 0 -%}
-        {%- render 'header-sidebar', menu: sidebar_menu, menu2: sidebar_menu2, show_dividers: section.settings.sidebar_show_dividers -%}
-      {%- else -%}
-        {%- render 'header-sidebar', menu: sidebar_menu, show_dividers: section.settings.sidebar_show_dividers -%}
-      {%- endif -%}
+      {%- render 'header-sidebar', menu: sidebar_menu, show_dividers: section.settings.sidebar_show_dividers -%}
     {%- endif -%}
     
   </x-header>
@@ -408,18 +402,8 @@
     },
     {
       "type": "link_list",
-      "id": "menu2",
-      "label": "t:sections.header.menu2"
-    },
-    {
-      "type": "link_list",
       "id": "sidebar_menu",
       "label": "t:sections.header.mobile_menu"
-    },
-    {
-      "type": "link_list",
-      "id": "sidebar_menu2",
-      "label": "t:sections.header.mobile_menu2"
     },
     {
       "type": "select",
