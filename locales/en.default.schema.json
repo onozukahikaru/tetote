@@ -706,9 +706,7 @@
       "logo_size_recommendation": "280 x 80px .png recommended",
       "navigation_category": "Navigation",
       "menu": "Menu",
-      "menu2": "Menu 2",
       "mobile_menu": "Mobile menu",
-      "mobile_menu2": "Mobile menu 2",
       "menu_open_trigger": "Open dropdown items on...",
       "menu_open_trigger_info": "Click mode is forced on touch devices.",
       "menu_open_trigger_options": {
