@@ -27,38 +27,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "7dbac322-397c-48ea-a64d-dcf2d518834e": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "私たちについて",
-            "images_position": "right",
-            "image_1_heading": "テスト",
-            "image_1_text": "",
-            "image_1_link": "",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": ""
-          }
-        },
-        "429b15ca-471a-4785-913c-0599f17f184c": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "森",
-            "images_position": "right",
-            "image_1_heading": "もり",
-            "image_1_text": "",
-            "image_1_link": "",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "7dbac322-397c-48ea-a64d-dcf2d518834e",
-        "429b15ca-471a-4785-913c-0599f17f184c"
-      ],
       "settings": {
         "enable_sticky": true,
         "show_separation_border": true,
@@ -70,7 +38,7 @@
         "menu2": "main-menu2",
         "sidebar_menu": "",
         "sidebar_menu2": "",
-        "menu_open_trigger": "hover",
+        "menu_open_trigger": "click",
         "enable_search": true,
         "sidebar_text_font": "heading",
         "sidebar_show_dividers": true,
