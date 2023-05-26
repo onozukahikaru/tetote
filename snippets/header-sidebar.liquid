@@ -62,6 +62,8 @@ therefore using a different structure for the Shadow DOM template
           </li>
         {%- endfor -%}
       </ul>
+
+      {%- if menu2 -%}
       <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
         {%- for link in menu2.links -%}
           <li>
@@ -78,6 +80,8 @@ therefore using a different structure for the Shadow DOM template
           </li>
         {%- endfor -%}
       </ul>
+      {%- endif -%}
+      
     </div>
 
     {%- if shop.customer_accounts_enabled or localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
