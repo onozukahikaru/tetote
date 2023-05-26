@@ -326,7 +326,7 @@
     {%- endif -%}
 
     {%- if sidebar_menu2.links.size > 0 -%}
-      {%- render 'header-sidebar', menu2: sidebar_menu2, show_dividers: section.settings.sidebar_show_dividers -%}
+      {%- render 'header-sidebar', menu: sidebar_menu2, show_dividers: section.settings.sidebar_show_dividers -%}
     {%- endif -%}
     
   </x-header>
