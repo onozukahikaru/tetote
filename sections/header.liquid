@@ -321,6 +321,12 @@
 
     {%- assign sidebar_menu = section.settings.sidebar_menu | default: section.settings.menu -%}
 
+{%- comment -%}
+    {%- if sidebar_menu.links.size > 0 -%}
+      {%- render 'header-sidebar', menu: sidebar_menu, show_dividers: section.settings.sidebar_show_dividers -%}
+    {%- endif -%}
+{%- endcomment -%}
+
     {%- if sidebar_menu.links.size > 0 -%}
       {%- render 'header-sidebar', menu: sidebar_menu, show_dividers: section.settings.sidebar_show_dividers -%}
     {%- endif -%}
