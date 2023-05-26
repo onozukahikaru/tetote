@@ -44,6 +44,12 @@
           "sale_modal_title": "新商品の販売通知を受け取る",
           "modal_variation_label": "バリエーション"
         }
+      },
+      "13080609507722906876": {
+        "type": "shopify:\/\/apps\/related-blog-posts-pro\/blocks\/app-embed\/7e18cab2-c869-4042-bc07-288e9bb4e22d",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
