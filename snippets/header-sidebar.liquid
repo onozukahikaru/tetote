@@ -62,6 +62,22 @@ therefore using a different structure for the Shadow DOM template
           </li>
         {%- endfor -%}
       </ul>
+      <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
+        {%- for link in menu2.links -%}
+          <li>
+            {%- if link.links.size > 0 -%}
+              <button type="button" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" aria-controls="header-panel-{{ forloop.index }}" aria-expanded="false">
+                {{- link.title -}}
+                {%- render 'icon' with 'chevron-right', width: 12, direction_aware: true -%}
+              </button>
+            {%- else -%}
+              <a href="{{ link.url }}" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
+                {{- link.title -}}
+              </a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
     </div>
 
     {%- if shop.customer_accounts_enabled or localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
