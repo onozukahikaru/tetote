@@ -25,6 +25,13 @@
           "settings": {
           }
         },
+        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "onetime_purchase_label": "１回決済",
+            "subscription_label": "定期決済"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -37,13 +44,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef": {
-          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
-          "settings": {
-            "onetime_purchase_label": "１回決済",
-            "subscription_label": "定期決済"
           }
         },
         "buy_buttons": {
@@ -90,9 +90,9 @@
         "title",
         "price",
         "payment_terms",
+        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
         "variant_picker",
         "quantity_selector",
-        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
         "buy_buttons",
         "complementary_products",
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
