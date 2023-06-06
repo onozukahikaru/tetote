@@ -8,7 +8,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "<a href=\"\/collections\/katei-doubutsu\" title=\"家庭どうぶつ\">てとて、ぺっとのごはん商品はこちら<\/a>"
+            "text": "<a href=\"\/collections\" title=\"すべてのコレクション\">てとて、ぺっとのごはん商品はこちら<\/a>"
           }
         }
       },
