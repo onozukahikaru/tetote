@@ -27,6 +27,24 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "0353515b-04bf-417a-8de8-f1b12c085914": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "わんちゃんのごはん",
+            "images_position": "left",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0353515b-04bf-417a-8de8-f1b12c085914"
+      ],
       "settings": {
         "enable_sticky": true,
         "show_separation_border": true,
