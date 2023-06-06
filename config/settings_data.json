@@ -21,7 +21,7 @@
     "text_font": "century_gothic_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
-    "product_image_aspect_ratio": "short_crop",
+    "product_image_aspect_ratio": "short",
     "product_color_display": "hide",
     "favicon": "shopify:\/\/shop_images\/favicon_3bff692e-159f-402f-b6c1-9efbedb54291.jpg",
     "content_for_index": [
