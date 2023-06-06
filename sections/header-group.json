@@ -73,6 +73,9 @@
         "af3f32f2-980b-49ce-bd87-44552f8b5f15",
         "e115be55-8279-40e3-ba35-aa3e8dad3a2a"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "enable_sticky": true,
         "show_separation_border": true,

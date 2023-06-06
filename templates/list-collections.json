@@ -5,14 +5,14 @@
       "settings": {
         "show_title": false,
         "collections": [
-          "家庭どうぶつ",
-          "野生どうぶつ",
-          "畜産どうぶつ",
-          "海",
-          "森",
-          "metabows"
+          "お得な定期購入",
+          "獣医と作った総合栄養食",
+          "てとて-medical",
+          "身体にいいおやつ",
+          "one-health-セレクト",
+          "介護グッズ"
         ],
-        "collections_per_row_desktop": 3,
+        "collections_per_row_desktop": 4,
         "image_size": "xs",
         "content_position": "place-self-end-start text-start",
         "text_color": "#ffffff",
