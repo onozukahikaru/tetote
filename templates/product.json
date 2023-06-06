@@ -39,6 +39,13 @@
           "settings": {
           }
         },
+        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "onetime_purchase_label": "１回決済",
+            "subscription_label": "定期決済"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -58,27 +65,6 @@
             "show_below_gallery": true,
             "stack_products": false,
             "show_quick_buy": true
-          }
-        },
-        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef": {
-          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
-          "settings": {
-            "onetime_purchase_label": "１回決済",
-            "subscription_label": "定期決済"
-          }
-        },
-        "1719ecfe-c05e-473c-a63c-3f97c18dee36": {
-          "type": "shopify:\/\/apps\/\/blocks\/app-block-v2\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
-          "settings": {
-            "subscription_label": "お得定期便",
-            "subscription_message": "毎月送料無料！",
-            "onetime_purchase_label": "通常配送",
-            "onetime_purchase_message": "1回限り",
-            "selected_main_color": "#000000",
-            "selected_sub_color": "#535353",
-            "selected_frame_color": "#000000",
-            "selected_background_color": "#ffffff",
-            "selected_border_size": 2
           }
         },
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e": {
@@ -106,10 +92,9 @@
         "payment_terms",
         "variant_picker",
         "quantity_selector",
+        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
         "buy_buttons",
         "complementary_products",
-        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
-        "1719ecfe-c05e-473c-a63c-3f97c18dee36",
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
         "separator",
         "description"
