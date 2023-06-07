@@ -26,7 +26,7 @@
         "separate_section_with_border": false,
         "subheading": "",
         "title": "Read more",
-        "show_category": true,
+        "show_category": false,
         "show_excerpt": true,
         "show_read_more": true,
         "background": "#1c1c1c",
