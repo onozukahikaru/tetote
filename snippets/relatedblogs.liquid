@@ -127,8 +127,8 @@
     {%- assign articleids = articleids | slice: 0, rsize | split:"," -%}
     {%- assign article_ids = articleids | uniq -%}
     <div class="related-post-title">
-      <h3>Related Posts</h3>    </div>
-    <div class="row rb_blog-grid">
+      <h3>関連ストーリー</h3>    </div>
+    <div class="rb_row rb_blog-grid">
       
       {%- assign count = 0 -%}
       {%- for aid in article_ids -%}
@@ -163,7 +163,7 @@
           <div class="rb_contents">
             <span>{{ article.content | strip_html | strip | truncate: 120 }}</span>
           </div>
-          <a href="{{ article.url }}" class="rb_continue_button">Read More</a>
+          <a href="{{ article.url }}" class="rb_continue_button">もっと読む</a>
           {%- endif -%}
         
       </div>
