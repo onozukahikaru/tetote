@@ -25,6 +25,10 @@
     "product_color_display": "hide",
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
+    "social_facebook": "https:\/\/www.facebook.com\/tetote.pet.gohan\/?locale=ja_JP",
+    "social_twitter": "https:\/\/twitter.com\/tetote_gohan",
+    "social_instagram": "https:\/\/www.instagram.com\/tetote_pet_gohan\/",
+    "social_line": "https:\/\/page.line.me\/foo1675s",
     "favicon": "shopify:\/\/shop_images\/favicon_3bff692e-159f-402f-b6c1-9efbedb54291.jpg",
     "content_for_index": [
 
