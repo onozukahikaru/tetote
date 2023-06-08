@@ -32,10 +32,29 @@
         "background": "#1c1c1c",
         "text_color": "#ffffff"
       }
+    },
+    "1686206507cdde7d4a": {
+      "type": "apps",
+      "blocks": {
+        "ef910eb2-bc83-4ee6-b48f-e1009cf6bec9": {
+          "type": "shopify:\/\/apps\/related-blog-posts-pro\/blocks\/app-block\/7e18cab2-c869-4042-bc07-288e9bb4e22d",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ef910eb2-bc83-4ee6-b48f-e1009cf6bec9"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
     "main",
-    "prev-next-blog-posts"
+    "prev-next-blog-posts",
+    "1686206507cdde7d4a"
   ]
 }
