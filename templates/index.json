@@ -219,9 +219,9 @@
         "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-2": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "title": "てとて、野生どうぶつ",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>緑の森どうぶつ病院では今まで、医療を通じる様々な野生どうぶつの命を救ってきました。（野生動物鳥獣病院）<br\/>人手が触れた野生どうぶつをどのように見つめ、私たちと共生していくのか、様々な視点から考えていきます。<\/p>",
             "link_url": "\/blogs\/stories\/tagged\/野生どうぶつ",
             "link_text": "ストーリーを見る"
           }
