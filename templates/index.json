@@ -1,46 +1,37 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "05394f8c-fafb-4d43-8254-705350b38903": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "slide-1": {
-          "type": "image",
+        "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-0": {
+          "type": "heading",
           "settings": {
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "text": "One Planet, One Health",
+            "heading_tag": "h4"
+          }
+        },
+        "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>SDGs時代、多様な価値を認め合うことも尊ばれてきている今、わたしたちも前進していくために大切な一歩として、<br\/>\"動物\"という感じの言葉、カタカナの\"ペット\"を使わない文化を、ｋのどおうぶつ園の街、大雪山の恵に囲まれた自然都市旭川市から発信していきます<\/p>"
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-0",
+        "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-1"
       ],
       "settings": {
+        "image_size": "auto",
         "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 4,
-        "background": "#000000",
-        "controls_color": "#ffffff"
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
@@ -65,7 +56,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "05394f8c-fafb-4d43-8254-705350b38903",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
   ]
 }
