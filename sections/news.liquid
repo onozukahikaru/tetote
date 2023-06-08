@@ -20,7 +20,7 @@
 
       {%- if section.settings.button_text != blank -%}
         <div class="justify-self-center">
-          {%- assign button_link = section.settings.button_link | default: section.settings.news-list.url -%}
+          {%- assign button_link = section.settings.button_link | default: section.settings.news_list.url -%}
           {%- render 'button', href: button_link, content: section.settings.button_text -%}
         </div>
       {%- endif -%}
