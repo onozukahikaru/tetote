@@ -263,8 +263,8 @@
         "news_list_date": true,
         "heading": "お知らせ",
         "subheading": "News",
-        "button_link": "shopify:\/\/pages\/contact",
-        "button_text": "View alls"
+        "button_link": "",
+        "button_text": "VIEW MORE"
       }
     }
   },
