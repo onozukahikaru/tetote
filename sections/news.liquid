@@ -14,9 +14,6 @@
                   {% if section.settings.news_list_date %}
                     <span class="news-list-date">{{ article.published_at | date: "%Y &frasl; %m &frasl; %d" }}</span>
                   {% endif %}
-                  {% if section.settings.news_list_category %}
-                    <span class="news-list-category">{{ article.tags }}</span>
-                  {% endif %}
                 </div>
                 <div class="news-list-title">{{ article.title }}</div>
               </a>
@@ -53,13 +50,7 @@
     {
       "id": "news_list_date",
       "type": "checkbox",
-      "label": "日付を表示する",
-      "default": true
-    },
-    {
-      "id": "news_list_category",
-      "type": "checkbox",
-      "label": "カテゴリーを表示する",
+      "label": "Show date",
       "default": true
     }
   ],
