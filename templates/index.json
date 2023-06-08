@@ -258,11 +258,13 @@
     "2363f99a-ddc2-419b-8052-b4acf75e2a42": {
       "type": "news",
       "settings": {
-        "heading": "お知らせ",
-        "subheading": "News",
         "news_list": "news",
         "post_limit": 5,
-        "news_list_date": true
+        "news_list_date": true,
+        "heading": "お知らせ",
+        "subheading": "News",
+        "button_link": "shopify:\/\/pages\/contact",
+        "button_text": "View alls"
       }
     }
   },
