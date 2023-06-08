@@ -172,27 +172,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
-      "type": "blog-posts",
-      "disabled": true,
-      "custom_css": [
-        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "blog": "stories",
-        "posts_count": 9,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "show_read_more": false,
-        "subheading": "New Story",
-        "title": "新着ストーリー",
-        "content": "",
-        "button_link": "",
-        "button_text": "MORE VIEW"
-      }
-    },
     "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5": {
       "type": "multi-column",
       "blocks": {
@@ -255,6 +234,26 @@
         "title": "わたしたちの生活に身近などうぶつたちやしぜんの物語をお届けします。",
         "content": ""
       }
+    },
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
+      "type": "blog-posts",
+      "custom_css": [
+        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "blog": "stories",
+        "posts_count": 9,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "show_read_more": false,
+        "subheading": "New Story",
+        "title": "新着ストーリー",
+        "content": "",
+        "button_link": "",
+        "button_text": "MORE VIEW"
+      }
     }
   },
   "order": [
@@ -263,7 +262,7 @@
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c",
     "ff0b378e-5b57-4100-9912-e4f4610430f8",
     "5583c2cd-4130-4776-ad38-fa01abae391d",
-    "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
-    "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5"
+    "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5",
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
   ]
 }
