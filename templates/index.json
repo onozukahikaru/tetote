@@ -138,14 +138,43 @@
         "f06f8d83-78bd-4a3d-9b88-47342da6dfef"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
+    "5583c2cd-4130-4776-ad38-fa01abae391d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-1": {
+          "type": "heading",
+          "settings": {
+            "text": "てとて、One Health Project",
+            "heading_tag": "h2"
+          }
+        },
+        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>One Health Projectでは、商品を購入するだけではなく、そこから様々なOne Health社会活動につながっていく仕組みをテクノロジーの力を借りながら構築していきます。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-1",
+        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
       "type": "blog-posts",
+      "disabled": true,
       "custom_css": [
         ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
       ],
@@ -170,6 +199,7 @@
     "53ee0a40-dd88-4145-b7de-c5fa9e68baf2",
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c",
     "ff0b378e-5b57-4100-9912-e4f4610430f8",
+    "5583c2cd-4130-4776-ad38-fa01abae391d",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
   ]
 }
