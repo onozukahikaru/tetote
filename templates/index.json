@@ -62,26 +62,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
-      "type": "blog-posts",
-      "custom_css": [
-        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "blog": "stories",
-        "posts_count": 9,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "show_read_more": false,
-        "subheading": "New Story",
-        "title": "新着ストーリー",
-        "content": "",
-        "button_link": "",
-        "button_text": "MORE VIEW"
-      }
-    },
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c": {
       "type": "featured-collections",
       "blocks": {
@@ -109,12 +89,76 @@
         "vertical_spacing_factor": 1,
         "subheading": "Recommend Item"
       }
+    },
+    "ff0b378e-5b57-4100-9912-e4f4610430f8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19100854059313__ff0b378e-5b57-4100-9912-e4f4610430f8-168621590680feb045-1": {
+          "type": "heading",
+          "settings": {
+            "text": "わたしたちについて",
+            "heading_tag": "h2"
+          }
+        },
+        "template--19100854059313__ff0b378e-5b57-4100-9912-e4f4610430f8-168621590680feb045-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "About US"
+          }
+        },
+        "5eaa32af-96e9-48e0-beff-4fb1b69152c7": {
+          "type": "heading",
+          "settings": {
+            "text": "緑の森どうぶつ病院という場所から",
+            "heading_tag": "h3"
+          }
+        },
+        "template--19100854059313__ff0b378e-5b57-4100-9912-e4f4610430f8-168621590680feb045-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>動物園の街、自然都市・旭川は、全国でも先駆けて、どうぶつや自然への優しい視線を持つ都市として知られています。<br\/>コロナにライフスタイルの変化、激変する地球環境、社会構造の変化に戸惑い、分断が進む今、<br\/>新しい「ツナガリ」のあり方が求められています。<br\/>旭川市で26年運営している緑の森どうぶつ病院NPO手と手の森は創業以来\"病気を治す\"科学としての獣医療と\"病気が治る\"自然治癒力としての、<br\/>環境=森と捉えて、全体性の医療を大切にした診療、経営のあり方を実践してきました。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19100854059313__ff0b378e-5b57-4100-9912-e4f4610430f8-168621590680feb045-1",
+        "template--19100854059313__ff0b378e-5b57-4100-9912-e4f4610430f8-168621590680feb045-0",
+        "5eaa32af-96e9-48e0-beff-4fb1b69152c7",
+        "template--19100854059313__ff0b378e-5b57-4100-9912-e4f4610430f8-168621590680feb045-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
+      "type": "blog-posts",
+      "custom_css": [
+        ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "blog": "stories",
+        "posts_count": 9,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "show_read_more": false,
+        "subheading": "New Story",
+        "title": "新着ストーリー",
+        "content": "",
+        "button_link": "",
+        "button_text": "MORE VIEW"
+      }
     }
   },
   "order": [
     "05394f8c-fafb-4d43-8254-705350b38903",
     "53ee0a40-dd88-4145-b7de-c5fa9e68baf2",
-    "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
-    "fd5a31cb-1fe9-42f8-b793-c538040ac72c"
+    "fd5a31cb-1fe9-42f8-b793-c538040ac72c",
+    "ff0b378e-5b57-4100-9912-e4f4610430f8",
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
   ]
 }
