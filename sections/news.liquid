@@ -3,7 +3,7 @@
 <div id="section-news-list">
   <div class="container">
     <div class="news-list-heading">
-      
+      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
         {% if section.settings.heading %}
           <h2 class="h2">{{ section.settings.heading | escape }}</h2>
         {% endif %}
@@ -63,15 +63,15 @@
       "default": true
     },
     {
-      "id": "heading",
-      "type": "text",
-      "label": "Heading",
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:global.text.heading",
       "default": "お知らせ"
     },
     {
+      "type": "inline_richtext",
       "id": "subheading",
-      "type": "text",
-      "label": "Subheading",
+      "label": "t:global.text.subheading",
       "default": "News"
     },
     {
