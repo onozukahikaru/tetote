@@ -259,6 +259,7 @@
       "type": "news",
       "settings": {
         "separate_section_with_border": false,
+        "news_list": "news",
         "post_limit": 6,
         "news_list_date": true,
         "title": "お知らせ",
