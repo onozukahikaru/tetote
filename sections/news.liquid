@@ -12,8 +12,6 @@
           <p class="h6">{{ section.settings.subheading | escape }}</p>
         {%- endif -%}
         
-      <h2>{{ section.settings.title | escape }}</h2>
-      <a href="{{ blog.url }}">一覧を見る</a>
     </div>
       <ul class="news-list">
         {% for article in blog.articles limit: section.settings.post_limit %}
