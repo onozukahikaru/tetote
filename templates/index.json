@@ -81,11 +81,40 @@
         "button_link": "",
         "button_text": "MORE VIEW"
       }
+    },
+    "fd5a31cb-1fe9-42f8-b793-c538040ac72c": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c-1686215284fe5fff3f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "おすすめ商品",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "VIEW MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c-1686215284fe5fff3f-0"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Recommend Item"
+      }
     }
   },
   "order": [
     "05394f8c-fafb-4d43-8254-705350b38903",
     "53ee0a40-dd88-4145-b7de-c5fa9e68baf2",
-    "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
+    "fd5a31cb-1fe9-42f8-b793-c538040ac72c"
   ]
 }
