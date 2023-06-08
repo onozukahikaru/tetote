@@ -41,7 +41,7 @@
       "info": "{{ rating_max }}つ星中{{ rating_value }}つ"
     },
     "newsletter": {
-      "email": "メールアドレス",
+      "email": "メールアドレスをご入力ください",
       "subscribe": "登録",
       "notify_me": "通知を受け取る",
       "subscribed_successfully": "メールマガジンへの登録が完了しました"
