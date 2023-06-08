@@ -7,7 +7,7 @@
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
 
       <ul class="news-list">
-        {% for article in blog.articles limit: section.settings.post_limit %}
+        {% for article in blogs[section.settings.news_list].articles limit: section.settings.post_limit %}
         	<li class="news-list-item">
               <a href="{{ article.url }}">
                 <div class="news-list-info">
@@ -28,37 +28,6 @@
         </div>
       {%- endif -%}
     </div>
-  </div>
-</div>
-
-
-<div id="section-news-list">
-  <div class="container">
-    <div class="news-list-heading">
-      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
-    </div>
-      <ul class="news-list">
-        {% for article in blog.articles limit: section.settings.post_limit %}
-        	<li class="news-list-item">
-              <a href="{{ article.url }}">
-                <div class="news-list-info">
-                  {% if section.settings.news_list_date %}
-                    <span class="news-list-date">{{ article.published_at | date: "%Y &frasl; %m &frasl; %d" }}</span>
-                  {% endif %}
-                </div>
-                <div class="news-list-title">{{ article.title }}</div>
-              </a>
-        	</li>
-        {% endfor %}
-      </ul>
-    
-      {%- if section.settings.button_text != blank -%}
-        <div class="justify-self-center">
-          {%- assign button_link = section.settings.button_link | default: section.settings.news_list.url -%}
-          {%- render 'button', href: button_link, content: section.settings.button_text -%}
-        </div>
-      {%- endif -%}
-    
   </div>
 </div>
 
