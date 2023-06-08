@@ -14,6 +14,12 @@
             "button_text_color": ""
           }
         },
+        "4a021a47-3a67-482a-b214-9e22aeac8d03": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Write or copy\/paste Liquid code<\/p>"
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -24,6 +30,7 @@
       },
       "block_order": [
         "newsletter",
+        "4a021a47-3a67-482a-b214-9e22aeac8d03",
         "links"
       ],
       "settings": {
