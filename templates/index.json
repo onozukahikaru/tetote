@@ -258,11 +258,11 @@
     "2363f99a-ddc2-419b-8052-b4acf75e2a42": {
       "type": "news",
       "settings": {
-        "title": "お知らせ一覧",
+        "heading": "お知らせ",
+        "subheading": "News",
         "news_list": "news",
-        "post_limit": 3,
-        "news_list_date": true,
-        "news_list_category": true
+        "post_limit": 5,
+        "news_list_date": true
       }
     }
   },
