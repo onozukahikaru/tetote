@@ -258,10 +258,11 @@
     "2363f99a-ddc2-419b-8052-b4acf75e2a42": {
       "type": "news",
       "settings": {
+        "separate_section_with_border": false,
         "news_list": "news",
         "post_limit": 5,
         "news_list_date": true,
-        "heading": "お知らせ",
+        "title": "お知らせ",
         "subheading": "News",
         "button_link": "",
         "button_text": "VIEW MORE"
