@@ -17,7 +17,7 @@
         "4a021a47-3a67-482a-b214-9e22aeac8d03": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>Write or copy\/paste Liquid code<\/p>"
+            "liquid": "<ul>\n  <li><a href=\"https:\/\/twitter.com\/tetote_gohan\">Twitter<\/li>\n  <li><a href=\"https:\/\/www.facebook.com\/tetote.pet.gohan\/?locale=ja_JP\">Facebook<\/li>\n  <li><a href=\"https:\/\/www.instagram.com\/tetote_pet_gohan\/\">Instagram<\/li>\n  <li><a href=\"https:\/\/page.line.me\/foo1675s\">Line<\/li>\n<\/ul>"
           }
         },
         "links": {
@@ -35,7 +35,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "show_social_media": true,
+        "show_social_media": false,
         "show_payment_icons": false,
         "show_country_selector": false,
         "show_country_name": false,
