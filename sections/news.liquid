@@ -3,6 +3,15 @@
 <div id="section-news-list">
   <div class="container">
     <div class="news-list-heading">
+      
+        {% if section.settings.heading %}
+          <h2 class="h2">{{ section.settings.heading | escape }}</h2>
+        {% endif %}
+
+        {% if section.settings.subheading %}
+          <p class="h6">{{ section.settings.subheading | escape }}</p>
+        {%- endif -%}
+        
       <h2>{{ section.settings.title | escape }}</h2>
       <a href="{{ blog.url }}">一覧を見る</a>
     </div>
@@ -28,22 +37,28 @@
   "name": "お知らせ一覧",
   "settings": [
     {
-      "id": "title",
+      "id": "heading",
       "type": "text",
-      "label": "見出し",
-      "default": "お知らせ一覧"
+      "label": "Heading",
+      "default": "お知らせ"
+    },
+    {
+      "id": "subheading",
+      "type": "text",
+      "label": "Subheading",
+      "default": "News"
     },
     {
       "id": "news_list",
       "type": "blog",
-      "label": "表示するブログ記事を選択"
+      "label": "Blog"
     },
     {
       "id": "post_limit",
       "type": "range",
-      "label": "表示数を選択",
+      "label": "Posts to show",
       "min": 1,
-      "max": 6,
+      "max": 12,
       "step": 1,
       "default": 3
     },
