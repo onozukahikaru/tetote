@@ -40,14 +40,14 @@
         "template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2-1686214374ca5dce5e-1": {
           "type": "heading",
           "settings": {
-            "text": "サイトリニューアルのお知らせ！",
+            "text": "サイトリニューアルのお知らせ",
             "heading_tag": "h3"
           }
         },
         "template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2-1686214374ca5dce5e-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>この度「てとて、ぺっとのごはん」はリニューアルされました。<br\/><a href=\"\/collections\" title=\"\/collections\">「てとて、ぺっとのごはん」の商品<\/a><\/p>"
+            "content": "<p>この度、サイト「てとて、ぺっとのごはん」はリニューアルされました。<br\/><a href=\"\/collections\" title=\"\/collections\">てとて、ぺっとのごはんの商品<\/a>の販売に加え、どうぶつたちへの想いやしぜんの物語を<a href=\"\/blogs\/stories\" title=\"ストーリー\">ストーリーページ<\/a>で発信していきます。<\/p>"
           }
         }
       },
