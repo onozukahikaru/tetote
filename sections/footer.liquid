@@ -73,6 +73,15 @@
                     </div>
                   {%- endif -%}
 
+                {%- when 'liquid' -%}
+                  {%- if block.settings.liquid != blank -%}
+                    <div class="v-stack gap-4 sm:gap-5">
+                      <div class="prose text-subdued">
+                        {{- block.settings.liquid -}}
+                      </div>
+                    </div>
+                  {%- endif -%}
+
                 {%- when 'newsletter' -%}
                   <div class="v-stack gap-4 sm:gap-5">
                     {%- if block.settings.title != blank -%}
