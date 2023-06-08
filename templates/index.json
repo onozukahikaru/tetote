@@ -254,6 +254,23 @@
         "button_link": "",
         "button_text": "VIEW MORE"
       }
+    },
+    "28cc87cf-697c-4cc3-9556-ff4376c61ab8": {
+      "type": "blog-posts",
+      "settings": {
+        "separate_section_with_border": true,
+        "blog": "news",
+        "posts_count": 5,
+        "stack_on_mobile": false,
+        "show_category": false,
+        "show_excerpt": false,
+        "show_read_more": true,
+        "subheading": "Information",
+        "title": "お知らせ",
+        "content": "",
+        "button_link": "",
+        "button_text": "VIEW MORE"
+      }
     }
   },
   "order": [
@@ -263,6 +280,7 @@
     "ff0b378e-5b57-4100-9912-e4f4610430f8",
     "5583c2cd-4130-4776-ad38-fa01abae391d",
     "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5",
-    "7d927e3d-ba3a-469a-a916-ee21548e9a6c"
+    "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
+    "28cc87cf-697c-4cc3-9556-ff4376c61ab8"
   ]
 }
