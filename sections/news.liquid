@@ -4,14 +4,6 @@
   <div class="container">
     <div class="news-list-heading">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
-        {% if section.settings.heading %}
-          <h2 class="h2">{{ section.settings.heading | escape }}</h2>
-        {% endif %}
-
-        {% if section.settings.subheading %}
-          <p class="h6">{{ section.settings.subheading | escape }}</p>
-        {%- endif -%}
-        
     </div>
       <ul class="news-list">
         {% for article in blog.articles limit: section.settings.post_limit %}
