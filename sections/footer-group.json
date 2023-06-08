@@ -27,9 +27,9 @@
         "links"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "show_social_media": true,
-        "show_payment_icons": true,
+        "show_payment_icons": false,
         "show_country_selector": false,
         "show_country_name": false,
         "show_country_flag": false,
