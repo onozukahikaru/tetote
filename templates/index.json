@@ -295,37 +295,6 @@
         "overlay_opacity": 30
       }
     },
-    "f766bdd8-b661-488d-857a-e32e53f85d07": {
-      "type": "logo-list",
-      "blocks": {
-        "template--19100854059313__f766bdd8-b661-488d-857a-e32e53f85d07-1686224142ccbb9a2b-0": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 250,
-            "link": ""
-          }
-        },
-        "template--19100854059313__f766bdd8-b661-488d-857a-e32e53f85d07-1686224142ccbb9a2b-1": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19100854059313__f766bdd8-b661-488d-857a-e32e53f85d07-1686224142ccbb9a2b-0",
-        "template--19100854059313__f766bdd8-b661-488d-857a-e32e53f85d07-1686224142ccbb9a2b-1"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "",
-        "items_per_row": 3,
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "f5ec3781-5265-448c-8d98-af0d2794df94": {
       "type": "media-grid",
       "blocks": {
@@ -396,7 +365,6 @@
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
     "2363f99a-ddc2-419b-8052-b4acf75e2a42",
     "65f69fc7-b9ec-40fc-99b3-f17688556210",
-    "f766bdd8-b661-488d-857a-e32e53f85d07",
     "f5ec3781-5265-448c-8d98-af0d2794df94"
   ]
 }
