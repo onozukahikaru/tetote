@@ -29,6 +29,12 @@
         	</li>
         {% endfor %}
       </ul>
+      {%- if section.settings.button_text != blank -%}
+        <div class="justify-self-center">
+          {%- assign button_link = section.settings.button_link | default: section.settings.blog.url -%}
+          {%- render 'button', href: button_link, content: section.settings.button_text -%}
+        </div>
+      {%- endif -%}
   </div>
 </div>
 
@@ -67,6 +73,18 @@
       "type": "text",
       "label": "Subheading",
       "default": "News"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:global.text.button_link",
+      "info": "t:sections.blog_posts.button_link_info"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "t:global.text.button_text",
+      "default": "View all"
     }
   ],
   "presets": [
