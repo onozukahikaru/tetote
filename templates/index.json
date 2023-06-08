@@ -223,7 +223,7 @@
         "f7e8aff0-a008-49f0-9526-de269f89aae8"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "columns_per_row": 2,
         "stack_on_mobile": true,
         "overlap_image": false,
@@ -241,7 +241,7 @@
         ".blog-post-card__category {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; display: inline-block; margin-right: 12px;}"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "blog": "stories",
         "posts_count": 9,
         "stack_on_mobile": false,
@@ -258,7 +258,7 @@
     "28cc87cf-697c-4cc3-9556-ff4376c61ab8": {
       "type": "blog-posts",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "blog": "news",
         "posts_count": 5,
         "stack_on_mobile": false,
