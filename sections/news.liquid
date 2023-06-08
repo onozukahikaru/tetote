@@ -4,7 +4,7 @@
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
 
       <ul class="news-list">
-        {% for article in blogs[section.settings.news_list].articles limit: section.settings.post_limit %}
+        {% for article in blogs[section.settings.blog].articles limit: section.settings.post_limit %}
         	<li class="news-list-item">
               <a href="{{ article.url }}">
                 <div class="news-list-info">
