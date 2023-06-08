@@ -9,18 +9,18 @@ Output a list of social media icons based on the social URL settings.
 {%- endcomment -%}
 
 {%- capture social_media -%}
-  {%- if settings.social_facebook != blank or shop.brand.metafields.social_links.facebook != blank -%}
-    <li class="social-media__item branding-colors--facebook">
-      <a href="{{ settings.social_facebook | default: shop.brand.metafields.social_links.facebook }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Facebook' }}">
-        {%- render 'icon' with 'facebook' -%}
-      </a>
-    </li>
-  {%- endif -%}
-
   {%- if settings.social_twitter != blank or shop.brand.metafields.social_links.twitter != blank -%}
     <li class="social-media__item branding-colors--twitter">
       <a href="{{ settings.social_twitter | default: shop.brand.metafields.social_links.twitter }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Twitter' }}">
         {%- render 'icon' with 'twitter' -%}
+      </a>
+    </li>
+  {%- endif -%}
+
+  {%- if settings.social_facebook != blank or shop.brand.metafields.social_links.facebook != blank -%}
+    <li class="social-media__item branding-colors--facebook">
+      <a href="{{ settings.social_facebook | default: shop.brand.metafields.social_links.facebook }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Facebook' }}">
+        {%- render 'icon' with 'facebook' -%}
       </a>
     </li>
   {%- endif -%}
