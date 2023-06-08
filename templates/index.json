@@ -211,7 +211,7 @@
           "settings": {
             "title": "てとて、畜産どうぶつ",
             "heading_tag": "h4",
-            "content": "<p>私たち緑の森グループは2022年より、アニマルウェルフェア畜産協会に参加させていただきました。ただの経済（産業）どうぶつとして捉えるのではなく、畜産どうぶつの福祉もしっかりと守られるように北海道の酪農家の方々と手を取り合い、活動していきます。<\/p>",
+            "content": "<p>私たち緑の森グループは2022年より、アニマルウェルフェア畜産協会に参加させていただきました。<br\/>ただの経済（産業）どうぶつとして捉えるのではなく、畜産どうぶつの福祉もしっかりと守られるように北海道の酪農家の方々と手を取り合い、活動していきます。<\/p>",
             "link_url": "\/blogs\/stories\/tagged\/畜産どうぶつ",
             "link_text": "ストーリーを見る"
           }
@@ -229,9 +229,9 @@
         "f7e8aff0-a008-49f0-9526-de269f89aae8": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "title": "てとて、しぜん",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>大雪山系に囲まれた自然都市旭川に暮らしていると、自然と動物がとても身近です。<br\/>SDGsと謳われる今、この地球に暮らす生き物たちが、持続的に暮らしていける未来のために分野を超えて対話をしていきます。<\/p>",
             "link_url": "\/blogs\/stories\/tagged\/しぜん",
             "link_text": "ストーリーを見る"
           }
