@@ -18,10 +18,10 @@
       "settings": {
         "enable_sticky": false,
         "autoplay": true,
-        "cycle_speed": 5,
-        "desktop_font_size": 11,
-        "mobile_font_size": 10,
-        "background": "#1c1c1c",
+        "cycle_speed": 2,
+        "desktop_font_size": 14,
+        "mobile_font_size": 12,
+        "background": "#006428",
         "text_color": "#ffffff"
       }
     },
