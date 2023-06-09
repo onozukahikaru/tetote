@@ -20,13 +20,6 @@
             "liquid": "<ul>\n  <li><a href=\"https:\/\/twitter.com\/tetote_gohan\">Twitter<\/li>\n  <li><a href=\"https:\/\/www.facebook.com\/tetote.pet.gohan\/?locale=ja_JP\">Facebook<\/li>\n  <li><a href=\"https:\/\/www.instagram.com\/tetote_pet_gohan\/\">Instagram<\/li>\n  <li><a href=\"https:\/\/page.line.me\/foo1675s\">Line<\/li>\n<\/ul>"
           }
         },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": false
-          }
-        },
         "f5231c3f-a4c0-4f7f-9679-2aa89d9b42da": {
           "type": "links",
           "settings": {
@@ -38,7 +31,6 @@
       "block_order": [
         "newsletter",
         "4a021a47-3a67-482a-b214-9e22aeac8d03",
-        "links",
         "f5231c3f-a4c0-4f7f-9679-2aa89d9b42da"
       ],
       "settings": {
