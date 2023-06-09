@@ -26,12 +26,20 @@
             "menu": "footer",
             "show_menu_title": false
           }
+        },
+        "f5231c3f-a4c0-4f7f-9679-2aa89d9b42da": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
         }
       },
       "block_order": [
         "newsletter",
         "4a021a47-3a67-482a-b214-9e22aeac8d03",
-        "links"
+        "links",
+        "f5231c3f-a4c0-4f7f-9679-2aa89d9b42da"
       ],
       "settings": {
         "separate_section_with_border": false,
