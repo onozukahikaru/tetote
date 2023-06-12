@@ -311,6 +311,7 @@
         "template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94-168622420749f4475c-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner_hospital.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -330,6 +331,7 @@
         "template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94-168622420749f4475c-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner_tetote.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
