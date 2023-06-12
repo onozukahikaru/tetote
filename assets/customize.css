@@ -7,6 +7,15 @@ body{
     font-family: 'EB Garamond', serif;
 }
 
+/* MV */
+.content-over-media:before{
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background.jpg?v=1686530171);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: top;
+    z-index: 0;
+}
+
 /* footer */
 .footer__block-list .footer__block{
     width: 100%;
@@ -16,6 +25,7 @@ body{
     column-gap: 3.75rem;
     justify-content: space-between;
     position: relative;
+    
 }
 .footer__block-list::before{
     content: '';
@@ -35,6 +45,7 @@ body{
 }
 .footer .container{
     max-width: 1300px;
+    margin: 0 auto;
     margin-bottom: 60px;
 }
 .footer .prose :last-child{
