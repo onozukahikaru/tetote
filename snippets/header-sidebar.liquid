@@ -18,6 +18,8 @@ Supported variables
 IMPLEMENTATION NOTE: while being a drawer, the sidebar has a completely different structure for the content. We are
 therefore using a different structure for the Shadow DOM template
 {%- endcomment -%}
+{%- assign image_setting = 'image_' | append: i -%}
+
 <template id="header-sidebar-template">
   <div part="base">
     <div part="overlay"></div>
@@ -25,7 +27,7 @@ therefore using a different structure for the Shadow DOM template
     <div part="content">
       <header part="header">
         <button type="button" is="dialog-close-button" part="close-button tap-area" aria-label="{{ 'general.accessibility.close' | t | escape }}">
-          {%- render 'icon' with 'close', width: 16 -%}
+          {%- render 'icon' with 'closemenu', width: 16 -%}
         </button>
       </header>
 
@@ -50,6 +52,8 @@ therefore using a different structure for the Shadow DOM template
         {%- for link in menu.links -%}
           <li>
             {%- if link.links.size > 0 -%}
+              <p>{%- render 'mega-menu-images', context: 'sidebar', block: mega_menu_block -%}</p>
+              
               <button type="button" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" aria-controls="header-panel-{{ forloop.index }}" aria-expanded="false">
                 {{- link.title -}}
                 {%- render 'icon' with 'chevron-right', width: 12, direction_aware: true -%}
@@ -68,13 +72,13 @@ therefore using a different structure for the Shadow DOM template
       <div class="header-sidebar__footer">
         {%- if shop.customer_accounts_enabled -%}
           <a href="{{ routes.account_url }}" class="text-with-icon smallcaps sm:hidden">
-            {%- render 'icon' with 'account', width: 20 -%}
+            {%- render 'icon' with 'account', width: 16 -%}
             {{- 'header.general.account' | t -}}
           </a>
         {%- endif -%}
 
         {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
-          <div class="localization-selectors">
+          {% comment %} <div class="localization-selectors">
             {%- if localization.available_countries.size > 1 -%}
               {%- render 'localization-selector', type: 'country', placement: 'top-start', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, id_prefix: 'header-sidebar' -%}
             {%- endif -%}
@@ -84,8 +88,9 @@ therefore using a different structure for the Shadow DOM template
             {%- if localization.available_languages.size > 1 -%}
               {%- render 'localization-selector', type: 'locale', placement: 'top-start', id_prefix: 'header-sidebar' -%}
             {%- endif -%}
-          </div>
+          </div> {% endcomment %}
         {%- endif -%}
+          {%- render 'social-media', layout: 'list' -%}
       </div>
     {%- endif -%}
   </div>

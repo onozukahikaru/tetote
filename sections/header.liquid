@@ -133,6 +133,9 @@
                   <details is="{% if mega_menu_block != '' %}mega-menu-disclosure{% else %}dropdown-menu-disclosure{% endif %}" class="header__menu-disclosure" follow-summary-link trigger="{{ section.settings.menu_open_trigger }}">
                     <summary data-follow-link="{{ link.url }}" class="h6">
                       {{- link.title -}}
+                      {%- if mega_menu_block -%}
+                        {%- render 'icon' with 'chevron-down', width: 10 -%}
+                      {%- endif -%}
                     </summary>
 
                     {%- if mega_menu_block != '' -%}
@@ -213,7 +216,7 @@
           <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
 
           {%- if section.settings.show_icons -%}
-            {%- render 'icon' with 'search', class: 'header__nav-icon' -%}
+            {%- render 'icon' with 'search', width: 21, class: 'header__nav-icon' -%}
           {%- else -%}
             <span class="md:hidden">{%- render 'icon' with 'search', class: 'header__nav-icon' -%}</span>
             <span class="h6 link-faded md-max:hidden">{{ 'header.general.search' | t }}</span>
@@ -226,7 +229,7 @@
           <span class="sr-only">{{ 'header.general.open_account' | t }}</span>
 
           {%- if section.settings.show_icons -%}
-            {%- render 'icon' with 'account', class: 'header__nav-icon' -%}
+            {%- render 'icon' with 'account', width: 22, class: 'header__nav-icon' -%}
           {%- else -%}
             <span class="md:hidden">{%- render 'icon' with 'account', class: 'header__nav-icon' -%}</span>
             <span class="h6 link-faded md-max:hidden">{{ 'header.general.account' | t }}</span>
@@ -238,7 +241,7 @@
         <span class="sr-only">{{ 'header.general.open_cart' | t }}</span>
 
         {%- if section.settings.show_icons -%}
-          {%- render 'icon' with 'cart', class: 'header__nav-icon' -%}
+          {%- render 'icon' with 'cart', width: 24, class: 'header__nav-icon' -%}
         {%- else -%}
           <span class="md:hidden">{%- render 'icon' with 'cart', class: 'header__nav-icon' -%}</span>
           <span class="h6 link-faded md-max:hidden">{{ 'header.general.cart' | t }} (<cart-count>{{ cart.item_count }}</cart-count>)</span>
