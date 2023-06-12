@@ -361,7 +361,7 @@
         "separate_section_with_border": true,
         "desktop_row_height": 130,
         "mobile_row_height": 100,
-        "section_width": "md",
+        "section_width": "lg",
         "spacing": "md",
         "subheading": "",
         "title": "",
