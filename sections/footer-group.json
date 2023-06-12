@@ -25,7 +25,7 @@
           "type": "links",
           "settings": {
             "menu": "footer",
-            "show_menu_title": true
+            "show_menu_title": false
           }
         }
       },
