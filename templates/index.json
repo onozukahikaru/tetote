@@ -357,9 +357,9 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
+        "desktop_row_height": 130,
+        "mobile_row_height": 100,
+        "section_width": "md",
         "spacing": "md",
         "subheading": "",
         "title": "",
