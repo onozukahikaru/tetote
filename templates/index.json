@@ -286,7 +286,7 @@
         "template--19100854059313__65f69fc7-b9ec-40fc-99b3-f17688556210-1686224077be83e4e2-0": {
           "type": "heading",
           "settings": {
-            "text": "Green Shapers",
+            "text": "",
             "heading_tag": "h4"
           }
         }
@@ -296,6 +296,8 @@
       ],
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/banner_greenshapers.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_greenshapers_sp.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -304,7 +306,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "f5ec3781-5265-448c-8d98-af0d2794df94": {
