@@ -16,6 +16,7 @@
         },
         "4a021a47-3a67-482a-b214-9e22aeac8d03": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<ul>\n  <li><a href=\"https:\/\/twitter.com\/tetote_gohan\">Twitter<\/li>\n  <li><a href=\"https:\/\/www.facebook.com\/tetote.pet.gohan\/?locale=ja_JP\">Facebook<\/li>\n  <li><a href=\"https:\/\/www.instagram.com\/tetote_pet_gohan\/\">Instagram<\/li>\n  <li><a href=\"https:\/\/page.line.me\/foo1675s\">Line<\/li>\n<\/ul>"
           }
