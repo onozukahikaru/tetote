@@ -1,0 +1,181 @@
+/* font */
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.shopify-section--image-with-text-overlay .h2{
+    font-family: 'EB Garamond', serif;
+}
+
+/* footer */
+.footer__block-list .footer__block{
+    width: 100%;
+    max-width: 590px;
+}
+.footer__block-list{
+    column-gap: 3.75rem;
+    justify-content: space-between;
+    position: relative;
+}
+.footer__block-list::before{
+    content: '';
+    background: #144503;
+    width: 1px;
+    height: 174px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.footer{
+    padding-bottom: 0;
+    font-weight: 300;
+}
+.footer .container{
+    max-width: 1300px;
+    margin-bottom: 60px;
+}
+.footer .prose :last-child{
+    margin-block-start: 0!important;
+}
+.footer .footer__aside{
+    background: #144503;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer__aside .heading{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+    color: white;
+    line-height: 58px;
+    letter-spacing: normal;
+}
+.footer .footer__inner button{
+    background: #144503;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 83px;
+    line-height: 1;
+    padding: 17px 25px;
+}
+.footer__block--newsletter .form-control{
+    width: 100%;
+    max-width: 497px;
+}
+.footer__block--newsletter .form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer__block--newsletter .input{
+    background: white;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+.footer__block--newsletter .h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer__block-list .link-faded{
+    color: black;
+}
+.footer__block .unstyled-list.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__block .unstyled-list.list li{
+    padding: 0 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.footer__block .unstyled-list.list li::after{
+    content: '';
+    background: #144503;
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.social-media--list .social-media__item{
+    opacity: 1;
+    position: relative;
+}
+.social-media--list svg{
+    color: #144503;
+    width: 22px;
+}
+.footer .social-media--list {
+    gap: 22px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.social-media--list .social-media__item:first-child::after{
+    content: '';
+    background: #144503;
+    width: 18px;
+    height: 1px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+@media only screen and (min-width: 769px){
+    .footer__block .unstyled-list.list li:nth-child(1),
+    .footer__block .unstyled-list.list li:nth-child(4){
+        padding-left: 0;
+    }
+    .footer__block .unstyled-list.list li:nth-child(3)::after,
+    .footer__block .unstyled-list.list li:nth-child(4)::after{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .footer__block--newsletter .form{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .footer__block-list::before{
+        display: none;
+    }
+    .footer__block .unstyled-list.list li:nth-child(1),
+    .footer__block .unstyled-list.list li:nth-child(4){
+        padding-left: 0;
+    }
+    .footer__block .unstyled-list.list li:nth-child(4)::after{
+        display: none;
+    }
+    .footer .footer__inner button{
+        max-width: none;
+    }
+    .footer__block.footer__block--newsletter{
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .footer__block.footer__block--newsletter::after{
+        content: '';
+        background: #144503;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
+    }
+    .footer__block-list{
+        gap: 50px;
+        justify-content: center;
+    }
+}

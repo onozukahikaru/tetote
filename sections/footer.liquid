@@ -41,7 +41,7 @@
                       {%- endif -%}
 
                       {%- if block.settings.content != blank -%}
-                        <div class="prose text-subdued">
+                        <div class="prose">
                           {{- block.settings.content -}}
                         </div>
                       {%- endif -%}
@@ -58,12 +58,27 @@
                   {%- assign menu = block.settings.menu -%}
 
                   {%- if menu != blank and menu.links.size > 0 -%}
-                    <div class="v-stack gap-4 sm:gap-5">
+                    <div class="v-stack">
+                      {%- comment -%}
+                      ------------------------------------------------------------------------------------------------------------------
+                      FOOTER SOCIAL MEDIA
+                      ------------------------------------------------------------------------------------------------------------------
+                      {%- endcomment -%}
+
+                      {%- if section.settings.show_social_media -%}
+                        {%- render 'social-media', layout: 'list' -%}
+                      {%- endif -%}
+
+                      {%- comment -%}
+                      ------------------------------------------------------------------------------------------------------------------
+                      FOOTER ASIDE (COPYRIGHT + LOCALIZATION SELECTORS + PAYMENT METHODS)
+                      ------------------------------------------------------------------------------------------------------------------
+                      {%- endcomment -%}
                       {%- if block.settings.show_menu_title != blank -%}
                         <p class="h6">{{ menu.title }}</p>
                       {%- endif -%}
 
-                      <ul class="v-stack gap-2.5 unstyled-list" role="list">
+                      <ul class="v-stack unstyled-list list" role="list">
                         {%- for link in menu.links -%}
                           <li>
                             <a href="{{ link.url }}" class="link-faded">{{ link.title }}</a>
@@ -76,20 +91,20 @@
                 {%- when 'liquid' -%}
                   {%- if block.settings.liquid != blank -%}
                     <div class="v-stack gap-4 sm:gap-5">
-                      <div class="prose text-subdued">
+                      <div class="prose">
                         {{- block.settings.liquid -}}
                       </div>
                     </div>
                   {%- endif -%}
 
                 {%- when 'newsletter' -%}
-                  <div class="v-stack gap-4 sm:gap-5">
+                  <div class="v-stack gap-1 sm:gap-1">
                     {%- if block.settings.title != blank -%}
                       <p class="h6">{{ block.settings.title }}</p>
                     {%- endif -%}
 
                     {%- if block.settings.content != blank -%}
-                      <div class="prose text-subdued">
+                      <div class="prose">
                         {{- block.settings.content -}}
                       </div>
                     {%- endif -%}
@@ -111,7 +126,7 @@
                         {%- assign input_label = 'general.newsletter.email' | t -%}
                         {%- render 'input', name: 'contact[email]', label: input_label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
 
-                        <div class="align-self-start">
+                        <div>
                           {%- assign button_label = 'general.newsletter.subscribe' | t -%}
                           {%- render 'button', type: 'submit', content: button_label, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
                         </div>
@@ -130,55 +145,38 @@
           {%- endfor -%}
         </div>
       {%- endif -%}
+    </div>
+  </div>
+  <div class="footer__aside">
+    {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+      {%- assign show_country_selector = true -%}
+    {%- endif -%}
 
-      {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      FOOTER SOCIAL MEDIA
-      ------------------------------------------------------------------------------------------------------------------
-      {%- endcomment -%}
+    {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+      {%- assign show_locale_selector = true -%}
+    {%- endif -%}
 
-      {%- if section.settings.show_social_media -%}
-        {%- render 'social-media', layout: 'list' -%}
-      {%- endif -%}
-
-      {%- comment -%}
-      ------------------------------------------------------------------------------------------------------------------
-      FOOTER ASIDE (COPYRIGHT + LOCALIZATION SELECTORS + PAYMENT METHODS)
-      ------------------------------------------------------------------------------------------------------------------
-      {%- endcomment -%}
-
-      <div class="footer__aside">
-        {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
-          {%- assign show_country_selector = true -%}
+    {%- if show_country_selector or show_locale_selector -%}
+      <div class="localization-selectors">
+        {%- if show_country_selector -%}
+          {%- render 'localization-selector', type: 'country', placement: 'top-start', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag -%}
         {%- endif -%}
 
-        {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
-          {%- assign show_locale_selector = true -%}
-        {%- endif -%}
-
-        {%- if show_country_selector or show_locale_selector -%}
-          <div class="localization-selectors">
-            {%- if show_country_selector -%}
-              {%- render 'localization-selector', type: 'country', placement: 'top-start', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag -%}
-            {%- endif -%}
-
-            {%- if show_locale_selector -%}
-              {%- render 'localization-selector', type: 'locale', placement: 'top-start' -%}
-            {%- endif -%}
-          </div>
-        {%- endif -%}
-
-        <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p>
-
-        {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
-          <div class="payment-methods">
-            {%- for type in shop.enabled_payment_types -%}
-              {{- type | payment_type_svg_tag -}}
-            {%- endfor -%}
-          </div>
+        {%- if show_locale_selector -%}
+          {%- render 'localization-selector', type: 'locale', placement: 'top-start' -%}
         {%- endif -%}
       </div>
-    </div>
+    {%- endif -%}
+
+    <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p>
+
+    {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+      <div class="payment-methods">
+        {%- for type in shop.enabled_payment_types -%}
+          {{- type | payment_type_svg_tag -}}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
   </div>
 </div>
 

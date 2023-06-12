@@ -59,6 +59,10 @@
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{- 'customize.css' | asset_url | stylesheet_tag: preload: true -}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   </head>
 
   {% liquid
