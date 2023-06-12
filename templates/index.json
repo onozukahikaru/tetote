@@ -159,11 +159,21 @@
           "settings": {
             "content": "<p>One Health Projectでは、商品を購入するだけではなく、そこから様々なOne Health社会活動につながっていく仕組みをテクノロジーの力を借りながら構築していきます。<\/p>"
           }
+        },
+        "d2a21408-79e5-4b82-866e-7762cdd953c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/triangle.png",
+            "width_mode": "custom",
+            "max_width": 360,
+            "mobile_max_width": 250
+          }
         }
       },
       "block_order": [
         "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-1",
-        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-2"
+        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-2",
+        "d2a21408-79e5-4b82-866e-7762cdd953c9"
       ],
       "settings": {
         "separate_section_with_border": false,
