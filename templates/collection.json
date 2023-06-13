@@ -14,7 +14,7 @@
         "show_collection_description": true,
         "show_breadcrumb": false,
         "content_width": "lg",
-        "background": "#000000",
+        "background": "#ffffff",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
