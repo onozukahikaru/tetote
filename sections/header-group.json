@@ -77,7 +77,7 @@
         "e115be55-8279-40e3-ba35-aa3e8dad3a2a"
       ],
       "custom_css": [
-        "nav.header__primary-nav > ul > li:nth-last-child(2) {border-left: 1px solid #144503; padding-left: 30px; }"
+        "nav.header__primary-nav > ul > li:nth-last-child(2) {border-left: 1px solid #144503; padding-left: 30px;}"
       ],
       "settings": {
         "enable_sticky": true,
@@ -91,7 +91,7 @@
         "menu_open_trigger": "hover",
         "enable_search": true,
         "sidebar_text_font": "heading",
-        "sidebar_show_dividers": false,
+        "sidebar_show_dividers": true,
         "layout": "logo_center_navigation_below",
         "show_icons": true,
         "show_country_selector": false,
