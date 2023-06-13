@@ -66,35 +66,6 @@ body{
     position: absolute;
     left: -37px;
 }
-.header__primary-nav-item:nth-child(3) a{
-    position: relative;
-}
-.header__primary-nav-item:nth-child(3) a::after{
-    content: '';
-    background: #144503;
-    width: 1px;
-    height: 20px;
-    position: absolute;
-    top: 50%;
-    right: -11%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-}
-
-
-/* MV */
-.announcement-bar{
-    padding: 13px;
-    line-height: 1;
-}
-.content-over-media:before{
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background.jpg?v=1686530171);
-    background-repeat: repeat-x;
-    background-size: contain;
-    background-position: top;
-    z-index: 0;
-}
 @media only screen and (min-width: 769px){
     .header__primary-nav{
         position: relative;
@@ -110,7 +81,6 @@ body{
         top: -18px;
         left: 0;
     }
-    
 }
 @media only screen and (max-width: 768px){
     .announcement-bar{
@@ -161,6 +131,19 @@ body{
     }
 }
 
+/* MV */
+.announcement-bar{
+    padding: 13px;
+    line-height: 1;
+}
+.shopify-section:first-child .content-over-media:before{
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background.jpg?v=1686530171);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: top;
+    z-index: 0;
+}
+
 /* footer */
 .footer__block-list .footer__block{
     width: 100%;
@@ -187,11 +170,6 @@ body{
 .footer{
     padding-bottom: 0;
     font-weight: 300;
-}
-.footer .container{
-    max-width: 1300px;
-    margin: 0 auto;
-    margin-bottom: 60px;
 }
 .footer .prose :last-child{
     margin-block-start: 0!important;
@@ -296,9 +274,16 @@ body{
     .footer__block .unstyled-list.list li:nth-child(4)::after{
         display: none;
     }
-
+    .footer .container{
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }    
 }
 @media only screen and (max-width: 768px){
+    .footer .container{
+        margin-bottom: 60px;
+    }    
     .footer__block--newsletter .form{
         flex-direction: column;
         align-items: stretch;
