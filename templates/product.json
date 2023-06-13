@@ -101,7 +101,7 @@
       ],
       "settings": {
         "container_size": "lg",
-        "product_info_size": 60,
+        "product_info_size": 55,
         "show_sticky_add_to_cart": false,
         "center_basic_info": false,
         "desktop_media_layout": "carousel_thumbnails_bottom",
