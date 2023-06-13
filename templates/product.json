@@ -80,8 +80,8 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
+            "collapse_content": true,
+            "show_below_gallery": true
           }
         }
       },
