@@ -104,7 +104,7 @@
         "product_info_size": 55,
         "show_sticky_add_to_cart": false,
         "center_basic_info": true,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_layout": "grid_2x_highlighted",
         "desktop_media_grid_gap": 30,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
