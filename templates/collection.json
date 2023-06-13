@@ -3,9 +3,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        "ul {list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 12px; font-size: 80%;}",
-        "ul li {border: 1px solid #ddd; padding: 6px 9px;}",
-        "ul a {background: none;}"
+
       ],
       "settings": {
         "image_size": "xs",
@@ -14,7 +12,7 @@
         "enable_parallax": false,
         "show_collection_title": true,
         "show_collection_description": true,
-        "show_breadcrumb": true,
+        "show_breadcrumb": false,
         "content_width": "lg",
         "background": "#000000",
         "text_color": "#ffffff",
