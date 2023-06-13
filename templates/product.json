@@ -11,7 +11,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h3"
+            "heading_tag": "h4"
           }
         },
         "price": {
@@ -81,7 +81,7 @@
           "type": "description",
           "settings": {
             "collapse_content": false,
-            "show_below_gallery": false
+            "show_below_gallery": true
           }
         }
       },
@@ -101,7 +101,7 @@
       ],
       "settings": {
         "container_size": "lg",
-        "product_info_size": 55,
+        "product_info_size": 30,
         "show_sticky_add_to_cart": false,
         "center_basic_info": true,
         "desktop_media_layout": "carousel_thumbnails_bottom",
