@@ -3,6 +3,7 @@
     "96656a0c-e2a4-4bf9-a5b9-26ee03fd7ed1": {
       "type": "custom-liquid",
       "custom_css": [
+        ".container {margin-inline-start: 0; margin-inline-end: 0;}",
         "h1 {font-size: 30px; color: white; height: 350px; line-height: 350px; background-size: cover; background-position: center;}"
       ],
       "settings": {
