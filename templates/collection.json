@@ -17,7 +17,7 @@
         "background": "#ffffff",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 25
+        "overlay_opacity": 15
       }
     },
     "main": {
