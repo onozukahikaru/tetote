@@ -3,7 +3,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-
+        "::before {background: none; z-index: ;}"
       ],
       "settings": {
         "image_size": "xs",
