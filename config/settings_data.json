@@ -37,6 +37,8 @@
     "favicon": "shopify:\/\/shop_images\/favicon_3bff692e-159f-402f-b6c1-9efbedb54291.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-tetote.png",
     "checkout_logo_position": "center",
+    "checkout_accent_color": "#3fa037",
+    "checkout_button_color": "#3fa037",
     "content_for_index": [
 
     ],
