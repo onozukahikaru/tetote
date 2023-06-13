@@ -195,7 +195,7 @@ body{
     padding: 13px;
     line-height: 1;
 }
-.shopify-section:first-child .content-over-media:before{
+.shopify-section--image-with-text-overlay:first-child .content-over-media:before{
     background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background.jpg?v=1686530171);
     background-repeat: repeat-x;
     background-size: contain;
