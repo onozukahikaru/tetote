@@ -310,7 +310,7 @@
       "save_address": "保存",
       "edit": "編集",
       "delete": "削除",
-      "default_address": "デフォルトの住所",
+      "default_address": "基本の配送先住所",
       "address_title": "登録された住所数 {{ position }}",
       "delete_confirm": "この住所を削除してよろしいですか？",
       "fill_form": "以下のフォームをご入力ください。",
