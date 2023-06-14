@@ -86,7 +86,8 @@
         "template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c-1686215284fe5fff3f-0"
       ],
       "custom_css": [
-        "p.h6 {color: #99a39a; font-size: 12px;}"
+        "p.h6 {color: #99a39a; font-size: 12px;}",
+        ".sm\\:gap-5 {gap: 10px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
