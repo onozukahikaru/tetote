@@ -148,8 +148,7 @@
         "f06f8d83-78bd-4a3d-9b88-47342da6dfef"
       ],
       "custom_css": [
-        "p.h6 {color: #99a39a; font-size: 12px;}",
-        ".sm\\:gap-5 {gap: 10px;}"
+        "p.h6 {color: #99a39a; font-size: 12px; margin-top: 10px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -263,8 +262,7 @@
       "type": "blog-posts",
       "custom_css": [
         ".blog-post-card__category {border: 1px solid #000; border-radius: 20px; background: white; color: #000; padding: 2px 10px; font-size: 10px; display: inline-block; margin-right: 12px;}",
-        "p.h6 {color: #99a39a; font-size: 12px;}",
-        ".sm\\:gap-5 {gap: 10px;}"
+        "p.h6 {color: #99a39a; font-size: 12px; margin-top: 10px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
