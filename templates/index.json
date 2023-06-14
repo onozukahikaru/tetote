@@ -190,7 +190,7 @@
           "settings": {
             "style": "solid",
             "text": "VIEW MORE",
-            "url": "",
+            "url": "shopify:\/\/pages\/about-us",
             "background": "",
             "text_color": ""
           }
