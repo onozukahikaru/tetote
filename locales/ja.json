@@ -324,7 +324,7 @@
       "zip": "郵便番号",
       "country": "国",
       "province": "都道府県",
-      "set_default": "デフォルトとして設定"
+      "set_default": "基本の配送先住所として設定"
     }
   },
   "cart": {
