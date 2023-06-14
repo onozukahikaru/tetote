@@ -100,7 +100,7 @@
         "description"
       ],
       "custom_css": [
-
+        ".button {max-width: 1000px;}"
       ],
       "settings": {
         "container_size": "lg",
