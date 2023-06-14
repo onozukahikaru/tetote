@@ -81,8 +81,11 @@
         <div class="prose">
           {{- article.content -}}
         </div>
-      </div>
 
+    {% include 'relatedblogs' %}
+    
+      </div>
+  
       {%- if section.settings.show_author or section.settings.show_share_buttons -%}
         <div class="article__footer">
           {%- if section.settings.show_author -%}
