@@ -148,7 +148,8 @@
         "f06f8d83-78bd-4a3d-9b88-47342da6dfef"
       ],
       "custom_css": [
-        "p.h6 {color: #99a39a; font-size: 12px;}"
+        "p.h6 {color: #99a39a; font-size: 12px;}",
+        ".sm\\:gap-5 {gap: 10px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
