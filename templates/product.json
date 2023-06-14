@@ -99,6 +99,9 @@
         "separator",
         "description"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "container_size": "lg",
         "product_info_size": 55,
