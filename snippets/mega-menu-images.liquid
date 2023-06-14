@@ -27,7 +27,7 @@ Supported variables
     {%- endif -%}
 
     {%- if block.settings[heading_setting] != blank or block.settings[text_setting] != blank -%}
-      <div class="">
+      <div class="title_promo">
         {%- if block.settings[heading_setting] != blank -%}
           <p class="h6">{{ block.settings[heading_setting] }}</p>
         {%- endif -%}
@@ -45,9 +45,7 @@ Supported variables
         {{- image_content -}}
       </a>
     {%- else -%}
-      <div class="">
         {{- image_content -}}
-      </div>
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
