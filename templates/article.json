@@ -4,10 +4,10 @@
       "type": "main-article",
       "custom_css": [
         ".article-categries a {border: 1px solid #ccc; padding: 2px 6px; font-size: 85%; margin: 3px 12px 3px 0; display: inline-block;}",
-        "#relatedblogs {padding-top: 30px;}",
+        "#relatedblogs {padding-top: 30px; align-items: start;}",
         "#relatedblogs h3 {font-size: 150%; font-weight: normal; margin-bottom: 20px;}",
         "#relatedblogs ul {margin-inline-start: 0;}",
-        "#relatedblogs .rb_contents {margin: 0; align-items: start;}",
+        "#relatedblogs .rb_contents {margin: 0;}",
         "#relatedblogs .rb_title {margin-bottom: 10px; font-size: 100%;}"
       ],
       "settings": {
