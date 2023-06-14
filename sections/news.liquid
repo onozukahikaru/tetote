@@ -9,7 +9,7 @@
               <a href="{{ article.url }}">
                 <div class="news-list-info">
                   {% if section.settings.news_list_date %}
-                    <span class="news-list-date">{{ article.published_at | date: "%Y &frasl; %m &frasl; %d" }}</span>
+                    <span class="news-list-date">{{ article.published_at | date: "%Y.%m.%d" }}</span>
                   {% endif %}
                 </div>
                 <div class="news-list-title">{{ article.title }}</div>
@@ -30,7 +30,8 @@
 
 {% schema %}
 {
-  "name": "News list",
+  "name": "お知らせ",
+  "class": "shopify-section--news",
   "settings": [
     {
       "type": "checkbox",

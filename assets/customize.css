@@ -275,6 +275,51 @@ p.h2{
     }
 }
 
+/* おすすめ */
+.shopify-section--featured-collections p.h2{
+    position: relative;
+}
+.shopify-section--featured-collections p.h2::before{
+    content: '';
+    width: 43px;
+    height: 50px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_bag.png?v=1686530169);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+
+/* ストーリー */
+.shopify-section--blog-posts h2{
+    position: relative;
+}
+.shopify-section--blog-posts h2::before{
+    content: '';
+    width: 70px;
+    height: 50px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_book.png?v=1686530170);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+
+/* お知らせ */
+.shopify-section--news h2{
+    position: relative;
+}
+.shopify-section--news h2::before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_info.png?v=1686530170);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+
 /* footer */
 .footer__block-list .footer__block{
     width: 100%;
