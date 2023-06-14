@@ -473,5 +473,18 @@
         "label": "タグによる絞り込み"
       }
     }
+  },
+  "customer_accounts": {
+    "addresses": {
+      "default_address": {
+        "title": "基本の配送先住所",
+        "title_accessibility_label": "基本の配送先住所: {{address}}"
+      }
+    },
+    "address_form": {
+      "default_address": "これが基本の配送先住所です",
+      "default_address_creation_success_notification": "配送先住所が追加されました",
+      "default_address_update_success_notification": "基本の配送先住所が更新されました"
+    }
   }
 }
