@@ -7,8 +7,8 @@
         "#relatedblogs {padding-top: 30px;}",
         "#relatedblogs h3 {font-size: 150%; font-weight: normal; margin-bottom: 20px;}",
         "#relatedblogs ul {margin-inline-start: 0;}",
-        "#relatedblogs .rb_contents {margin: 0;}",
-        "#relatedblogs .rb_title {margin-bottom: 10px;}"
+        "#relatedblogs .rb_contents {margin: 0; align-items: start;}",
+        "#relatedblogs .rb_title {margin-bottom: 10px; font-size: 100%;}"
       ],
       "settings": {
         "show_image": true,
