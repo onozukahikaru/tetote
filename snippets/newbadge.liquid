@@ -1,0 +1,5 @@
+{%- assign published_date = article.published_at | date: '%s' -%}
+{%- assign passed_days = 'now' | date: '%s' | minus: published_date | divided_by: 86400 -%}
+{%- if passed_days <= 7 -%}
+  
+{%- endif -%}
