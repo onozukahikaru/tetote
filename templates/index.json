@@ -284,7 +284,7 @@
     "2363f99a-ddc2-419b-8052-b4acf75e2a42": {
       "type": "news",
       "custom_css": [
-        "p.h6 {color: #99a39a; font-size: 12px;}"
+        "p.h6 {color: #99a39a; font-size: 12px; margin-top: 10px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
