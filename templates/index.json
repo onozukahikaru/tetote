@@ -156,6 +156,60 @@
         "remove_vertical_spacing": false
       }
     },
+    "0ab777a5-d824-41bd-a67d-4fb162a1ff50": {
+      "type": "aboutus",
+      "blocks": {
+        "template--19100854059313__0ab777a5-d824-41bd-a67d-4fb162a1ff50-16867318536d80f206-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "About us"
+          }
+        },
+        "template--19100854059313__0ab777a5-d824-41bd-a67d-4fb162a1ff50-16867318536d80f206-1": {
+          "type": "heading",
+          "settings": {
+            "text": "わたしたちについて",
+            "heading_tag": "h2"
+          }
+        },
+        "2595f4e9-fb85-4e78-9f29-5190394f894f": {
+          "type": "heading",
+          "settings": {
+            "text": "緑の森どうぶつ病院という場所から",
+            "heading_tag": "h3"
+          }
+        },
+        "template--19100854059313__0ab777a5-d824-41bd-a67d-4fb162a1ff50-16867318536d80f206-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>動物園の街、自然都市・旭川は、全国でも先駆けて、どうぶつや自然への優しい視線を持つ都市として知られています。<br\/>コロナにライフスタイルの変化、激変する地球環境、社会構造の変化に戸惑い、分断が進む今、<br\/>新しい「ツナガリ」のあり方が求められています。<br\/>旭川市で26年運営している緑の森どうぶつ病院NPO手と手の森は創業以来\"病気を治す\"科学としての獣医療と\"病気が治る\"自然治癒力としての、<br\/>環境=森と捉えて、全体性の医療を大切にした診療、経営のあり方を実践してきました。<\/p>"
+          }
+        },
+        "914a41cc-16a1-4dd4-b26b-394ca6ab287e": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "VIEW MORE",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19100854059313__0ab777a5-d824-41bd-a67d-4fb162a1ff50-16867318536d80f206-0",
+        "template--19100854059313__0ab777a5-d824-41bd-a67d-4fb162a1ff50-16867318536d80f206-1",
+        "2595f4e9-fb85-4e78-9f29-5190394f894f",
+        "template--19100854059313__0ab777a5-d824-41bd-a67d-4fb162a1ff50-16867318536d80f206-2",
+        "914a41cc-16a1-4dd4-b26b-394ca6ab287e"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "5583c2cd-4130-4776-ad38-fa01abae391d": {
       "type": "rich-text",
       "blocks": {
@@ -390,6 +444,7 @@
     "53ee0a40-dd88-4145-b7de-c5fa9e68baf2",
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c",
     "ff0b378e-5b57-4100-9912-e4f4610430f8",
+    "0ab777a5-d824-41bd-a67d-4fb162a1ff50",
     "5583c2cd-4130-4776-ad38-fa01abae391d",
     "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
