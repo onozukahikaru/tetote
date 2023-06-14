@@ -18,6 +18,16 @@ p.h2{
     font-weight: bold;
     color: black;
 }
+.section-spacing:not(.section-spacing--padded) {
+    margin-block-start: 120px;
+    margin-block-end: 120px
+}
+@media only screen and (max-width: 768px){
+    .section-spacing:not(.section-spacing--padded) {
+        margin-block-start: 80px;
+        margin-block-end: 80px
+    }
+}
 
 /* header */
 .icon-cart{
@@ -318,6 +328,45 @@ p.h2{
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto 10px;
+}
+.shopify-section--news .news-list{
+    list-style: none;
+    margin-left: 0;
+}
+.shopify-section--news .news-list li a{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #F1F2EB;
+}
+.shopify-section--news .news-list-info{
+    margin-right: 20px;
+}
+.shopify-section--news .container{
+    max-width: 700px;
+    margin: auto;
+}
+.shopify-section--news a.button,
+.shopify-section--news .justify-self-center{
+    width: 100%;
+    max-width: 340px;
+    min-height: 56px;
+}
+@media only screen and (max-width: 768px){
+    .shopify-section--news .container{
+        max-width: none;
+        padding: 0 25px;
+    }
+    .shopify-section--news .news-list li a{
+        flex-direction: column;
+    }
+    .shopify-section--news .news-list-info {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    .shopify-section--news a.button,
+    .shopify-section--news .justify-self-center{
+        max-width: none;
+    }
 }
 
 /* footer */
