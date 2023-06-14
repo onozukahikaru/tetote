@@ -300,6 +300,159 @@ p.h2{
     margin: 0 auto 10px;
 }
 
+/* 私たちについて */
+.shopify-section--about {
+    background: #F1F2EB;
+}
+.shopify-section--about .prose{
+    background: white;
+    border-radius: 15px;
+    padding: 60px 300px 90px;
+    
+}
+.shopify-section--about .prose p{
+    line-height: 2;
+}
+.shopify-section--about .heading{
+    position: relative;
+}
+.shopify-section--about p.h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.shopify-section--about p.h2::before{
+    content: '';
+    width: 75px;
+    height: 90px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_pag.png?v=1686530170);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shopify-section--about p.h6{
+    position: absolute;
+    left: 39%;
+    top: 40px;
+    color: #99A39A;
+    font-size: 12px;
+}
+.shopify-section--about p.h3{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+.shopify-section--about p.h3::before,
+.shopify-section--about p.h3::after{
+    content: '';
+    background: #144503;
+    height: 2px;
+    width: 54px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.shopify-section--about p.h3::before{
+    left: -73px;
+}
+.shopify-section--about p.h3::after{
+    right: -68px;
+}
+.shopify-section--about .section-spacing:not(.section-spacing--padded){
+    padding: 80px 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.shopify-section--about .desc{
+    position: relative;
+}
+.shopify-section--about .desc::before{
+    content: '';
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/leaf.png?v=1686530170);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 272px;
+    top: 0;
+    position: absolute;
+    left: -220px;
+}
+.shopify-section--about .desc::after{
+    content: '';
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/leaf.png?v=1686530170);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 272px;
+    position: absolute;
+    top: 0;
+    right: -220px;
+    transform: scale(-1, 1);
+}
+@media only screen and (max-width: 768px){
+    .shopify-section--about .prose{
+        padding: 40px 25px;
+    }
+    .shopify-section--about .prose p{
+        text-align: left;
+    }
+    .shopify-section--about p.h2::before{
+        width: 62px;
+        height: 75px;
+    }
+    .shopify-section--about p.h2{
+        font-size: 20px;
+        width: 210px;
+        margin: auto;
+        line-height: 1.5;
+    }
+    .shopify-section--about p.h3{
+        font-size: 18px;
+        max-width: 200px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .shopify-section--about p.h6{
+        left: 36%;
+        top: 60px;
+    }
+    .shopify-section--about p.h3::before,
+    .shopify-section--about p.h3::after {
+        width: 16px;
+    }
+    .shopify-section--about p.h3::before{
+        left: -23px;
+    }
+    .shopify-section--about p.h3::after{
+        right: -18px;
+    }
+    .shopify-section--about .section-spacing:not(.section-spacing--padded){
+        padding: 40px 0;
+    }
+    .shopify-section--about .desc::before{
+        width: 60px;
+        height: 74px;
+        top: auto;
+        bottom: -40px;
+        position: absolute;
+        left: -40px;
+    }
+    .shopify-section--about .desc::after{
+        width: 60px;
+        height: 74px;
+        position: absolute;
+        top: auto;
+        bottom: -40px;
+        right: -40px;
+    }
+}
+
 /* ストーリー */
 .shopify-section--blog-posts h2{
     position: relative;
