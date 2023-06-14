@@ -21,7 +21,7 @@ LIQUID
       </blog-posts>
 
       {%- if section.settings.button_text != blank -%}
-        <div class="justify-self-center">
+        <div class="justify-self-center button340">
           {%- assign button_link = section.settings.button_link | default: section.settings.blog.url -%}
           {%- render 'button', href: button_link, content: section.settings.button_text -%}
         </div>

@@ -109,7 +109,7 @@
             {{- section.settings.content -}}
 
             {%- if section.settings.button_1_text != blank or section.settings.button_2_text != blank -%}
-              <div class="button-group">
+              <div class="button-group button340">
                 {%- if section.settings.button_1_text != blank -%}
                   {%- render 'button', href: section.settings.button_1_link, content: section.settings.button_1_text, style: section.settings.button_1_style, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
                 {%- endif -%}

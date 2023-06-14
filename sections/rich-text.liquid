@@ -7,7 +7,7 @@
         {%- for block in section.blocks -%}
           {%- if block.type == 'button' and is_inside_button_group_context == false -%}
             {%- assign is_inside_button_group_context = true -%}
-            <div class="button-group justify-{{ section.settings.text_position }}">
+            <div class="button-group justify-{{ section.settings.text_position }} button340">
           {%- elsif block.type != 'button' and is_inside_button_group_context -%}
             {%- assign is_inside_button_group_context = false -%}
             </div>
