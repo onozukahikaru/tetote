@@ -26,7 +26,7 @@ Supported variables
         assign base_text_class = 'h6 '
       endif
 
-      assign regular_price_classes = base_text_class | append: 'text-subdued'
+      assign regular_price_classes = base_text_class | append: ''
       assign on_sale_price_classes = base_text_class | append: 'text-on-sale'
       assign compare_at_price_classes = base_text_class | append: 'text-subdued line-through'
       assign unit_price_classes = base_text_class | append: 'text-subdued'
@@ -35,7 +35,7 @@ Supported variables
       assign regular_price_classes = base_text_class | append: 'h4 text-subdued'
       assign on_sale_price_classes = base_text_class | append: 'h4 text-on-sale'
       assign compare_at_price_classes = base_text_class | append: 'h5 text-subdued line-through'
-      assign unit_price_classes = base_text_class | append: 'h6 text-subdued'
+      assign unit_price_classes = base_text_class | append: 'h6'
   endcase
 -%}
 

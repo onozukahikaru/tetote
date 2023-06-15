@@ -17,7 +17,7 @@ Supported parameters
 * sizes: the sizes attribute to show for loading the images
 {%- endcomment -%}
 
-<div class="blog-post-card group snap-center">
+<div class="blog-post-card group snap-center swiper-slide">
   {%- if article -%}
     {%- if article.image != blank -%}
       <a href="{{ article.url }}" class="overflow-hidden">
@@ -31,20 +31,20 @@ Supported parameters
   {%- endif -%}
 
   <div class="blog-post-card__info">
-    {%- if show_category and article.tags.size > 0 -%}
-      <div>
-        {%- for tag in article.tags -%}
-          <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="blog-post-card__category {{ category_class | default: 'h6' }} link-faded">{{ tag }}</a>
-        {%- endfor -%}
-      </div>
-    {%- endif -%}
-
     {%- if article -%}
       <p>
         <a href="{{ article.url }}" class="blog-post-card__title {{ title_class | default: 'h4' }}">{{ article.title }}</a>
       </p>
     {%- else -%}
       <p class="blog-post-card__title {{ title_class | default: 'h4' }}">{{- 'general.on_boarding.blog_post_title' | t -}}</p>
+    {%- endif -%}
+    <div class="blog_flex">
+    {%- if show_category and article.tags.size > 0 -%}
+      <div>
+        {%- for tag in article.tags -%}
+          <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="blog-post-card__category {{ category_class | default: 'h6' }} link-faded">{{ tag }}</a>
+        {%- endfor -%}
+      </div>
     {%- endif -%}
 
     {%- if show_excerpt -%}
@@ -60,5 +60,7 @@ Supported parameters
     {%- if show_read_more -%}
       <a href="{{ article.url | default: '#' }}" class="blog-post-card__read-more link">{{ 'blog.general.read_more' | t }}</a>
     {%- endif -%}
+    <span>{{ article.published_at | date: '%Y.%m.%d' }}</span>
+  </div>
   </div>
 </div>

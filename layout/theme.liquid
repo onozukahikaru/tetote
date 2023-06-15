@@ -52,12 +52,12 @@
         }
       }
     </script>
-
+    <script type="module" src="{{ 'swiper7.js' | asset_url }}"></script>
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
-
+    <script type="module" src="{{ 'customize.js' | asset_url }}"></script>
     {{ content_for_header }}
-
+    {{- 'swiper7.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'customize.css' | asset_url | stylesheet_tag: preload: true -}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,5 +99,6 @@
     {%- if request.page_type != 'password' -%}
       {%- sections 'footer-group' -%}
     {%- endif -%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </body>
 </html>

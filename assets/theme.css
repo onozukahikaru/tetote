@@ -24,6 +24,7 @@ body {
   letter-spacing: var(--text-letter-spacing);
   margin: 0;
   position: relative;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 hr {
@@ -2608,6 +2609,7 @@ th {
   letter-spacing: var(--heading-letter-spacing);
   text-transform: var(--heading-text-transform);
   padding-block: 0 .625rem;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 tfoot td {
@@ -3240,6 +3242,7 @@ tfoot td {
   padding: .0625rem .3125rem;
   font-size: .625rem;
   display: flex;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .badge--on-sale {
@@ -4407,6 +4410,7 @@ tfoot td {
   align-items: center;
   column-gap: .25rem;
   display: flex;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .countdown-condensed__timer-item {
@@ -4779,6 +4783,7 @@ tfoot td {
   position: absolute;
   inset-block-end: 0;
   transform: scaleX(0);
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .header__primary-nav-item:hover:before {
@@ -7520,6 +7525,7 @@ tfoot td {
   letter-spacing: var(--heading-letter-spacing);
   text-transform: var(--heading-text-transform);
   overflow-wrap: anywhere;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .h1, :where(.prose h1) {
