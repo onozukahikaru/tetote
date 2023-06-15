@@ -511,6 +511,24 @@
         "background": "",
         "text_color": ""
       }
+    },
+    "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2": {
+      "type": "image-with-banner",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/banner_greenshapers.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_greenshapers_sp.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "link1": "#",
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -525,6 +543,7 @@
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
     "2363f99a-ddc2-419b-8052-b4acf75e2a42",
     "65f69fc7-b9ec-40fc-99b3-f17688556210",
-    "f5ec3781-5265-448c-8d98-af0d2794df94"
+    "f5ec3781-5265-448c-8d98-af0d2794df94",
+    "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2"
   ]
 }
