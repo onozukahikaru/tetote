@@ -485,7 +485,7 @@
             "content": "",
             "link_text": "",
             "link_url": "#",
-            "link_style": "link",
+            "link_style": "outline",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "button_background": "",
