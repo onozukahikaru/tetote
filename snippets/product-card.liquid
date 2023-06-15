@@ -53,6 +53,7 @@ Supported variables
 
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
+      {%- render 'newbadge', product: product, vertical: true -%}
       {%- if show_badges -%}
         {%- render 'product-badges', product: product, vertical: true -%}
       {%- endif -%}

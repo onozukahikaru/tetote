@@ -1,5 +1,8 @@
-{%- assign published_date = article.published_at | date: '%s' -%}
-{%- assign passed_days = 'now' | date: '%s' | minus: published_date | divided_by: 86400 -%}
-{%- if passed_days <= 7 -%}
-  
+{%- assign published_date = product.published_at | date: '%s' -%}
+{%- assign current_date = 'now' | date: '%s' -%}
+{%- assign passed_days = current_date | minus: published_date | divided_by: 86400 -%}
+{%- if passed_days <= 30 -%}
+<span class="badge badge--new">
+    <span class="badge__text">NEW</span>
+</span>
 {%- endif -%}

@@ -603,6 +603,7 @@ p.h2{
 .shopify-section--blog-posts .container{
     padding:0 60px;
     position: relative;
+    max-width: 1420px;
 }
 .swiper-wrapper.blog-post-list{
     gap: unset;
