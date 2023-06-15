@@ -470,6 +470,64 @@ p.h2{
     }
 }
 
+/* しぜんの物語 */
+.shopify-section--multi-shizen .only_sp{
+    display: none!important;
+}
+.shopify-section--multi-shizen .only_pc{
+    display: block!important;
+}
+.shopify-section--multi-shizen .multi-column__item{
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    -moz-box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.1);
+    
+}
+.shopify-section--multi-shizen .colum50{
+    width: 50%;
+}
+.shopify-section--multi-shizen .multi-column__item > div.colum50{
+    padding: 30px 35px 30px 0;
+}
+.shopify-section--multi-shizen .h2{
+    font-size: 32px;
+    color: #144503;
+}
+.shopify-section--multi-shizen .h3{
+    font-size: 18px;
+}
+@media only screen and (max-width: 768px){
+    .shopify-section--multi-shizen .only_sp{
+        display: block!important;
+    }
+    .shopify-section--multi-shizen .only_pc{
+        display: none!important;
+    }
+    .shopify-section--multi-shizen .multi-column__item{
+        flex-direction: column;
+        gap: 0;
+    }
+    .shopify-section--multi-shizen .colum50{
+        width: 100%;
+    }
+    .shopify-section--multi-shizen .multi-column {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .shopify-section--multi-shizen .multi-column__item > div.colum50{
+        padding: 25px 25px 35px 25px;
+    }
+    .shopify-section--multi-shizen .h2{
+        font-size: 18px;
+    }
+}
+
 /* ストーリー */
 .shopify-section--blog-posts h2{
     position: relative;

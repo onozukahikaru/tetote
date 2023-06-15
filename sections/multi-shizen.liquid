@@ -47,7 +47,7 @@
 
               {%- if media_content != blank -%}
                 {%- if block.type == 'image_with_text' and block.settings.link_url != blank -%}
-                  <a href="{{ block.settings.link_url }}" class="overflow-hidden">
+                  <a href="{{ block.settings.link_url }}" class="overflow-hidden colum50">
                     <div class="only_pc">{{- media_content -}}</div>
                     <div class="only_sp">
                       <img src="{{ block.settings.image_sp | img_url: 'master' }}" />
@@ -61,7 +61,7 @@
               {%- endif -%}
 
               {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
-                <div class="prose text-{{ section.settings.text_alignment }}">
+                <div class="prose text-{{ section.settings.text_alignment }} colum50">
                   {%- if block.settings.title != blank -%}
                     <p class="{{ block.settings.heading_tag }}">{{ block.settings.title }}</p>
                   {%- endif -%}
@@ -69,7 +69,7 @@
                   {{- block.settings.content -}}
 
                   {%- if block.settings.link_text != blank -%}
-                    <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text | escape }}</a>
+                    <a href="{{ block.settings.link_url }}" class="button340 button">{{ block.settings.link_text | escape }}</a>
                   {%- endif -%}
                 </div>
               {%- endif -%}
