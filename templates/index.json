@@ -258,6 +258,58 @@
         "content": ""
       }
     },
+    "3a0c540f-9ec3-4e6b-913f-2c146cd38f64": {
+      "type": "multi-shizen",
+      "blocks": {
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-0": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-1": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-2": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-0",
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-1",
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "わたしたちの生活に身近などうぶつたちや\u000bしぜんの物語をお届けします。",
+        "content": ""
+      }
+    },
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c": {
       "type": "blog-posts",
       "custom_css": [
@@ -393,6 +445,7 @@
     "0ab777a5-d824-41bd-a67d-4fb162a1ff50",
     "5583c2cd-4130-4776-ad38-fa01abae391d",
     "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5",
+    "3a0c540f-9ec3-4e6b-913f-2c146cd38f64",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
     "2363f99a-ddc2-419b-8052-b4acf75e2a42",
     "65f69fc7-b9ec-40fc-99b3-f17688556210",
