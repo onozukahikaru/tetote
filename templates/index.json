@@ -264,11 +264,13 @@
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-0": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "image": "shopify:\/\/shop_images\/DSC07206_4.png",
+            "image_sp": "shopify:\/\/shop_images\/DSC07206.png",
+            "title": "てとて、家庭どうぶつ（コンパニオンアニマル）",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "content": "<p>私たちは、社会環境の変化に伴って、動物が愛玩の対象としてでなく、人間と対等な交友関係を結べる存在であり、どうぶつの権利が守れれるように、ペット（愛玩動物）という呼び方ではなく新たな文化を発信していきます。<\/p>",
+            "link_url": "#",
+            "link_text": "ストーリーを見る"
           }
         },
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-1": {
