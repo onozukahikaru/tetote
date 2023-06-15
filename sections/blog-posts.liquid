@@ -8,7 +8,7 @@ LIQUID
     <div class="section-stack swiper">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
 
-      <blog-posts class="swiper-wrapper blog-post-list justify-center {% unless section.settings.stack_on_mobile %}blog-post-list--carousel scroll-area snap-x bleed md:unbleed{% endunless %}" {% if settings.stagger_blog_posts_apparition %}reveal-on-scroll="true"{% endif %}>
+      <blog-posts class="swiper-wrapper blog-post-list {% unless section.settings.stack_on_mobile %}blog-post-list--carousel {% endunless %}" {% if settings.stagger_blog_posts_apparition %}reveal-on-scroll="true"{% endif %}>
         {%- capture sizes -%}(max-width: 699px) 95vw, (max-width: 1149px) calc(100vw / 2), calc((80rem - (5rem * ({{ section.settings.blog.articles_count | default: 3 | at_most: 3 }} - 1) / 3){%- endcapture -%}
 
         {%- for article in section.settings.blog.articles limit: section.settings.posts_count -%}
@@ -26,9 +26,9 @@ LIQUID
           {%- render 'button', href: button_link, content: section.settings.button_text -%}
         </div>
       {%- endif -%}
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>  
     </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>  
   </div>
 </div>
 
@@ -130,18 +130,22 @@ LIQUID
 {% endschema %}
 
 {% javascript %}
-const swiper = new Swiper(".swiper", {
-  slidesPerView: 1,
-  centeredSlides: false,
-  breakpoints: {
-    769: {
-      slidesPerView: 3,
-      centeredSlides: false,
-    }
-  },
+const mySwiper = new Swiper('.swiper', {
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  }
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  slidesPerView: 'auto',
+  spaceBetween: 20,
+  freeMode: true,
+  freeModeSticky: true,
+  touchRatio: .03,
+  grabCursor: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
 });
 {% endjavascript %}
