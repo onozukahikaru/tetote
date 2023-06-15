@@ -276,11 +276,13 @@
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-1": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "image": "shopify:\/\/shop_images\/4ccbcabd98187aa37f973f23bb4625d2.png",
+            "image_sp": "shopify:\/\/shop_images\/44772dce18732d325dafead7a3867c28.png",
+            "title": "てとて、畜産どうぶつ",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "content": "<p>私たち緑の森グループは2022年より、アニマルウェルフェア畜産協会に参加させていただきました。\u000bただの経済（産業）どうぶつとして捉えるのではなく、畜産どうぶつの福祉もしっかりと守りられるように北海道の酪農家の方々と手を取り合い、活動していきます。<\/p>",
+            "link_url": "#",
+            "link_text": "ストーリーを見る"
           }
         },
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-2": {
