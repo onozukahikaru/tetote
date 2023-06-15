@@ -379,7 +379,7 @@
         "83d55639-b03b-4b8f-ab39-6c73144b76d4": {
           "type": "button",
           "settings": {
-            "style": "solid",
+            "style": "outline",
             "text": "",
             "url": "shopify:\/\/pages\/contact",
             "background": "",
