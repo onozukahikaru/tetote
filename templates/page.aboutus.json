@@ -4,7 +4,7 @@
       "type": "main-page",
       "settings": {
         "show_title": true,
-        "page_width": "xs"
+        "page_width": "full"
       }
     },
     "c5bd5252-54da-44f8-a64e-c930722a1967": {
