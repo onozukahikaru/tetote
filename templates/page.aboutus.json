@@ -3,10 +3,31 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "c5bd5252-54da-44f8-a64e-c930722a1967": {
+      "type": "image-with-banner",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/banner_greenshapers.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_greenshapers_sp.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "link1": "#",
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c5bd5252-54da-44f8-a64e-c930722a1967"
   ]
 }
