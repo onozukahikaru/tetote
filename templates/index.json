@@ -296,12 +296,25 @@
             "link_url": "#",
             "link_text": "ストーリーを見る"
           }
+        },
+        "40547ed7-d169-463b-bf82-f23440263b26": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iStock-596388360.png",
+            "image_sp": "shopify:\/\/shop_images\/iStock.png",
+            "title": "てとて、しぜん",
+            "heading_tag": "h3",
+            "content": "<p>大雪山系に囲まれた自然都市旭川に暮らしていると、自然と動物がとても身近です。<br\/>SDGsと謳われる今、この地球に暮らす生き物たちが、持続的に暮らしていける未来のために分野を越えて対話をしていきます。<\/p>",
+            "link_url": "#",
+            "link_text": "ストーリーを見る"
+          }
         }
       },
       "block_order": [
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-0",
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-1",
-        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-2"
+        "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-2",
+        "40547ed7-d169-463b-bf82-f23440263b26"
       ],
       "settings": {
         "separate_section_with_border": true,
