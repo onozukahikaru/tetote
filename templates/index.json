@@ -385,11 +385,19 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "38bd32f1-3d96-493c-9872-3abb4bdab094": {
+          "type": "link",
+          "settings": {
+            "text": "",
+            "url": "shopify:\/\/pages\/contact"
+          }
         }
       },
       "block_order": [
         "template--19100854059313__65f69fc7-b9ec-40fc-99b3-f17688556210-1686224077be83e4e2-0",
-        "83d55639-b03b-4b8f-ab39-6c73144b76d4"
+        "83d55639-b03b-4b8f-ab39-6c73144b76d4",
+        "38bd32f1-3d96-493c-9872-3abb4bdab094"
       ],
       "settings": {
         "image_size": "auto",
