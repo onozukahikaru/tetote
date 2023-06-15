@@ -288,11 +288,13 @@
         "template--19100854059313__3a0c540f-9ec3-4e6b-913f-2c146cd38f64-16867897747f983705-2": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "image": "shopify:\/\/shop_images\/IMG_2384.png",
+            "image_sp": "shopify:\/\/shop_images\/IMG.png",
+            "title": "てとて、野生どうぶつ",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "content": "<p>緑の森どうぶつ病院では今まで、医療を通じる様々な野生どうぶつの命を救ってきました。（野生動物鳥獣病院）\u000b人手が触れた野生どうぶつをどのように見つめ、私たちと共生していくのか、様々な視点から考えていきます。<\/p>",
+            "link_url": "#",
+            "link_text": "ストーリーを見る"
           }
         }
       },
