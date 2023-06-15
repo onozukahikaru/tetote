@@ -728,7 +728,7 @@ p.h2{
 
 /* Green Shapers */
 @media only screen and (min-width: 769px){
-    .shopify-section--image-with-banner a{
+    .shopify-section--image-with-banner{
         position: relative;
     }
     .shopify-section--image-with-banner a::before{
@@ -748,7 +748,7 @@ p.h2{
         z-index: 2;
     }
     /*hoverした際の移動*/
-    .shopify-section--image-with-banner a:hover::before{
+    .shopify-section--image-with-banner:hover a::before{
         right:25%;
     }
 }
