@@ -470,6 +470,44 @@ p.h2{
     }
 }
 
+/* one health project */
+.shopify-section--health .flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopify-section--health .h2{
+    text-align: left;
+    font-size: 28px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+.shopify-section--health .h2::before{
+    content: '';
+    width: 85px;
+    height: 105px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_earth.png?v=1686530170);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+.shopify-section--health .flexbox .upper > div p{
+   text-align: left;
+   max-width: 560px;
+   line-height: 2rem;
+}
+@media only screen and (max-width: 768px){
+    .shopify-section--health .flexbox{
+        flex-direction: column;
+    }
+    .shopify-section--health .h2{
+        font-size: 21px;
+    }
+}
+
 /* しぜんの物語 */
 .shopify-section--multi-shizen .only_sp{
     display: none!important;
@@ -647,6 +685,33 @@ p.h2{
     .shopify-section--news a.button,
     .shopify-section--news .justify-self-center{
         max-width: none;
+    }
+}
+
+/* Green Shapers */
+@media only screen and (min-width: 769px){
+    .shopify-section--image-with-banner a{
+        position: relative;
+    }
+    .shopify-section--image-with-banner a::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        right:28%;
+        width: 275px;
+        height: 45px;
+        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/bigarrow.png?v=1686797563);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transition: all .3s;
+        z-index: 2;
+    }
+    /*hoverした際の移動*/
+    .shopify-section--image-with-banner a:hover::before{
+        right:25%;
     }
 }
 
