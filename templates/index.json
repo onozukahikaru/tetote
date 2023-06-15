@@ -465,7 +465,7 @@
             "content": "",
             "link_text": "",
             "link_url": "#",
-            "link_style": "link",
+            "link_style": "outline",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "button_background": "",
@@ -500,7 +500,7 @@
         "template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94-168622420749f4475c-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "desktop_row_height": 130,
         "mobile_row_height": 100,
         "section_width": "sm",
