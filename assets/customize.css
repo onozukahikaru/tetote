@@ -955,6 +955,9 @@ p.h2{
     margin-bottom: 30px;
     line-height: 1.8rem;
 }
+.section_01 .only_sp{
+    display: none;
+}
 .section_box .only_sp{
     display: none;
 }
@@ -1109,6 +1112,9 @@ p.h2{
         top: 20px;
         margin: 0 auto;
         margin: calc(50% - 50vw);    
+    }
+    .section_01 .only_sp{
+        display: block;
     }
     .section_box .only_sp{
         display: block;
