@@ -40,16 +40,6 @@
     },
     "168675426338f6d1c8": {
       "type": "apps",
-      "blocks": {
-        "9cfca185-b92f-4b9e-819e-7f080153d22c": {
-          "type": "shopify:\/\/apps\/related-blog-posts-pro\/blocks\/app-block\/7e18cab2-c869-4042-bc07-288e9bb4e22d",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "9cfca185-b92f-4b9e-819e-7f080153d22c"
-      ],
       "settings": {
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
