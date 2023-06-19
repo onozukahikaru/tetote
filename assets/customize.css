@@ -262,6 +262,10 @@ p.h2{
     .header-sidebar__collapsible-panel{
         position: relative;
     }
+    .header-sidebar__collapsible-panel .header-sidebar__scroller{
+        padding-inline-start: 10px;
+        padding-inline-end: 0;
+    }
     .header-sidebar__linklist-button.toggleopen .icon-plus{
         display: none;
         transition: 0.3;
@@ -285,7 +289,12 @@ p.h2{
         padding-inline-start: 0;
         padding-inline-end: 0;
     }
-
+    .header-sidebar__linklist > li > .header-sidebar__linklist-button{
+        font-size: 16px;
+    }
+    .header-sidebar__sub-panel .header-sidebar__linklist li a{
+        font-size: 13px;
+    }
 }
 
 /* MV */
