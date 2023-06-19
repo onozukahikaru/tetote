@@ -162,6 +162,9 @@ p.h2{
         top: -18px;
         left: 0;
     }
+    .no-child .icon-chevron-down{
+        display: none;
+    }
     
 }
 @media only screen and (max-width: 768px){
@@ -256,6 +259,33 @@ p.h2{
     .header-sidebar:has(.header-sidebar__linklist-button[aria-expanded])::part(false) + .header-sidebar__collapsible-panel {
         display: none;
     }
+    .header-sidebar__collapsible-panel{
+        position: relative;
+    }
+    .header-sidebar__linklist-button.toggleopen .icon-plus{
+        display: none;
+        transition: 0.3;
+    }
+    .header-sidebar__linklist-button .icon-minus{
+        display: none;
+        transition: 0.3;
+    }
+    .header-sidebar__linklist-button.toggleopen .icon-minus{
+        display: block;
+        transition: 0.3;
+    }
+    .header-sidebar__footer:before{
+        content: none;
+    }
+    .header-sidebar__main-panel .header-sidebar__scroller > .header-sidebar__linklist{
+        margin-bottom: 30px;
+        border-bottom: 1px solid #144503;
+    }
+    .header-sidebar__footer {
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+    }
+
 }
 
 /* MV */
@@ -299,6 +329,16 @@ p.h2{
     font-size: 20px;
     font-weight: bold;
     color: #144503;
+}
+.shopify-section--image-with-text-overlay:first-child image-with-text-overlay::after{
+    content: "";
+    height: 2.5rem;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(var(--drawer-background)));
+    position: absolute;
+    inset-block-end: 100%;
+    inset-inline-start: 0;
+    bottom: 0;
 }
 @media only screen and (max-width: 768px){
     .shopify-section--image-with-text-overlay:first-child .content-over-media:before{
