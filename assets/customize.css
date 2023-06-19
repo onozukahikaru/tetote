@@ -798,6 +798,11 @@ p.h2{
     }
 }
 
+/* banner */
+#shopify-section-template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94 .media-grid img{
+    object-fit: contain;
+}
+
 /* footer */
 .footer__block-list .footer__block{
     width: 100%;
