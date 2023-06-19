@@ -403,46 +403,16 @@
         "button_text": "VIEW MORE"
       }
     },
-    "65f69fc7-b9ec-40fc-99b3-f17688556210": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--19100854059313__65f69fc7-b9ec-40fc-99b3-f17688556210-1686224077be83e4e2-0": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h4"
-          }
-        },
-        "83d55639-b03b-4b8f-ab39-6c73144b76d4": {
-          "type": "button",
-          "settings": {
-            "style": "outline",
-            "text": "",
-            "url": "shopify:\/\/pages\/contact",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "38bd32f1-3d96-493c-9872-3abb4bdab094": {
-          "type": "link",
-          "settings": {
-            "text": "",
-            "url": "shopify:\/\/pages\/contact"
-          }
-        }
-      },
-      "block_order": [
-        "template--19100854059313__65f69fc7-b9ec-40fc-99b3-f17688556210-1686224077be83e4e2-0",
-        "83d55639-b03b-4b8f-ab39-6c73144b76d4",
-        "38bd32f1-3d96-493c-9872-3abb4bdab094"
-      ],
+    "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2": {
+      "type": "image-with-banner",
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner_greenshapers.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/banner_greenshapers_sp.jpg",
+        "image": "shopify:\/\/shop_images\/greenshapers_pc_2x_5a9717d4-c2d8-422b-98cd-700d22ac6390.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/greenshapers_sp_2x_ba76d415-68f7-4b93-a17c-82d74625b984.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
+        "link1": "#",
         "content_width": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -477,7 +447,7 @@
         "template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94-168622420749f4475c-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_tetote.png",
+            "image": "shopify:\/\/shop_images\/npo_2x_20829f97-9c5e-4ee5-991a-2ffb4fa28658.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -511,24 +481,6 @@
         "background": "",
         "text_color": ""
       }
-    },
-    "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2": {
-      "type": "image-with-banner",
-      "settings": {
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner_greenshapers.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/banner_greenshapers_sp.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": false,
-        "link1": "#",
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -542,8 +494,7 @@
     "3a0c540f-9ec3-4e6b-913f-2c146cd38f64",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
     "2363f99a-ddc2-419b-8052-b4acf75e2a42",
-    "65f69fc7-b9ec-40fc-99b3-f17688556210",
-    "f5ec3781-5265-448c-8d98-af0d2794df94",
-    "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2"
+    "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2",
+    "f5ec3781-5265-448c-8d98-af0d2794df94"
   ]
 }
