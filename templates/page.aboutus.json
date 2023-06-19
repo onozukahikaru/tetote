@@ -11,8 +11,8 @@
       "type": "image-with-banner",
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/banner_greenshapers.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/banner_greenshapers_sp.jpg",
+        "image": "shopify:\/\/shop_images\/greenshapers_pc_2x_5a9717d4-c2d8-422b-98cd-700d22ac6390.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/greenshapers_sp_2x_ba76d415-68f7-4b93-a17c-82d74625b984.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
