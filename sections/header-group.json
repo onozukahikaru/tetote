@@ -83,13 +83,28 @@
             "image_2_text": "",
             "image_2_link": ""
           }
+        },
+        "843990ae-ca62-4202-83b3-115ca24e522b": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "わたしたちについて",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/360beb7313492d5f7d8bbc05aeee2192.png",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
         }
       },
       "block_order": [
         "0353515b-04bf-417a-8de8-f1b12c085914",
         "af3f32f2-980b-49ce-bd87-44552f8b5f15",
         "e115be55-8279-40e3-ba35-aa3e8dad3a2a",
-        "90ecb62e-ff51-4d5b-96ed-3d999dace03a"
+        "90ecb62e-ff51-4d5b-96ed-3d999dace03a",
+        "843990ae-ca62-4202-83b3-115ca24e522b"
       ],
       "custom_css": [
         "nav.header__primary-nav > ul > li:nth-last-child(2) {border-left: 1px solid #144503; padding-left: 30px;}"
