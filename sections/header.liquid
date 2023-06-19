@@ -127,7 +127,7 @@
               %}
 
               <li class="header__primary-nav-item" data-title="{{ link.title | escape }}">
-                {%- if link.levels == 0 and mega_menu_block == '' -%}
+                {%- if link.levels == 0 -%}
                   <a href="{{ link.url }}" class="block h6" {% if link.current %}aria-current="page"{% endif %}>{{ link.title }}</a>
                 {%- else -%}
                   <details is="{% if mega_menu_block != '' %}mega-menu-disclosure{% else %}dropdown-menu-disclosure{% endif %}" class="header__menu-disclosure{% if link.levels == 0 %} no-child{%- endif -%}" {%- for sub_link in link.links -%}{%- if sub_link.levels != '' -%}follow-summary-link trigger="{{ section.settings.menu_open_trigger }}"{%- endif -%}{%- endfor -%}>
