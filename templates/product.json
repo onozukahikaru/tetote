@@ -100,7 +100,9 @@
         "description"
       ],
       "custom_css": [
-
+        ".button {max-width: initial;}",
+        "sale-price {font-size: 150%; color: #000; font-weight: 700;}",
+        "div[data-block-type=\"description\"] {font-weight: 500;}"
       ],
       "settings": {
         "container_size": "lg",
