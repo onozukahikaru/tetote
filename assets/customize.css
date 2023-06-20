@@ -1618,11 +1618,11 @@ body.product-page .shopify-section--image-with-text-overlay,
 body.product-page .shopify-section--image-with-text {
   max-width: 1300px;
   margin: 0 auto;
+}
+body.product-page .shopify-section--image-with-text-overlay .section-spacing:not(.section-spacing--padded),
+body.product-page .shopify-section--image-with-text .section-spacing:not(.section-spacing--padded) {
   margin-block-start: 0;
   margin-block-end: 0;
-}
-body.product-page .section-spacing:not(.section-spacing--padded) {
-
 }
 body.product-page .shopify-section--recently-viewed-products,
 body.product-page .shopify-section--related-products {
