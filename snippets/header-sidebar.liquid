@@ -18,7 +18,6 @@ Supported variables
 IMPLEMENTATION NOTE: while being a drawer, the sidebar has a completely different structure for the content. We are
 therefore using a different structure for the Shadow DOM template
 {%- endcomment -%}
-{%- assign image_setting = 'image_' | append: i -%}
 
 <template id="header-sidebar-template">
   <div part="base">
@@ -51,6 +50,31 @@ therefore using a different structure for the Shadow DOM template
       <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
         {%- for link in menu.links -%}
           <li>
+            {%- liquid
+              assign link_title_downcase = link.title | strip | downcase
+              assign mega_menu_block = ''
+
+              for block in section.blocks
+                assign menu_item_downcase = block.settings.menu_item | strip | downcase
+
+                if menu_item_downcase == link_title_downcase
+                  assign mega_menu_block = block
+                  break
+                endif
+
+              endfor
+            -%}
+
+            {%- capture mega_menu_content -%}
+              {%- render 'mega-menu-images', context: 'sidebar', block: mega_menu_block -%}
+            {%- endcapture -%}
+              
+            {%- if mega_menu_content != blank -%}
+              <div class="header-sidebar__promo">
+                {{- mega_menu_content -}}
+              </div>
+            {%- endif -%}
+
             {%- if link.links.size > 0 -%}              
               <button type="button" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" aria-controls="header-panel-{{ forloop.index }}" aria-expanded="false">
                 {{- link.title -}}
@@ -66,7 +90,7 @@ therefore using a different structure for the Shadow DOM template
 
                       <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
                         {%- for sub_link in link.links -%}
-                          <li>  
+                          <li>
                             {%- if sub_link.links.size > 0 -%}
                               <details is="accordion-disclosure" class="group">
                                 <summary class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
@@ -89,30 +113,6 @@ therefore using a different structure for the Shadow DOM template
                         {%- endfor -%}
                       </ul>
 
-                      {%- liquid
-                        assign link_title_downcase = link.title | strip | downcase
-                        assign mega_menu_block = ''
-
-                        for block in section.blocks
-                          assign menu_item_downcase = block.settings.menu_item | strip | downcase
-
-                          if menu_item_downcase == link_title_downcase
-                            assign mega_menu_block = block
-                            break
-                          endif
-
-                        endfor
-                      -%}
-
-                      {%- capture mega_menu_content -%}
-                        {%- render 'mega-menu-images', context: 'sidebar', block: mega_menu_block -%}
-                      {%- endcapture -%}
-                        
-                      {% comment %} {%- if mega_menu_content != blank -%}
-                        <div class="header-sidebar__promo scroll-area bleed md:unbleed">
-                          {{- mega_menu_content -}}
-                        </div>
-                      {%- endif -%} {% endcomment %}
                     </div>
                   </div>
                 </header-sidebar-collapsible-panel>
