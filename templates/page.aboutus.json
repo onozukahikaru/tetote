@@ -9,6 +9,7 @@
     },
     "c5bd5252-54da-44f8-a64e-c930722a1967": {
       "type": "image-with-banner",
+      "disabled": true,
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/greenshapers_pc_2x_5a9717d4-c2d8-422b-98cd-700d22ac6390.jpg",
