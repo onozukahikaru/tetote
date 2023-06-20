@@ -1611,6 +1611,10 @@ p.h2{
 .shopify-section--recently-viewed-products .container{
     max-width: 1300px;
 }
+.shopify-section--related-products .container {
+    max-width: 1300px;
+}
+
 @media only screen and (max-width: 999px){
     .shopify-section--recently-viewed-products .container{
         margin: 0 0 0 25px;
