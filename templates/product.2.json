@@ -207,30 +207,30 @@
     "22b652cd-4b03-445a-a5a3-0072104bda1c": {
       "type": "image-with-text",
       "blocks": {
-        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-1": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "開発者の声",
             "heading_tag": "h1"
           }
         },
         "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>どうぶつたちが目をキラキラさせながら食べる風景はまさにしあわせの原点！<br\/>てとて、ぺっとのごはんの商品は、動物病院の目線を取り入れた「身体に良くておいしい」がコンセプトです。AAFCOの国際的な栄養基準に沿って設計されており、原材料は“北海道産のお肉、お魚や野菜”にこだわり、また多種類の機能性食品も配合しています。主原料であるエゾ鹿肉は高たんぱく低脂肪、また核酸を含んでいる鮭の白子などを多用し、これからの効果によりシニアからパピーまでどのステージのワンちゃんにも安心してあげられます。<\/p>"
+          }
+        },
+        "de22e460-48fd-49c1-82a3-1a886b09eb5b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>ペットインストラクター／ペット栄養管理士<br\/>保久 留美子<\/strong><\/p>"
           }
         }
       },
       "block_order": [
-        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-0",
         "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-1",
-        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-2"
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-2",
+        "de22e460-48fd-49c1-82a3-1a886b09eb5b"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -245,6 +245,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_5_1100x_82a87bd0-9638-40c0-8301-ba8b4b12bde5.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -260,6 +261,42 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_7_1100x_e3b200ea-3837-4e13-84bd-24940ad180fe.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "03dc5cae-1b6d-4115-9700-72248af28b51": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-0": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-0",
+        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-1"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_6_1100x_f54232b9-2b70-4fcc-a539-3de42bc96e7f.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -317,6 +354,7 @@
     "22b652cd-4b03-445a-a5a3-0072104bda1c",
     "2229d27d-8f1e-43dd-96c6-0bd2fdedb40e",
     "b961ae8a-3394-43a9-bd11-da9e10bcb1ff",
+    "03dc5cae-1b6d-4115-9700-72248af28b51",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
