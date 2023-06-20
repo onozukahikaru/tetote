@@ -1246,8 +1246,8 @@
         "popup": {
           "name": "Popup",
           "instructions": "Popup",
-          "text": "Text",
-          "page": "Page"
+          "link_text": "Text",
+          "popup_page": "Page"
         }
       }
     },
