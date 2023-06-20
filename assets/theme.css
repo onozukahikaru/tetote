@@ -338,7 +338,8 @@ height-observer {
   align-items: center;
   column-gap: 1.125rem;
   padding: .65rem 1.75rem;
-  transition: background-size .45s cubic-bezier(.785, .135, .15, .86), background-position .45s step-end, color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86);
+  /* transition: background-size .45s cubic-bezier(.785, .135, .15, .86), background-position .45s step-end, color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86); */
+  transition: .45s;
   display: inline-flex;
   position: relative;
 }
@@ -367,7 +368,8 @@ height-observer {
     border-color: rgb(var(--button-background, var(--button-background-primary)));
     color: rgb(var(--button-background, var(--button-background-primary)));
     background-position: var(--hover-background-position);
-    background-size: 0 100%, 100% 100%;
+    background-size: 100% 100%, 100% 100%;
+    background: white;
   }
 
   .features--button-transition .shopify-payment-button__button--unbranded:not([disabled]):hover {
