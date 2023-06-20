@@ -1557,6 +1557,19 @@ p.h2{
     }
 }
 
+/* 商品詳細 */
+.product .button {
+  max-width: initial;
+}
+.product sale-price {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 700;
+}
+.product div[data-block-type="description"] {
+  font-weight: 500;
+}
+
 /* その他 */
 .shopify-section--recently-viewed-products .container{
     max-width: 1300px;
