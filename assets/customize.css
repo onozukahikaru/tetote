@@ -1611,7 +1611,8 @@ body.product .shopify-section--main-product div[data-block-type="popup"] button 
   font-weight: 500;
   font-size: 0.9rem;
 }
-body.product .shopify-section--image-with-text-overlay {
+body.product .shopify-section--image-with-text-overlay,
+body.product .shopify-section--image-with-text {
   max-width: 1300px;
   margin: 0 auto;
 }
