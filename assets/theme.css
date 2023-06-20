@@ -367,9 +367,8 @@ height-observer {
   .features--button-transition :is(.button, .shopify-challenge__button, .shopify-payment-button__button--unbranded):not([disabled]):hover {
     border-color: rgb(var(--button-background, var(--button-background-primary)));
     color: rgb(var(--button-background, var(--button-background-primary)));
-    background-position: var(--hover-background-position);
-    background-size: 100% 100%, 100% 100%;
-    background: white;
+    /* background-position: var(--hover-background-position); */
+    background-size: 0 100%, 100% 100%;
   }
 
   .features--button-transition .shopify-payment-button__button--unbranded:not([disabled]):hover {
@@ -378,6 +377,14 @@ height-observer {
 
   .features--button-transition .button--outline:not([disabled]):hover {
     color: rgb(var(--button-text-color, var(--button-text-primary)));
+  }
+
+  .features--button-transition :is(.button):not([disabled]):hover {
+    border-color: rgb(var(--button-background, var(--button-background-primary)));
+    color: rgb(var(--button-background, var(--button-background-primary)));
+    background-position: var(--hover-background-position);
+    background-size: 100% 100%, 100% 100%;
+    background: white;
   }
 }
 
