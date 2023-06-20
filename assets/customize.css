@@ -66,7 +66,7 @@ p.h2{
     line-height: 1;
     padding: 7px 20px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section-spacing:not(.section-spacing--padded) {
         margin-block-start: 80px;
         margin-block-end: 80px
@@ -150,7 +150,7 @@ p.h2{
     width: 120px;
     flex: auto;
 }
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 1000px){
     .header__primary-nav{
         position: relative;
         width: 100vw;
@@ -170,7 +170,7 @@ p.h2{
     }
     
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .header-sidebar::part(content){
         max-width: none;
     }
@@ -345,7 +345,7 @@ p.h2{
 #shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .prose {
     border: 2px solid #144503;
     border-radius: 15px;
-    padding: 40px 100px;
+    padding: 40px 8%;
 }
 #shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .container {
     margin: 0 auto;
@@ -365,7 +365,7 @@ p.h2{
     inset-inline-start: 0;
     bottom: 0;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-section--image-with-text-overlay:first-child .content-over-media:before{
         background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background_489ac592-5ace-4a3a-a6ff-6a5a23e6bb47.jpg?v=1686717365);
         background-repeat: repeat-x;
@@ -417,13 +417,19 @@ p.h2{
 #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list{
     gap: 65px 30px;
 }
-@media only screen and (max-width: 768px){
+#shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .section-stack{
+    gap: 55px;
+}
+@media only screen and (max-width: 999px){
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container{
         margin: 0 25px;
     }
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list:not(.product-list--carousel){
         margin-inline: 0;
         gap: 25px 10px;
+    }
+    #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .section-stack{
+        gap: 40px;
     }
 }
 
@@ -434,7 +440,7 @@ p.h2{
 .shopify-section--about .prose{
     background: white;
     border-radius: 15px;
-    padding: 60px 300px 90px;
+    padding: 60px 22.5% 90px;
     
 }
 .shopify-section--about .container{
@@ -525,7 +531,7 @@ p.h2{
     right: -220px;
     transform: scale(-1, 1);
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-section--about .prose{
         padding: 40px 25px;
     }
@@ -618,7 +624,7 @@ p.h2{
    line-height: 2rem;
    font-size: 18px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-section--health .flexbox{
         flex-direction: column;
     }
@@ -680,7 +686,7 @@ p.h2{
     margin-block-start: 0!important;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-section--multi-shizen .container{
         margin: 0 25px;
     }
@@ -731,7 +737,6 @@ p.h2{
     padding:0 60px;
     position: relative;
     max-width: 1420px;
-    margin: 0 auto;
 }
 .swiper-wrapper.blog-post-list{
     gap: unset;
@@ -757,7 +762,10 @@ p.h2{
     display: inline-block;
     margin-right: 12px;
 }
-@media only screen and (min-width: 769px){
+.shopify-section--blog-posts .swiper{
+    gap: 40px;
+}
+@media only screen and (min-width: 1000px){
     .swiper-button-prev,
     .swiper-button-next{
         top: 28%;
@@ -781,12 +789,9 @@ p.h2{
         right: 0;
     }    
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-section--blog-posts .container{
         padding: 0px;
-    }
-    .swiper-wrapper.blog-post-list{
-        margin-left: 25px;
     }
     .swiper-slide{
         max-width: 260px;
@@ -834,7 +839,10 @@ p.h2{
     max-width: 340px;
     min-height: 56px;
 }
-@media only screen and (max-width: 768px){
+.shopify-section--news .section-stack{
+    gap: 55px;
+}
+@media only screen and (max-width: 999px){
     .shopify-section--news .container{
         max-width: none;
         padding: 0 25px;
@@ -846,13 +854,16 @@ p.h2{
         margin-right: 0;
         margin-bottom: 8px;
     }
+    .shopify-section--news .section-stack{
+        gap: 40px;
+    }
 }
 
 /* Green Shapers */
 .shopify-section--image-with-banner .section-spacing{
     margin-bottom: 30px;
 }
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 1000px){
     .shopify-section--image-with-banner{
         position: relative;
     }
@@ -894,6 +905,7 @@ p.h2{
 .footer__block-list .footer__block{
     width: 100%;
     max-width: 590px;
+    flex-basis: 37em;
 }
 .footer__block-list{
     column-gap: 3.75rem;
@@ -908,7 +920,7 @@ p.h2{
     height: 174px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 53%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1013,7 +1025,7 @@ p.h2{
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
 }
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 1000px){
     .footer__block .unstyled-list.list li:nth-child(1),
     .footer__block .unstyled-list.list li:nth-child(4){
         padding-left: 0;
@@ -1027,7 +1039,13 @@ p.h2{
         margin-bottom: 60px;
     }    
 }
-@media only screen and (max-width: 768px){
+@media (min-width: 999px) and (max-width: 1200px){
+    .footer__block-list .footer__block{
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 999px){
     .footer{
         padding-top: 65px;
     }
@@ -1158,12 +1176,13 @@ p.h2{
     margin: 0;
 }
 .section_01 .section_inner{
-    padding-bottom: 980px;
+    padding-bottom: 80%;
 }
 .section_01 .section_box {
     background: white;
     border-radius: 15px;
-    padding: 67px 60px 60px;
+    padding: 67px 5% 60px;
+    width: 100%;
     max-width: 754px;
     display: flex;
     flex-direction: column;
@@ -1191,14 +1210,27 @@ p.h2{
 .section_01 .section_box dl dd p:last-child{
     text-align: right;
 }
-@media only screen and (max-width: 768px){
+@media (min-width: 1000px) and (max-width: 1200px){
+    .section_02 .section_title, 
+    .section_03 .section_title, 
+    .section_04 .section_title, 
+    .section_05 .section_title, 
+    .section_06 .section_title, 
+    .section_07 .section_title{
+        min-width: 20%;
+    }
+    .section_01 .section_inner{
+        padding-bottom: 100%;
+    }
+    .section_01 .section_box {
+        top: 24%;
+    }
+    
+}
+
+@media only screen and (max-width: 999px){
     .pagecontainer{
         padding-top: 35px;
-    }
-    .section_01 .section_box{
-        width: 100%;
-        padding: 40px 25px;
-        top: 12%;
     }
     .section_01 .section_title{
         margin: calc(50% - 50vw);
@@ -1252,6 +1284,7 @@ p.h2{
     }
     .section_01 .only_sp{
         display: block;
+        width: 100vw;
     }
     .section_box .only_sp{
         display: block;
@@ -1260,9 +1293,52 @@ p.h2{
         display: none;
     }
     .section_01 .section_inner{
-        padding-bottom: 1050px;
+        padding-bottom: 90%;
+    }
+    .section_01 .section_box{
+        width: 100%;
+        padding: 40px 25px;
+        top: 30%;
     }
 }
+@media only screen and (max-width: 768px){
+    .section_01 .section_inner{
+        padding-bottom: 120%;
+    }
+    .section_01 .section_box{
+        top: 26%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .section_01 .section_inner{
+        padding-bottom: 200%;
+    }
+    .section_01 .section_box{
+        top: 17%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .section_01 .section_inner{
+        padding-bottom: 250%;
+    }
+    .section_01 .section_box{
+        top: 15%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .section_01 .section_inner{
+        padding-bottom: 310%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .section_01 .section_inner{
+        padding-bottom: 430%;
+    }
+    .section_01 .section_box{
+        top: 10%;
+    }
+}
+
 
 .section_02 .story_list{
     display: flex;
@@ -1328,15 +1404,16 @@ p.h2{
     position: absolute;
     top: -4px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section_02{
         margin-bottom: 80px;
     }
     .section_02 .story_list{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .section_02 .story_list .side{
-        max-width: none;
         padding: 0 50px;
     }
     .section_02 .story_list h3{
@@ -1368,7 +1445,7 @@ p.h2{
     font-weight: bold;
     color: #144503;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section_03 .section_box dl dt {
         font-size: 16px;
     }
@@ -1394,7 +1471,7 @@ p.h2{
     max-width: 550px;
     width: 100%;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section_04{
         padding-top: 80px;
         padding-bottom: 80px;
@@ -1407,7 +1484,7 @@ p.h2{
     font-weight: bold;
     color: #144503;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section_05 .section_box dl dt{
         font-size: 25px;
     }
@@ -1433,7 +1510,7 @@ p.h2{
     font-weight: bold;
     color: #144503;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section_06{
         padding-top: 80px;
         padding-bottom: 80px;
@@ -1461,7 +1538,7 @@ p.h2{
 .section_07 .dao_list:last-child{
     max-width: 220px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .section_07 .section_box ul {
         gap: 85px;
         flex-wrap: wrap;
@@ -1474,7 +1551,7 @@ p.h2{
     font-size: 2rem;
     font-weight: 400;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-policy__title h1{
         font-size: 1.4rem;
     }
@@ -1484,7 +1561,7 @@ p.h2{
 .shopify-section--recently-viewed-products .container{
     max-width: 1300px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 999px){
     .shopify-section--recently-viewed-products .container{
         margin: 0 0 0 25px;
     }
@@ -1494,9 +1571,22 @@ p.h2{
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container,
     .shopify-section--multi-shizen .container,
     .footer .container,
-    .shopify-section--recently-viewed-products .container
+    .shopify-section--recently-viewed-products .container,
+    .shopify-section--blog-posts .container
     {
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1350px){
+    .container--lg,
+    #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container,
+    .shopify-section--multi-shizen .container,
+    .footer .container,
+    .shopify-section--recently-viewed-products .container,
+    .shopify-section--blog-posts .container
+    {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
