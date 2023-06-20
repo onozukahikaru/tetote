@@ -1438,3 +1438,20 @@ p.h2{
         justify-content: center;
     }
 }
+
+/* ポリシー系 */
+.shopify-policy__title h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* その他 */
+.shopify-section--recently-viewed-products .container{
+    max-width: 1300px;
+    margin: auto;
+}
+@media only screen and (max-width: 768px){
+    .shopify-section--recently-viewed-products .container{
+        margin: 0 0 0 25px;
+    }
+}
