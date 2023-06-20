@@ -153,45 +153,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "5583c2cd-4130-4776-ad38-fa01abae391d": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-1": {
-          "type": "heading",
-          "settings": {
-            "text": "てとて、One Health Project",
-            "heading_tag": "h2"
-          }
-        },
-        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>One Health Projectでは、商品を購入するだけではなく、そこから様々なOne Health社会活動につながっていく仕組みをテクノロジーの力を借りながら構築していきます。<\/p>"
-          }
-        },
-        "d2a21408-79e5-4b82-866e-7762cdd953c9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/triangle.png",
-            "width_mode": "custom",
-            "max_width": 360,
-            "mobile_max_width": 250
-          }
-        }
-      },
-      "block_order": [
-        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-1",
-        "template--19100854059313__5583c2cd-4130-4776-ad38-fa01abae391d-168621590680feb045-2",
-        "d2a21408-79e5-4b82-866e-7762cdd953c9"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "lg",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
     "96cde627-1142-4e18-b168-0067e4bfbcd3": {
       "type": "one-health",
       "blocks": {
@@ -227,74 +188,6 @@
         "content_width": "lg",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5": {
-      "type": "multi-column",
-      "disabled": true,
-      "blocks": {
-        "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-0": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07206_4.png",
-            "title": "てとて、家庭どうぶつ（コンパニオンアニマル）",
-            "heading_tag": "h4",
-            "content": "<p>私たちは、社会環境の変化に伴って、動物が愛玩の対象としてでなく、人間と対等な交友関係を結べる存在であり、どうぶつの権利が守れるように、ペット（愛玩動物）という呼び方ではなく新たな文化を発信していきます。<\/p>",
-            "link_url": "\/blogs\/stories\/tagged\/家庭どうぶつ",
-            "link_text": "ストーリーを見る"
-          }
-        },
-        "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-1": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4ccbcabd98187aa37f973f23bb4625d2.png",
-            "title": "てとて、畜産どうぶつ",
-            "heading_tag": "h4",
-            "content": "<p>私たち緑の森グループは2022年より、アニマルウェルフェア畜産協会に参加させていただきました。<br\/>ただの経済（産業）どうぶつとして捉えるのではなく、畜産どうぶつの福祉もしっかりと守られるように北海道の酪農家の方々と手を取り合い、活動していきます。<\/p>",
-            "link_url": "\/blogs\/stories\/tagged\/畜産どうぶつ",
-            "link_text": "ストーリーを見る"
-          }
-        },
-        "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-2": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_2384.png",
-            "title": "てとて、野生どうぶつ",
-            "heading_tag": "h4",
-            "content": "<p>緑の森どうぶつ病院では今まで、医療を通じる様々な野生どうぶつの命を救ってきました。（野生動物鳥獣病院）<br\/>人手が触れた野生どうぶつをどのように見つめ、私たちと共生していくのか、様々な視点から考えていきます。<\/p>",
-            "link_url": "\/blogs\/stories\/tagged\/野生どうぶつ",
-            "link_text": "ストーリーを見る"
-          }
-        },
-        "f7e8aff0-a008-49f0-9526-de269f89aae8": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/iStock-596388360.png",
-            "title": "てとて、しぜん",
-            "heading_tag": "h4",
-            "content": "<p>大雪山系に囲まれた自然都市旭川に暮らしていると、自然と動物がとても身近です。<br\/>SDGsと謳われる今、この地球に暮らす生き物たちが、持続的に暮らしていける未来のために分野を超えて対話をしていきます。<\/p>",
-            "link_url": "\/blogs\/stories\/tagged\/しぜん",
-            "link_text": "ストーリーを見る"
-          }
-        }
-      },
-      "block_order": [
-        "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-0",
-        "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-1",
-        "template--19100854059313__f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5-1686217142b9fbca1d-2",
-        "f7e8aff0-a008-49f0-9526-de269f89aae8"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "columns_per_row": 2,
-        "stack_on_mobile": true,
-        "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "start",
-        "spacing": "md",
-        "subheading": "",
-        "title": "わたしたちの生活に身近などうぶつたちやしぜんの物語をお届けします。",
-        "content": ""
       }
     },
     "3a0c540f-9ec3-4e6b-913f-2c146cd38f64": {
@@ -491,9 +384,7 @@
     "53ee0a40-dd88-4145-b7de-c5fa9e68baf2",
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c",
     "0ab777a5-d824-41bd-a67d-4fb162a1ff50",
-    "5583c2cd-4130-4776-ad38-fa01abae391d",
     "96cde627-1142-4e18-b168-0067e4bfbcd3",
-    "f89c3e26-b4b6-4b58-ba0b-6ced88c16bf5",
     "3a0c540f-9ec3-4e6b-913f-2c146cd38f64",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
     "2363f99a-ddc2-419b-8052-b4acf75e2a42",
