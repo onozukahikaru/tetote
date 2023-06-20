@@ -83,6 +83,16 @@
             "collapse_content": false,
             "show_below_gallery": false
           }
+        },
+        "7a2cdc63-933a-414e-a8a5-9d9e22d12770": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "商品詳細",
+            "content": "",
+            "page": "鹿肉詳細"
+          }
         }
       },
       "block_order": [
@@ -97,7 +107,8 @@
         "complementary_products",
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
         "separator",
-        "description"
+        "description",
+        "7a2cdc63-933a-414e-a8a5-9d9e22d12770"
       ],
       "custom_css": [
 
