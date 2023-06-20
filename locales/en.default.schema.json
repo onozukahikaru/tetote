@@ -1242,6 +1242,11 @@
           "name": "More information",
           "instructions": "On desktop, display a link that scroll to extra information below image gallery. If no extra information is specified, this block is automatically hidden.",
           "text": "Text"
+        },
+        "popup": {
+          "name": "Popup",
+          "instructions": "Popup",
+          "text": "Text"
         }
       }
     },
