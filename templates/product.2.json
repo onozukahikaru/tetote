@@ -144,6 +144,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_1_2_1100x_423d5383-5ec5-497b-8297-df68053d7e3e.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -159,6 +160,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_2_1100x_bf419891-927c-4be5-96bb-5d0e6f612637.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -174,6 +176,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_2_1100x_9c280af9-0b66-4830-bb12-c610c3afca28.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -189,6 +192,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_3_1100x_a4dd2c7c-884b-443c-821a-d8317e5ff82d.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -198,6 +202,43 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "22b652cd-4b03-445a-a5a3-0072104bda1c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-0",
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-1",
+        "template--19570879430961__22b652cd-4b03-445a-a5a3-0072104bda1c-1687259731dc43d7b2-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/yasuhisasan.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
       }
     },
     "2229d27d-8f1e-43dd-96c6-0bd2fdedb40e": {
@@ -273,6 +314,7 @@
     "23659116-a98c-4d1e-a12c-2abc186b8276",
     "3dda5b11-ca22-465f-93d0-9ac840115d46",
     "060b2e6d-481e-4c37-94cd-58d52565ddcc",
+    "22b652cd-4b03-445a-a5a3-0072104bda1c",
     "2229d27d-8f1e-43dd-96c6-0bd2fdedb40e",
     "b961ae8a-3394-43a9-bd11-da9e10bcb1ff",
     "related-products",
