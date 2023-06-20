@@ -1612,7 +1612,7 @@ body.product .shopify-section--main-product div[data-block-type="popup"] button 
   font-size: 0.9rem;
 }
 body.product .shopify-section--image-with-text-overlay {
-  max-width: 13000px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
