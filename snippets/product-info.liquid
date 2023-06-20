@@ -505,7 +505,7 @@ Supported variables
            {%- if block.settings.link_text != blank and block.settings.popup_page != blank -%}
               {%- assign modal_id = 'modal-' | append: block.id -%}
 
-              {%- render 'button', content: block.settings.link_title, aria_controls: modal_id, style: "link" -%}
+              {%- render 'button', content: block.settings.link_text, aria_controls: modal_id, style: "link" -%}
               <x-modal id="{{ modal_id | escape }}" class="modal modal--lg">
                 <span class="h5" slot="header">タイトル</span>
 
