@@ -400,6 +400,11 @@ p.h2{
     max-width: 1300px;
     margin: auto;
 }
+@media only screen and (max-width: 768px){
+    #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list:not(.product-list--carousel){
+        margin-inline: 0;
+    }
+}
 
 /* 私たちについて */
 .shopify-section--about {
@@ -649,8 +654,14 @@ p.h2{
 }
 
 @media only screen and (max-width: 768px){
+    .shopify-section--multi-shizen .container{
+        margin: 0 25px;
+    }
     .shopify-section--multi-shizen .only_sp{
         display: block!important;
+    }
+    .shopify-section--multi-shizen .only_sp img{
+        width: 100%;
     }
     .shopify-section--multi-shizen .only_pc{
         display: none!important;
@@ -803,10 +814,6 @@ p.h2{
     .shopify-section--news .news-list-info {
         margin-right: 0;
         margin-bottom: 8px;
-    }
-    .shopify-section--news a.button,
-    .shopify-section--news .justify-self-center{
-        max-width: none;
     }
 }
 
@@ -1004,6 +1011,9 @@ p.h2{
     }
     .footer__block-list::before{
         display: none;
+    }
+    .footer__block--newsletter .form-control{
+        max-width: none;
     }
     .footer__block .unstyled-list.list li:nth-child(1),
     .footer__block .unstyled-list.list li:nth-child(3){
