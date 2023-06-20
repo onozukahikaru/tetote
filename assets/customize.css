@@ -413,7 +413,6 @@ p.h2{
 }
 #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container{
     max-width: 1300px;
-    margin: auto;
 }
 #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list{
     gap: 65px 30px;
@@ -637,7 +636,6 @@ p.h2{
 /* しぜんの物語 */
 .shopify-section--multi-shizen .container{
     max-width: 1300px;
-    margin: auto;
 }
 .shopify-section--multi-shizen .only_sp{
     display: none!important;
@@ -1026,7 +1024,6 @@ p.h2{
     }
     .footer .container{
         max-width: 1300px;
-        margin: 0 auto;
         margin-bottom: 60px;
     }    
 }
@@ -1486,10 +1483,20 @@ p.h2{
 /* その他 */
 .shopify-section--recently-viewed-products .container{
     max-width: 1300px;
-    margin: auto;
 }
 @media only screen and (max-width: 768px){
     .shopify-section--recently-viewed-products .container{
         margin: 0 0 0 25px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .container--lg,
+    #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container,
+    .shopify-section--multi-shizen .container,
+    .footer .container,
+    .shopify-section--recently-viewed-products .container
+    {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
