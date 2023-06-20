@@ -1595,6 +1595,9 @@ p.h2{
 }
 
 /* 商品詳細 */
+body.product .shopify-section--main-product {
+  margin-bottom: 100px;
+}
 body.product .shopify-section--main-product .button {
   max-width: initial;
 }
@@ -1620,7 +1623,7 @@ body.product .section-spacing:not(.section-spacing--padded) {
     margin-block-start: 0;
     margin-block-end: 0;
 }
-
+.
 /* その他 */
 .shopify-section--recently-viewed-products .container{
     max-width: 1300px;
