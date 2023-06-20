@@ -90,6 +90,12 @@
             "link_text": "商品詳細",
             "popup_page": "鹿肉詳細"
           }
+        },
+        "b0fc82f0-bb6f-4a4e-9b86-16b8485929a7": {
+          "type": "more_information",
+          "settings": {
+            "text": "More informs"
+          }
         }
       },
       "block_order": [
@@ -105,7 +111,8 @@
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
         "separator",
         "description",
-        "0349f3d9-119b-4a1f-891d-ed91377608ab"
+        "0349f3d9-119b-4a1f-891d-ed91377608ab",
+        "b0fc82f0-bb6f-4a4e-9b86-16b8485929a7"
       ],
       "custom_css": [
 
