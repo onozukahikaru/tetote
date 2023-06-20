@@ -438,6 +438,9 @@ p.h2{
     padding: 60px 300px 90px;
     
 }
+.shopify-section--about .container{
+    margin: 0 auto;
+}
 .shopify-section--about .prose p{
     line-height: 2;
 }
@@ -579,6 +582,10 @@ p.h2{
         bottom: -40px;
         right: -40px;
     }
+    .shopify-section--about .container{
+        margin: 0 25px;
+    }
+    
 }
 
 /* one health project */
@@ -726,6 +733,7 @@ p.h2{
     padding:0 60px;
     position: relative;
     max-width: 1420px;
+    margin: 0 auto;
 }
 .swiper-wrapper.blog-post-list{
     gap: unset;
@@ -777,7 +785,10 @@ p.h2{
 }
 @media only screen and (max-width: 768px){
     .shopify-section--blog-posts .container{
-        padding:0 10px;
+        padding: 0px;
+    }
+    .swiper-wrapper.blog-post-list{
+        margin-left: 25px;
     }
     .swiper-slide{
         max-width: 260px;
