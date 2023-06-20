@@ -295,6 +295,7 @@ p.h2{
     .header-sidebar__main-panel .header-sidebar__scroller > .header-sidebar__linklist{
         margin-bottom: 30px;
         border-bottom: 1px solid #144503;
+        overflow: hidden;
     }
     .header-sidebar__footer {
         padding-inline-start: 0;
