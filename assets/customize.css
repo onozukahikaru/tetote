@@ -1616,6 +1616,10 @@ body.product .shopify-section--image-with-text {
   max-width: 1300px;
   margin: 0 auto;
 }
+body.product .section-spacing:not(.section-spacing--padded) {
+    margin-block-start: 120px;
+    margin-block-end: 120px
+}
 
 /* その他 */
 .shopify-section--recently-viewed-products .container{
