@@ -1625,7 +1625,7 @@ body.product .section-spacing:not(.section-spacing--padded) {
 }
 body.product .shopify-section--recently-viewed-products,
 body.product .shopify-section--related-products {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 /* その他 */
