@@ -1609,7 +1609,7 @@ p.h2{
 .product div[data-block-type="popup"] button {
   text-decoration: underline;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 /* その他 */
