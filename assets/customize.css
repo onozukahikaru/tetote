@@ -401,6 +401,9 @@ p.h2{
     margin: auto;
 }
 @media only screen and (max-width: 768px){
+    #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container{
+        margin: 0 25px;
+    }
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list:not(.product-list--carousel){
         margin-inline: 0;
     }
@@ -1443,6 +1446,11 @@ p.h2{
 .shopify-policy__title h1{
     font-size: 2rem;
     font-weight: 400;
+}
+@media only screen and (max-width: 768px){
+    .shopify-policy__title h1{
+        font-size: 1.4rem;
+    }
 }
 
 /* その他 */
