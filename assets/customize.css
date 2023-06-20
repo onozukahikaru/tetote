@@ -1595,36 +1595,36 @@ p.h2{
 }
 
 /* 商品詳細 */
-body.product .shopify-section--main-product {
+body.product-page .shopify-section--main-product {
   margin-bottom: 100px;
 }
-body.product .shopify-section--main-product .button {
+body.product-page .shopify-section--main-product .button {
   max-width: initial;
 }
-body.product .shopify-section--main-product sale-price {
+body.product-page .shopify-section--main-product sale-price {
   font-size: 1.5rem;
   color: #000;
   font-weight: 700;
 }
-body.product .shopify-section--main-product div[data-block-type="description"] {
+body.product-page .shopify-section--main-product div[data-block-type="description"] {
   font-weight: 500;
 }
-body.product .shopify-section--main-product div[data-block-type="popup"] button {
+body.product-page .shopify-section--main-product div[data-block-type="popup"] button {
   text-decoration: underline;
   font-weight: 500;
   font-size: 0.9rem;
 }
-body.product .shopify-section--image-with-text-overlay,
-body.product .shopify-section--image-with-text {
+body.product-page .shopify-section--image-with-text-overlay,
+body.product-page .shopify-section--image-with-text {
   max-width: 1300px;
   margin: 0 auto;
 }
-body.product .section-spacing:not(.section-spacing--padded) {
+body.product-page .section-spacing:not(.section-spacing--padded) {
     margin-block-start: 0;
     margin-block-end: 0;
 }
-body.product .shopify-section--recently-viewed-products,
-body.product .shopify-section--related-products {
+body.product-page .shopify-section--recently-viewed-products,
+body.product-page .shopify-section--related-products {
   margin-top: 120px;
 }
 
