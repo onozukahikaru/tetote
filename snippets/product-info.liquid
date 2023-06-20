@@ -507,10 +507,9 @@ Supported variables
 
               {%- render 'button', content: block.settings.link_text, aria_controls: modal_id, style: "link" -%}
               <x-modal id="{{ modal_id | escape }}" class="modal modal--lg">
-                <span class="h5" slot="header">タイトル</span>
+                <span class="h5" slot="header">{{- block.settings.popup_page.title -}}</span>
 
                 <div class="prose">
-                  {{- block.settings.popup_page.title -}}
                   {{- block.settings.popup_page.content -}}
                 </div>
               </x-modal>
