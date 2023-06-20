@@ -1606,6 +1606,9 @@ p.h2{
 .product div[data-block-type="description"] {
   font-weight: 500;
 }
+.product shopify-section--image-with-text-overlay {
+  max-width: 1300px;
+}
 
 /* その他 */
 .shopify-section--recently-viewed-products .container{
