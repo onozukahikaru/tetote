@@ -415,12 +415,16 @@ p.h2{
     max-width: 1300px;
     margin: auto;
 }
+#shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list{
+    gap: 65px 30px;
+}
 @media only screen and (max-width: 768px){
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container{
         margin: 0 25px;
     }
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list:not(.product-list--carousel){
         margin-inline: 0;
+        gap: 25px 10px;
     }
 }
 
