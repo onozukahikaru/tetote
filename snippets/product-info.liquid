@@ -510,7 +510,8 @@ Supported variables
                 <span class="h5" slot="header">タイトル</span>
 
                 <div class="prose">
-                  {{- block.settings.popup_page -}}
+                  {{- block.settings.popup_page.title -}}
+                  {{- block.settings.popup_page.content -}}
                 </div>
               </x-modal>
             {%- endif -%}
