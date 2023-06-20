@@ -1598,6 +1598,10 @@ p.h2{
 body.product-page .shopify-section--main-product {
   margin-bottom: 100px;
 }
+body.product-page .shopify-section--main-product .section-spacing:not(.section-spacing--padded) {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
 body.product-page .shopify-section--main-product .button {
   max-width: initial;
 }
@@ -1623,10 +1627,6 @@ body.product-page .shopify-section--image-with-text-overlay .section-spacing:not
 body.product-page .shopify-section--image-with-text .section-spacing:not(.section-spacing--padded) {
   margin-block-start: 0;
   margin-block-end: 0;
-}
-body.product-page .shopify-section--recently-viewed-products,
-body.product-page .shopify-section--related-products {
-
 }
 
 /* その他 */
