@@ -172,22 +172,6 @@
         "overlay_opacity": 0
       }
     },
-    "3dda5b11-ca22-465f-93d0-9ac840115d46": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/semimoisuto_2_1100x_9c280af9-0b66-4830-bb12-c610c3afca28.webp",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "060b2e6d-481e-4c37-94cd-58d52565ddcc": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -352,7 +336,6 @@
     "6f00db4d-4b0e-4229-9472-bcafb9eb4978",
     "8115d8a5-881d-4157-af80-f5301500dc05",
     "23659116-a98c-4d1e-a12c-2abc186b8276",
-    "3dda5b11-ca22-465f-93d0-9ac840115d46",
     "060b2e6d-481e-4c37-94cd-58d52565ddcc",
     "22b652cd-4b03-445a-a5a3-0072104bda1c",
     "2229d27d-8f1e-43dd-96c6-0bd2fdedb40e",
