@@ -1626,7 +1626,8 @@ p.h2{
     .shopify-section--multi-shizen .container,
     .footer .container,
     .shopify-section--recently-viewed-products .container,
-    .shopify-section--blog-posts .container
+    .shopify-section--blog-posts .container,
+    .shopify-section--related-products .container
     {
         margin-left: auto;
         margin-right: auto;
