@@ -87,8 +87,8 @@
         "0349f3d9-119b-4a1f-891d-ed91377608ab": {
           "type": "popup",
           "settings": {
-            "text": "商品詳細",
-            "page": ""
+            "link_text": "商品詳細",
+            "popup_page": "鹿肉詳細"
           }
         }
       },
