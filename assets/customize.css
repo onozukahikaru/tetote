@@ -116,8 +116,9 @@ p.h2{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.mega-menu__promo .zoom-image{
+.mega-menu__promo > .overflow-hidden{
     width: 70px;
+    flex: auto;
 }
 .mega-menu__promo .h6{
     font-size: 16px;
@@ -129,7 +130,7 @@ p.h2{
 }
 .mega-menu--reverse .mega-menu__promo{
     max-width: 180px;
-    gap: 6px;
+    gap: 12px;
     align-items: center;
 }
 .mega-menu__linklist{
@@ -146,7 +147,8 @@ p.h2{
     left: -37px;
 }
 .mega-menu__promo .title_promo{
-    width: 100px;
+    width: 120px;
+    flex: auto;
 }
 @media only screen and (min-width: 769px){
     .header__primary-nav{
