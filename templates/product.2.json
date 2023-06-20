@@ -275,25 +275,6 @@
     },
     "03dc5cae-1b6d-4115-9700-72248af28b51": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-0": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h4"
-          }
-        },
-        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-0",
-        "template--19570879430961__03dc5cae-1b6d-4115-9700-72248af28b51-168725952176405c5a-1"
-      ],
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/semimoisuto_6_1100x_f54232b9-2b70-4fcc-a539-3de42bc96e7f.webp",
@@ -306,6 +287,28 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "e241c319-112d-4108-876e-31d985125ff5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19570879430961__e241c319-112d-4108-876e-31d985125ff5-1687259731dc43d7b2-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>■あげ方：<br\/>ワンちゃんの健康状態、年齢、運動量を考慮して、 給与量を目安に1日2回に分けてあげて下さい。<br\/>・カロリー：鹿・鶏306kcal\/100g、魚311kcal\/100g<br\/><br\/>・鹿・成分値(100gあたり)：粗タンパク質:28.0%以上、粗脂肪:9.5%以上、粗繊維:1.0%以下、 粗灰分:5.5%以下、水分:30.0%以下<br\/><br\/>・鶏・成分値(100gあたり)：粗タンパク質:25.2%以上、粗脂肪:9.1%以上、粗繊維:0.8%以下、 粗灰分:3.5%以下、水分:30.0%以下<br\/><br\/>・魚・成分値(100gあたり)：粗タンパク質:25.2%以上、粗脂肪:9.1%以上、粗繊維:0.8%以下、 粗灰分:3.5%以下、水分:30.0%以下<br\/><br\/>■保存方法：<br\/>直射日光を避け、涼しい場所で保存してください。<br\/>開封後は冷蔵し、賞味期限に関わらず早めに食べきってください。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19570879430961__e241c319-112d-4108-876e-31d985125ff5-1687259731dc43d7b2-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/semimoisuto_4_535x_96ffa9f8-c9f2-4602-964c-6af095366bb2.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
       }
     },
     "related-products": {
@@ -355,6 +358,7 @@
     "2229d27d-8f1e-43dd-96c6-0bd2fdedb40e",
     "b961ae8a-3394-43a9-bd11-da9e10bcb1ff",
     "03dc5cae-1b6d-4115-9700-72248af28b51",
+    "e241c319-112d-4108-876e-31d985125ff5",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
