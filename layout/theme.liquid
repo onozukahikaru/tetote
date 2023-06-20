@@ -91,7 +91,7 @@
     endif
   %}
 
-  <body class="{{ features_class }} {{ template }}">
+  <body class="{{ features_class }} {% if template contains 'product' %}{{ template }}{% endif %}">
     {%- render 'shadow-dom-templates' -%}
 
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
