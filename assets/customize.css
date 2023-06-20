@@ -32,6 +32,7 @@ p.h2{
     width: 100%;
     max-width: 340px;
     min-height: 56px;
+    margin: auto;
 }
 .product-card__info,
 .product-card__info .v-stack {
@@ -397,6 +398,10 @@ p.h2{
     background-repeat: no-repeat;
     margin: 0 auto 10px;
 }
+#shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container{
+    max-width: 1300px;
+    margin: auto;
+}
 
 /* 私たちについて */
 .shopify-section--about {
@@ -556,6 +561,7 @@ p.h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 140px;
 }
 .shopify-section--health .h2{
     text-align: left;
@@ -579,6 +585,7 @@ p.h2{
    text-align: left;
    max-width: 560px;
    line-height: 2rem;
+   font-size: 18px;
 }
 @media only screen and (max-width: 768px){
     .shopify-section--health .flexbox{
@@ -586,6 +593,12 @@ p.h2{
     }
     .shopify-section--health .h2{
         font-size: 21px;
+    }
+    .shopify-section--health .flexbox{
+        gap: 40px
+    }
+    .shopify-section--health .flexbox .upper > div p{
+        font-size: 16px;
     }
 }
 
@@ -612,6 +625,9 @@ p.h2{
 }
 .shopify-section--multi-shizen .multi-column__item > div.colum50{
     padding: 30px 35px 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .shopify-section--multi-shizen .h2{
     font-size: 32px;
@@ -620,6 +636,16 @@ p.h2{
 .shopify-section--multi-shizen .h3{
     font-size: 18px;
 }
+.shopify-section--multi-shizen .colum50 p{
+    margin: 0;
+}
+.shopify-section--multi-shizen .button340{
+    width: 100%;
+    max-width: 340px;
+    min-height: 40px;
+    margin-block-start: 0!important;
+}
+
 @media only screen and (max-width: 768px){
     .shopify-section--multi-shizen .only_sp{
         display: block!important;
@@ -813,6 +839,13 @@ p.h2{
 #shopify-section-template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94 .media-grid img{
     object-fit: contain;
 }
+#shopify-section-template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94 .media-grid{
+    gap: 20px;
+}
+#shopify-section-template--19100854059313__f5ec3781-5265-448c-8d98-af0d2794df94 .section-spacing:not(.section-spacing--padded){
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+}
 
 /* footer */
 .footer__block-list .footer__block{
@@ -875,6 +908,7 @@ p.h2{
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 10px;
 }
 .footer__block--newsletter .input{
     background: white;
@@ -960,6 +994,7 @@ p.h2{
     .footer__block--newsletter .form{
         flex-direction: column;
         align-items: stretch;
+        gap: 12px;
     }
     .footer__block-list::before{
         display: none;
