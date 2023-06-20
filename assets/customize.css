@@ -603,6 +603,10 @@ p.h2{
 }
 
 /* しぜんの物語 */
+.shopify-section--multi-shizen .container{
+    max-width: 1300px;
+    margin: auto;
+}
 .shopify-section--multi-shizen .only_sp{
     display: none!important;
 }
@@ -809,6 +813,9 @@ p.h2{
 }
 
 /* Green Shapers */
+.shopify-section--image-with-banner .section-spacing{
+    margin-bottom: 30px;
+}
 @media only screen and (min-width: 769px){
     .shopify-section--image-with-banner{
         position: relative;
@@ -898,6 +905,7 @@ p.h2{
     max-width: 83px;
     line-height: 1;
     padding: 17px 25px;
+    min-height: 50px;
 }
 .footer__block--newsletter .form-control{
     width: 100%;
