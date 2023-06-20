@@ -1595,18 +1595,18 @@ p.h2{
 }
 
 /* 商品詳細 */
-.shopify-section--main-product .button {
+body.product .shopify-section--main-product .button {
   max-width: initial;
 }
-.shopify-section--main-product sale-price {
+body.product .shopify-section--main-product sale-price {
   font-size: 1.5rem;
   color: #000;
   font-weight: 700;
 }
-.shopify-section--main-product div[data-block-type="description"] {
+body.product .shopify-section--main-product div[data-block-type="description"] {
   font-weight: 500;
 }
-.shopify-section--main-product div[data-block-type="popup"] button {
+body.product .shopify-section--main-product div[data-block-type="popup"] button {
   text-decoration: underline;
   font-weight: 500;
   font-size: 0.9rem;
