@@ -1210,6 +1210,20 @@ p.h2{
 .section_01 .section_box dl dd p:last-child{
     text-align: right;
 }
+.section_01 h2{
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    border-radius: 15px;
+}
+.mv_about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
 @media (min-width: 1000px) and (max-width: 1200px){
     .section_02 .section_title, 
     .section_03 .section_title, 
@@ -1300,6 +1314,10 @@ p.h2{
         padding: 40px 25px;
         top: 30%;
     }
+    .section_01 h2{
+        border-radius: 0;
+    }
+    
 }
 @media only screen and (max-width: 768px){
     .section_01 .section_inner{
@@ -1314,15 +1332,19 @@ p.h2{
         padding-bottom: 200%;
     }
     .section_01 .section_box{
-        top: 17%;
+        top: 15%;
     }
+    .section_01 h2{
+        height: 200px;
+    }
+    
 }
 @media only screen and (max-width: 425px){
     .section_01 .section_inner{
         padding-bottom: 250%;
     }
     .section_01 .section_box{
-        top: 15%;
+        top: 13%;
     }
 }
 @media only screen and (max-width: 375px){
