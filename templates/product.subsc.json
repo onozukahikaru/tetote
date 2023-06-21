@@ -134,8 +134,8 @@
       "settings": {
         "separate_section_with_border": false,
         "content_width": "md",
-        "text_position": "center",
-        "remove_vertical_spacing": true
+        "text_position": "start",
+        "remove_vertical_spacing": false
       }
     },
     "20d288b8-9220-4f31-b941-b8f515cd16c5": {
@@ -203,7 +203,7 @@
       "settings": {
         "separate_section_with_border": false,
         "content_width": "md",
-        "text_position": "center",
+        "text_position": "start",
         "remove_vertical_spacing": false
       }
     },
@@ -240,7 +240,7 @@
       "settings": {
         "separate_section_with_border": false,
         "content_width": "md",
-        "text_position": "center",
+        "text_position": "start",
         "remove_vertical_spacing": false
       }
     },
