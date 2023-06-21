@@ -137,6 +137,9 @@
     },
     "700c6d21-c325-4462-b507-4e1b0c90fc32": {
       "type": "recently-viewed-products",
+      "custom_css": [
+        "p.h6 {color: #99a39a; font-size: 12px;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
