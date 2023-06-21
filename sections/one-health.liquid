@@ -10,8 +10,27 @@
                 <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
               {%- endif -%}
 
+              <div class="only_sp">
+                  {%- if block.settings.image != blank -%}
+                    <div {{ block.shopify_attributes }}>
+                      {%- capture image_style_attribute -%}{% if section.settings.text_position == 'center' %}margin-inline: auto;{% elsif section.settings.text_position == 'end' %}margin-inline-start: auto;{% endif %}{%- endcapture -%}
+    
+                      {%- if block.settings.width_mode == 'custom' -%}
+                        {%- capture image_style_attribute -%}{{ image_style_attribute }} --image-max-width: {{ block.settings.max_width }}px; --image-mobile-max-width: {{ block.settings.mobile_max_width }}px{%- endcapture -%}
+                        {%- capture image_sizes_attribute -%}(max-width: 699px) min({{ block.settings.mobile_max_width }}px, 100vw), min({{ block.settings.max_width }}px, 100vw){%- endcapture -%}
+                        {%- capture image_widths -%}{{ block.settings.mobile_max_width }},{{ block.settings.mobile_max_width | times: 2 }},{{ block.settings.max_width }},{{ block.settings.max_width | times: 2 }}{%- endcapture -%}
+                      {%- else -%}
+                        {%- capture image_sizes_attribute -%}min(100vw, var(--page-width)){%- endcapture -%}
+                        {%- assign image_widths = '200,300,400,500,600,800,1000,1200,1400,1600' -%}
+                      {%- endif -%}
+    
+                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: image_sizes_attribute, widths: image_widths, class: 'constrained-image', style: image_style_attribute -}}
+                    </div>
+                  {%- endif -%}
+              </div>
+
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="only_pc">
                   {{- block.settings.content -}}
                 </div>
               {%- endif -%}
@@ -20,7 +39,7 @@
           <div class="bottom">
             {%- for block in section.blocks -%}
               {%- if block.settings.image != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="only_pc">
                   {%- capture image_style_attribute -%}{% if section.settings.text_position == 'center' %}margin-inline: auto;{% elsif section.settings.text_position == 'end' %}margin-inline-start: auto;{% endif %}{%- endcapture -%}
 
                   {%- if block.settings.width_mode == 'custom' -%}
@@ -35,9 +54,15 @@
                   {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: image_sizes_attribute, widths: image_widths, class: 'constrained-image', style: image_style_attribute -}}
                 </div>
               {%- endif -%}
+              <div class="only_sp">
+                {%- if block.settings.content != blank -%}
+                  <div {{ block.shopify_attributes }} class="ccc">
+                    {{- block.settings.content -}}
+                  </div>
+                {%- endif -%}
+              </div>
             {%- endfor -%}
           </div>
-        
       </div>
     </div>
   </div>

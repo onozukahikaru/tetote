@@ -628,6 +628,9 @@ p.h2{
    line-height: 2rem;
    font-size: 18px;
 }
+.shopify-section--health .only_sp{
+    display: none;
+}
 @media only screen and (max-width: 999px){
     .shopify-section--health .flexbox{
         flex-direction: column;
@@ -638,8 +641,18 @@ p.h2{
     .shopify-section--health .flexbox{
         gap: 40px
     }
-    .shopify-section--health .flexbox .upper > div p{
+    .shopify-section--health .flexbox .bottom{
+        margin-block-start: 0;
+    }
+    .shopify-section--health .flexbox .bottom > div p{
         font-size: 16px;
+        text-align: left;
+    }
+    .shopify-section--health .only_sp{
+        display: block;
+    }
+    .shopify-section--health .only_pc{
+        display: none;
     }
 }
 
