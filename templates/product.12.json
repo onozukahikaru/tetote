@@ -150,11 +150,45 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "2e46476b-eca2-40f1-a2a4-58532cb22b55": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/PokkeDeli_1_1100x_a78d06a1-669b-41b1-bdc0-1146390bf52b.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "76d51a8c-1824-4d0d-b332-3689b8ea625c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_2_710x_e3429d43-90d2-4e02-b42b-e1dbf8868b0a.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "2e46476b-eca2-40f1-a2a4-58532cb22b55",
+    "76d51a8c-1824-4d0d-b332-3689b8ea625c"
   ]
 }
