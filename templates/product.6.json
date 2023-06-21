@@ -174,12 +174,56 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "cb6a08d3-5817-407b-b749-18dad35f1451": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19587924001073__cb6a08d3-5817-407b-b749-18dad35f1451-1687345826adc0dd0f-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6748_710x_a7927352-1856-4fd7-ae96-abe1f3265e99.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19587924001073__cb6a08d3-5817-407b-b749-18dad35f1451-1687345826adc0dd0f-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shirako_7_710x_6b466875-9291-4ce4-b709-b404e104238b.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19587924001073__cb6a08d3-5817-407b-b749-18dad35f1451-1687345826adc0dd0f-0",
+        "template--19587924001073__cb6a08d3-5817-407b-b749-18dad35f1451-1687345826adc0dd0f-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32",
-    "56be019e-42ef-4fa4-947d-adb2568bf49b"
+    "56be019e-42ef-4fa4-947d-adb2568bf49b",
+    "cb6a08d3-5817-407b-b749-18dad35f1451"
   ]
 }
