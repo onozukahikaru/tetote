@@ -124,41 +124,6 @@
         "max_image_zoom_level": 3
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Related Items",
-        "title": "関連商品",
-        "content": ""
-      }
-    },
-    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_count": 9,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Checked Items",
-        "title": "最近チェックした商品",
-        "content": ""
-      }
-    },
     "f9ed0aba-4098-4c0a-a8f6-fce827b83278": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -310,11 +275,18 @@
           "settings": {
             "content": "<p>ワンちゃん、ネコちゃんの口の中は細菌でいっぱいです。毎日リセットしてあげないと当然のことながら歯肉炎、口内炎や内臓の病気にかかってしまいます。とはいえ、ヒトと同じように歯みがきの習慣がある子たちはかなり少ないと思います。また歯ブラシでは歯肉を傷つけたり、奥歯のケアがしづらいのが現実でしょう。ストレスがなく毎日続けられて、口腔〜胃腸の健康ができたら・・・<\/p><p>そんな願いを形にしたのがこの「NEWクマザサ入りペットの口腔ジェル」です。天然のβ-グルカン、グリチルリチン酸、乳酸菌を加えることにより口の中だけではなく胃腸の環境も整えることで消化管のトータルケアをめざしています。<br\/>高齢のため麻酔による歯石除去ができないワンチちゃんや難治性口内炎のネコちゃんをはじめ、アンチエイジングのための「口に塗る免疫サプリ」としても多くの子たちに愛用してもらっています。ぜひ一度お試しください。<\/p>"
           }
+        },
+        "008c0846-587d-468f-ba11-8e0ce3bbc630": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>緑の森どうぶつ病院　院長　本田　英隆<\/strong><\/p>"
+          }
         }
       },
       "block_order": [
         "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-1",
-        "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-2"
+        "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-2",
+        "008c0846-587d-468f-ba11-8e0ce3bbc630"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -324,17 +296,52 @@
         "content_width": "sm",
         "remove_vertical_spacing": false
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Related Items",
+        "title": "関連商品",
+        "content": ""
+      }
+    },
+    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Checked Items",
+        "title": "最近チェックした商品",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32",
     "f9ed0aba-4098-4c0a-a8f6-fce827b83278",
     "1b44f188-aa80-4a97-b40e-966428236853",
     "d5dd9e58-10e4-4f35-8b7e-7d499469664b",
     "b797fff4-4b20-4acf-ae5a-edb4f46ca696",
     "962db3ff-781f-44f4-ac19-f279bdc80a03",
-    "d21daeb3-1236-41e0-bf63-4930bb02fe6a"
+    "d21daeb3-1236-41e0-bf63-4930bb02fe6a",
+    "related-products",
+    "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
 }
