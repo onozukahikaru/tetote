@@ -257,6 +257,22 @@
         "overlay_opacity": 0
       }
     },
+    "585bac93-9acd-4058-bdf2-fcaad775c977": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "mobile_image": "shopify:\/\/shop_images\/semimoisuto_6_1500x_4bc59a63-0946-4670-8065-bcb6ca3da55d.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "fca5af6a-2afb-445d-ada8-0ffff9ec74e7": {
       "type": "image-with-text",
       "blocks": {
@@ -324,6 +340,7 @@
     "1b6d8a9b-ade2-460a-990a-8d4e4e72b20d",
     "535db13b-417d-4b14-b312-67310630fe31",
     "206f90fb-8dee-4064-8743-f578861c8e3b",
+    "585bac93-9acd-4058-bdf2-fcaad775c977",
     "fca5af6a-2afb-445d-ada8-0ffff9ec74e7",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32"
