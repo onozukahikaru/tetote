@@ -1677,10 +1677,13 @@ body.product-page .shopify-section--main-product div[data-block-type="popup"] bu
   font-weight: 500;
   font-size: 0.9rem;
 }
-body.product-page .shopify-section--image-with-text-overlay,
-body.product-page .shopify-section--image-with-text {
+body.product-page #main {
   max-width: 1300px;
   margin: 0 auto;
+}
+body.product-page .shopify-section--image-with-text-overlay,
+body.product-page .shopify-section--image-with-text {
+
 }
 body.product-page .shopify-section--image-with-text-overlay .section-spacing:not(.section-spacing--padded),
 body.product-page .shopify-section--image-with-text .section-spacing:not(.section-spacing--padded) {
