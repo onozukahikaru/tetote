@@ -245,7 +245,7 @@
         "template--19588452974897__962db3ff-781f-44f4-ac19-f279bdc80a03-1687345826adc0dd0f-1"
       ],
       "custom_css": [
-
+        ".container {max-width: 800px; margin: 0 auto;}"
       ],
       "settings": {
         "separate_section_with_border": false,
