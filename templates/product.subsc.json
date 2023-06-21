@@ -14,12 +14,6 @@
             "heading_tag": "h4"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
@@ -95,7 +89,6 @@
       "block_order": [
         "vendor",
         "title",
-        "price",
         "payment_terms",
         "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
         "variant_picker",
@@ -158,11 +151,199 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "dc26e4a3-bd4d-4daa-9f7e-8a6650c9a711": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19588802806065__dc26e4a3-bd4d-4daa-9f7e-8a6650c9a711-1687350322fa7173bd-1": {
+          "type": "heading",
+          "settings": {
+            "text": "鹿・鶏・魚選べるおいしさ",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588802806065__dc26e4a3-bd4d-4daa-9f7e-8a6650c9a711-1687350322fa7173bd-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "20d288b8-9220-4f31-b941-b8f515cd16c5": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_C_1500x_1100x_1ede10d4-7b67-4027-a09e-4480076ff659.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "d66f17b2-67e7-44b4-96ab-32a997dde3fd": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_1_1100x_cf974cc8-5f2b-4dcf-947b-abf76fa6d565.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "394874b0-b583-48e0-bc55-9fdda93dc291": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kodawari3shu_1100x_446d9262-495a-44b0-86ff-98488c65070a.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "faf5fb9c-9371-4c13-b055-4be2b9206ec1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19588802806065__faf5fb9c-9371-4c13-b055-4be2b9206ec1-1687350322fa7173bd-1": {
+          "type": "heading",
+          "settings": {
+            "text": "漢方セミモイストも仲間入り",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588802806065__faf5fb9c-9371-4c13-b055-4be2b9206ec1-1687350322fa7173bd-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "39ec960f-5a62-453d-93e2-255aa4f819f6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_1_64bcf806-e068-46a0-9740-c7928176418b.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "ec2dd614-35ee-478e-8b7f-ba59bc943b8f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19588802806065__ec2dd614-35ee-478e-8b7f-ba59bc943b8f-1687350322fa7173bd-1": {
+          "type": "heading",
+          "settings": {
+            "text": "漢方セミモイストはミドル～シニアの子におすすめ",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588802806065__ec2dd614-35ee-478e-8b7f-ba59bc943b8f-1687350322fa7173bd-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "656aa889-75fd-4d4a-bcd5-752ed59480a6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_3_1100x_70e085bf-a58e-4dea-b8d5-2cbe3f5ef72c.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "5ce893b0-f712-4aa5-8a5d-facac156a84b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-0",
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-1",
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "dc26e4a3-bd4d-4daa-9f7e-8a6650c9a711",
+    "20d288b8-9220-4f31-b941-b8f515cd16c5",
+    "d66f17b2-67e7-44b4-96ab-32a997dde3fd",
+    "394874b0-b583-48e0-bc55-9fdda93dc291",
+    "faf5fb9c-9371-4c13-b055-4be2b9206ec1",
+    "39ec960f-5a62-453d-93e2-255aa4f819f6",
+    "ec2dd614-35ee-478e-8b7f-ba59bc943b8f",
+    "656aa889-75fd-4d4a-bcd5-752ed59480a6",
+    "5ce893b0-f712-4aa5-8a5d-facac156a84b"
   ]
 }
