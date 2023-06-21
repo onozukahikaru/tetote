@@ -158,11 +158,28 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "56be019e-42ef-4fa4-947d-adb2568bf49b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Shirako_8_710x_a9fa672c-d377-4159-8ffe-ba8f3b867ac0.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "xs",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "56be019e-42ef-4fa4-947d-adb2568bf49b"
   ]
 }
