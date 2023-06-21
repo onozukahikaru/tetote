@@ -1688,11 +1688,11 @@ body.product-page #main .section-spacing {
 body.product-page .shopify-section--image-with-text {
   max-width: var(--image-with-text-content-max-width);
 }
-body.product-page .shopify-section--image-with-text .prose {
-  padding: 0 15px;
-}
 body.product-page .shopify-section--image-with-text-overlay {
   max-width: var(--content-over-media-content-max-width);
+}
+body.product-page .shopify-section--image-with-text .prose {
+  padding: 0 15px;
 }
 body.product-page .shopify-section--multi-column .prose {
   padding-bottom: 50px;
