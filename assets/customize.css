@@ -1670,6 +1670,10 @@ body.product-page .shopify-section--image-with-text .section-spacing:not(.sectio
   margin-block-start: 0;
   margin-block-end: 0;
 }
+:checked + .block-swatch, .block-swatch.is-selected{
+    color: #006427!important;
+    border-color: #006427!important;
+}
 
 /* その他 */
 .shopify-section--recently-viewed-products .container{
@@ -1726,4 +1730,7 @@ body.product-page .shopify-section--image-with-text .section-spacing:not(.sectio
 }
 .bepCke{
     color: rgb(236 107 19)!important;
+}
+.ngc__modal__companyName{
+    display: none!important;
 }
