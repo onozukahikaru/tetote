@@ -761,6 +761,9 @@ p.h2{
 .swiper-wrapper.blog-post-list{
     gap: unset;
 }
+.swiper-wrapper.blog-post-list a.overflow-hidden{
+    border-radius: 15px;
+}
 .swiper-button-next::after,
 .swiper-button-prev::after{
     display: none;
