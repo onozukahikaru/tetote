@@ -1675,7 +1675,7 @@ body.product-page .shopify-section--main-product div[data-block-type="descriptio
 body.product-page .shopify-section--main-product div[data-block-type="popup"] button {
   text-decoration: underline;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 body.product-page #main {
   max-width: 1300px;
