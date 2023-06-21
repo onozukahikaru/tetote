@@ -298,37 +298,38 @@
     "5ce893b0-f712-4aa5-8a5d-facac156a84b": {
       "type": "image-with-text",
       "blocks": {
-        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-1": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "開発者の声",
             "heading_tag": "h1"
           }
         },
         "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>どうぶつたちが目をキラキラさせながら食べる風景はまさにしあわせの原点！<\/p><p>てとて、ぺっとのごはんの商品は、動物病院の目線を取り入れた「身体に良くておいしい」がコンセプトです。AAFCOの国際的な栄養基準に沿って設計されており、原材料は“北海道産のお肉、お魚や野菜”にこだわり、また多種類の機能性食品も配合しています。<\/p><p>主原料であるエゾ鹿肉は高たんぱく低脂肪、また核酸を含んでいる鮭の白子などを多用し、これからの効果によりシニアからパピーまでどのステージのワンちゃんにも安心してあげられます。<\/p>"
+          }
+        },
+        "b6502b8c-285c-43d1-b1ec-afccdd4bf1cd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>ペットインストラクター／ペット栄養管理士<br\/>保久 留美子<\/strong><\/p>"
           }
         }
       },
       "block_order": [
-        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-0",
         "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-1",
-        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-2"
+        "template--19588802806065__5ce893b0-f712-4aa5-8a5d-facac156a84b-1687350501ad005c1f-2",
+        "b6502b8c-285c-43d1-b1ec-afccdd4bf1cd"
       ],
       "settings": {
-        "separate_section_with_border": true,
-        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/yasuhisasan_55b3a166-2b81-41b6-a7ec-e4e714144a55.webp",
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     }
   },
