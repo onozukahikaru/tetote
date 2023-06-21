@@ -158,11 +158,41 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "d3b1c4b2-4dc2-475d-aa79-59d633bf5e48": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19587825828145__d3b1c4b2-4dc2-475d-aa79-59d633bf5e48-1687344053d25bbf35-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>あなたを愛するペットのためにペットが好む、安心なアロマの香り。人もペットも一緒に使えるアロママッサージバーム。<\/strong><\/p>"
+          }
+        },
+        "999ef13e-c7ae-42c3-a271-223a83d6dbbc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>ハンドクリームをつけた後にペットに触るのをためらったことはありませんか？<\/p><p>オーガニックでステキなコスメであっても、その香りがペットが嫌いな香りだと、鼻がいいペットにとっては、大好きなママの香りを遠避けたくなってしまいます。<\/p><p>メディバームは、100%天然アロマオイルを配合した、心地良い香りのアロママッサージバームです。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19587825828145__d3b1c4b2-4dc2-475d-aa79-59d633bf5e48-1687344053d25bbf35-2",
+        "999ef13e-c7ae-42c3-a271-223a83d6dbbc"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/medi_1_535x_7df84f55-f599-42aa-aa27-a2348fc89fcb.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "d3b1c4b2-4dc2-475d-aa79-59d633bf5e48"
   ]
 }
