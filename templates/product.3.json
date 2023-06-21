@@ -158,11 +158,134 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "61ddd55e-c8f7-493b-bac1-75b71f09f564": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_C_1100x_09656c7d-a777-4b7f-9227-8d8d3153f037.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "18fd00c4-561d-4305-afa0-d286f4f30015": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_1_2_1100x_110d955a-56b1-40a7-8edd-40674f2d6524.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "8628b76d-8b54-4a8f-a11a-ea870e91f835": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_2_1100x_974b79c0-5f8f-4b90-9584-effb9080d90b.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "c2ea0f22-1791-49d5-8e2d-d5ea3354f673": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_3_1100x_f9b91485-125b-49ae-a5ad-e15cca77d40f.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "85723598-5dd9-4fb9-af0c-8b5a91e07696": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19586928476465__85723598-5dd9-4fb9-af0c-8b5a91e07696-16873391072fa75c84-1": {
+          "type": "heading",
+          "settings": {
+            "text": "開発者の声",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19586928476465__85723598-5dd9-4fb9-af0c-8b5a91e07696-16873391072fa75c84-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>どうぶつたちが目をキラキラさせながら食べる風景はまさにしあわせの原点！<br\/>てとて、ぺっとのごはんの商品は、動物病院の目線を取り入れた「身体に良くておいしい」がコンセプトです。AAFCOの国際的な栄養基準に沿って設計されており、原材料は“北海道産のお肉、お魚や野菜”にこだわり、また多種類の機能性食品も配合しています。主原料であるエゾ鹿肉は高たんぱく低脂肪、また核酸を含んでいる鮭の白子などを多用し、これからの効果によりシニアからパピーまでどのステージのワンちゃんにも安心してあげられます。<\/p>"
+          }
+        },
+        "b0810e63-38bf-4108-9499-0af46fc6e8da": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>ペットインストラクター／ペット栄養管理士<br\/>保久 留美子<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19586928476465__85723598-5dd9-4fb9-af0c-8b5a91e07696-16873391072fa75c84-1",
+        "template--19586928476465__85723598-5dd9-4fb9-af0c-8b5a91e07696-16873391072fa75c84-2",
+        "b0810e63-38bf-4108-9499-0af46fc6e8da"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/yasuhisasan_3a757b80-5678-4063-b8b9-2b1a97a53ec4.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "fdb0db07-9f59-4615-b983-39b53e6c3826": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_5_1100x_337ef750-d0c2-463c-97f3-6b6499b9d53d.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "61ddd55e-c8f7-493b-bac1-75b71f09f564",
+    "18fd00c4-561d-4305-afa0-d286f4f30015",
+    "8628b76d-8b54-4a8f-a11a-ea870e91f835",
+    "c2ea0f22-1791-49d5-8e2d-d5ea3354f673",
+    "85723598-5dd9-4fb9-af0c-8b5a91e07696",
+    "fdb0db07-9f59-4615-b983-39b53e6c3826"
   ]
 }
