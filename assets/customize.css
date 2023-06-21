@@ -1654,10 +1654,14 @@ p.h2{
 
 /* 商品詳細 */
 body.product-page .shopify-section {
-  max-width: var(--content-over-media-content-max-width);
-  max-width: var(--image-with-text-content-max-width);
   margin-left: auto;
   margin-right: auto;
+}
+body.product-page .shopify-section--image-with-text-overlay {
+  max-width: var(--content-over-media-content-max-width);
+}
+body.product-page .shopify-section--image-with-text {
+  max-width: var(--image-with-text-content-max-width);
 }
 body.product-page #main {
   max-width: 1300px;
