@@ -187,12 +187,85 @@
         "content_width": "sm",
         "remove_vertical_spacing": false
       }
+    },
+    "234ae6c0-959d-4e56-9bd8-a656dd319739": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medi_4_550x_63b85015-7a28-4972-a424-43f8dc3fc01f.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p><strong>北海道のたもぎ茸由来のセラミドをっぷり配合。保湿効果、バリア機能を期待できます。<\/strong><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medi_5_550x_d105d1a3-c339-401e-947b-313242dcb2e9.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p><strong>ペットの性格や気持ちに合わせて、数種類の100%天然アロマオイルをブレンドした、２タイプをご用意。マッサージにより、さらに心身へのアロマ効果をもたらします。<\/strong><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medi_6_550x_95ddae25-a333-4eaa-8b41-2bdcc686cf89.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p><strong>肌になじみやすい、さらっとした使用感。肌へもペットの被毛へも、うるおいとサラサラ感を、心地よく感じて頂けます。<\/strong><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-0",
+        "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-1",
+        "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "98a5ed89-f97e-4243-b1fb-b8ae698aff3b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/medi_7_710x_19aa8f40-f185-47f3-8864-aaa78f462c84.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32",
-    "eb5bc90c-f520-4d0d-ab9c-17716b32cbe2"
+    "eb5bc90c-f520-4d0d-ab9c-17716b32cbe2",
+    "234ae6c0-959d-4e56-9bd8-a656dd319739",
+    "98a5ed89-f97e-4243-b1fb-b8ae698aff3b"
   ]
 }
