@@ -261,7 +261,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "auto",
-        "mobile_image": "shopify:\/\/shop_images\/semimoisuto_6_1500x_4bc59a63-0946-4670-8065-bcb6ca3da55d.webp",
+        "image": "shopify:\/\/shop_images\/semimoisuto_6_1500x_83b0bef3-c642-42cf-808d-27429862d872.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
