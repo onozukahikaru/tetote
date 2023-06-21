@@ -1764,3 +1764,13 @@ body.product-page .shopify-section--multi-column .container {
 .ngc__modal__companyName{
     display: none!important;
 }
+#huckleberry-subscription-customer-portal {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#huckleberry-subscription-customer-portal .detail-btn,
+#huckleberry-subscription-customer-portal .subscription-history .back-btn{
+    max-width: 350px;
+    border-radius: 60px;
+}
