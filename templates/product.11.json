@@ -83,6 +83,13 @@
             "collapse_content": false,
             "show_below_gallery": false
           }
+        },
+        "4b36a6d1-cc2c-4e28-ab63-53fca39a4f2c": {
+          "type": "popup",
+          "settings": {
+            "link_text": "商品詳細",
+            "popup_page": "pokke-deli-鹿"
+          }
         }
       },
       "block_order": [
@@ -97,7 +104,8 @@
         "complementary_products",
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
         "separator",
-        "description"
+        "description",
+        "4b36a6d1-cc2c-4e28-ab63-53fca39a4f2c"
       ],
       "custom_css": [
 
@@ -150,11 +158,96 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "0c7712e6-19b6-4f4a-b09b-14807bb855cd": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/PokkeDeli_1_1100x_357202f7-cf10-47de-a1d7-403fe1a0782e.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "9ded1a3f-a19c-4644-b489-887f92ece9a2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_2_710x_53576bee-dab6-4777-a586-ce1079243774.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "250f5eeb-a619-4117-a393-e27bae6a3256": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/PokkeDeli_5_710x_6f5cb4a2-e7de-481e-a14f-0739244addba.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "2b755d4f-18ff-4364-9558-9fa954066e23": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/1.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "9d0f53a6-8430-4f0c-b2e4-9eb31524a2d2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/pokke_deli_3_710x_b2875772-d3d7-4b9f-a7ed-34aa3b8ff741.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "0c7712e6-19b6-4f4a-b09b-14807bb855cd",
+    "9ded1a3f-a19c-4644-b489-887f92ece9a2",
+    "250f5eeb-a619-4117-a393-e27bae6a3256",
+    "2b755d4f-18ff-4364-9558-9fa954066e23",
+    "9d0f53a6-8430-4f0c-b2e4-9eb31524a2d2"
   ]
 }
