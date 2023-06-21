@@ -190,6 +190,70 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "8a587ee8-66b9-4a41-922a-ca10565951d9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_4_1100x_baec4642-eb78-42d2-9125-67940ba4c518.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "43503e2e-2a1a-4eec-9abc-0ba389d38730": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_3_1100x_4ba7fb64-8714-4731-991d-226b56e7889a.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "76c4fdac-f184-4d9a-93fe-a84121a4ae7f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_6_1100x_713aefb4-1b7e-4e98-b46c-821d12050a21.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "6ba9e863-e092-40e2-9e52-313f1b75bfc4": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_7_1100x_0e34ba92-cf34-4cfa-a795-1588a2157331.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -197,6 +261,10 @@
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32",
     "a34c9b33-1f51-4bbd-88bb-d044275de8cf",
-    "6bafeb77-1376-4a0f-a249-96984f5dfa63"
+    "6bafeb77-1376-4a0f-a249-96984f5dfa63",
+    "8a587ee8-66b9-4a41-922a-ca10565951d9",
+    "43503e2e-2a1a-4eec-9abc-0ba389d38730",
+    "76c4fdac-f184-4d9a-93fe-a84121a4ae7f",
+    "6ba9e863-e092-40e2-9e52-313f1b75bfc4"
   ]
 }
