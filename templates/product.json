@@ -119,7 +119,7 @@
     "related-products": {
       "type": "related-products",
       "custom_css": [
-
+        "p.h6 {color: #99a39a; font-size: 12px;}"
       ],
       "settings": {
         "separate_section_with_border": true,
