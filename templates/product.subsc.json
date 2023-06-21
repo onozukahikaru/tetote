@@ -83,6 +83,13 @@
             "collapse_content": false,
             "show_below_gallery": false
           }
+        },
+        "b2583150-b786-4156-93c7-512e0786d6e7": {
+          "type": "popup",
+          "settings": {
+            "link_text": "商品詳細",
+            "popup_page": "定期購入詳細ページ"
+          }
         }
       },
       "block_order": [
@@ -97,7 +104,8 @@
         "complementary_products",
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
         "separator",
-        "description"
+        "description",
+        "b2583150-b786-4156-93c7-512e0786d6e7"
       ],
       "custom_css": [
 
