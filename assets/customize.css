@@ -1689,6 +1689,9 @@ body.product-page #main .shopify-section--related-products .section-spacing:not(
 body.product-page .shopify-section--multi-column .prose {
   padding-bottom: 50px;
 }
+body.product-page .shopify-section--image-with-text .prose {
+  padding: 0 15px;
+}
 :checked + .block-swatch, .block-swatch.is-selected{
     color: #006427!important;
     border-color: #006427!important;
