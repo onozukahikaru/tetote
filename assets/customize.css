@@ -1678,8 +1678,8 @@ body.product-page .shopify-section--main-product div[data-block-type="popup"] bu
   font-size: 1rem;
 }
 body.product-page #main .section-spacing {
-  margin-block-start: 80px;
-  margin-block-end: 80px;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
 }
 body.product-page .shopify-section--multi-column .prose {
   padding-bottom: 50px;
