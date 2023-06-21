@@ -1681,8 +1681,8 @@ body.product-page #main .section-spacing:not(.section-spacing--padded) {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-body.product-page .shopify-section--recently-viewed-products .section-spacing:not(.section-spacing--padded),
-body.product-page .shopify-section--related-products .section-spacing:not(.section-spacing--padded),{
+body.product-page #main .shopify-section--recently-viewed-products .section-spacing:not(.section-spacing--padded),
+body.product-page #main .shopify-section--related-products .section-spacing:not(.section-spacing--padded),{
   margin-block-start: 120px;
   margin-block-end: 120px;
 }
