@@ -132,7 +132,7 @@
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
-        "content_width": "md",
+        "content_width": "xs",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -170,6 +170,9 @@
         "template--19588261413169__d4609f90-ee89-493c-b1a2-0edfe4b71c0a-1687345826adc0dd0f-0",
         "template--19588261413169__d4609f90-ee89-493c-b1a2-0edfe4b71c0a-1687345826adc0dd0f-1"
       ],
+      "custom_css": [
+        ".container {max-width: 1000px;}"
+      ],
       "settings": {
         "separate_section_with_border": false,
         "columns_per_row": 2,
@@ -191,7 +194,7 @@
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
-        "content_width": "md",
+        "content_width": "xs",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -228,6 +231,9 @@
       "block_order": [
         "template--19588261413169__33f1bb4d-c42e-47b7-9c0e-7b9d3ac67bf4-1687345826adc0dd0f-0",
         "template--19588261413169__33f1bb4d-c42e-47b7-9c0e-7b9d3ac67bf4-1687345826adc0dd0f-1"
+      ],
+      "custom_css": [
+        ".container {max-width: 1000px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
