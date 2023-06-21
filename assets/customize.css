@@ -1653,6 +1653,7 @@ p.h2{
 }
 
 /* 商品詳細 */
+max-width: var(--content-over-media-content-max-width);
 body.product-page #main {
   max-width: 1300px;
   margin: 0 auto;
