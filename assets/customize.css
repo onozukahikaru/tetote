@@ -1679,11 +1679,6 @@ body.product-page .shopify-section--image-with-text .section-spacing:not(.sectio
     max-width: 1300px;
 }
 
-@media only screen and (max-width: 999px){
-    .shopify-section--recently-viewed-products .container{
-        margin: 0 0 0 25px;
-    }
-}
 @media only screen and (min-width: 1300px){
     .container--lg,
     #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .container,
@@ -1713,6 +1708,21 @@ body.product-page .shopify-section--image-with-text .section-spacing:not(.sectio
 /* アプリ */
 .dBnlQt.dBnlQt.dBnlQt:checked + .sc-dlVyqM::before{
     background: #006427!important;
+}
+.bfcEnS.bfcEnS.bfcEnS{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.iZOxsL.iZOxsL.iZOxsL:checked + .sc-hBURRC path{
+    fill: #006427!important;
+}
+.iZOxsL.iZOxsL.iZOxsL:checked + .sc-hBURRC{
+    border: 2px solid #006427!important;
+    color: #006427!important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .bepCke{
     color: rgb(236 107 19)!important;
