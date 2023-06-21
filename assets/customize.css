@@ -1698,7 +1698,7 @@ body.product-page .shopify-section--multi-column .prose {
   padding-bottom: 50px;
 }
 body.product-page .shopify-section--multi-column .container {
-  padding: 50px 100px 0;
+  padding-top: 50px;
 }
 :checked + .block-swatch, .block-swatch.is-selected{
     color: #006427!important;
