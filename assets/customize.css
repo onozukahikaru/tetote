@@ -1769,8 +1769,15 @@ body.product-page .shopify-section--multi-column .container {
     margin-left: auto;
     margin-right: auto;
 }
-#huckleberry-subscription-customer-portal .detail-btn,
-#huckleberry-subscription-customer-portal .subscription-history .back-btn{
+article.subscription-history > a{
+    display: flex;
+    justify-content: center;
+}
+div.subscription-history{
+    text-align: center;
+}
+.subscription-history .detail-btn,
+.subscription-history .back-btn{
     max-width: 350px;
     border-radius: 60px;
 }
