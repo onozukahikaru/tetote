@@ -149,7 +149,7 @@
         "image": "shopify:\/\/shop_images\/medi_1_535x_eb45bf57-f31e-4c03-98ca-86231725fc00.jpg",
         "reveal_on_scroll": false,
         "image_position": "start",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": false
       }
     },
@@ -194,6 +194,9 @@
         "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-0",
         "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-1",
         "template--19587106603313__234ae6c0-959d-4e56-9bd8-a656dd319739-1687340973eb39e67a-2"
+      ],
+      "custom_css": [
+        ".container {max-width: 1000px;}"
       ],
       "settings": {
         "separate_section_with_border": false,
