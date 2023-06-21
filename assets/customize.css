@@ -1657,12 +1657,6 @@ body.product-page .shopify-section {
   margin-left: auto;
   margin-right: auto;
 }
-body.product-page .shopify-section--image-with-text-overlay {
-  max-width: var(--content-over-media-content-max-width);
-}
-body.product-page .shopify-section--image-with-text {
-  max-width: var(--image-with-text-content-max-width);
-}
 body.product-page #main {
   max-width: 1300px;
   margin: 0 auto;
@@ -1691,11 +1685,20 @@ body.product-page #main .section-spacing {
   margin-block-start: 40px;
   margin-block-end: 40px;
 }
-body.product-page .shopify-section--multi-column .prose {
-  padding-bottom: 50px;
+body.product-page .shopify-section--image-with-text {
+  max-width: var(--image-with-text-content-max-width);
 }
 body.product-page .shopify-section--image-with-text .prose {
   padding: 0 15px;
+}
+body.product-page .shopify-section--image-with-text-overlay {
+  max-width: var(--content-over-media-content-max-width);
+}
+body.product-page .shopify-section--multi-column .prose {
+  padding-bottom: 50px;
+}
+body.product-page .shopify-section--multi-column .container {
+  padding: 50px 100px 0;
 }
 :checked + .block-swatch, .block-swatch.is-selected{
     color: #006427!important;
