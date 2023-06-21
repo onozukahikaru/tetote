@@ -135,7 +135,7 @@
         "separate_section_with_border": false,
         "content_width": "md",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "20d288b8-9220-4f31-b941-b8f515cd16c5": {
