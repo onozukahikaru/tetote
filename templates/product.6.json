@@ -124,41 +124,6 @@
         "max_image_zoom_level": 3
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Related Items",
-        "title": "関連商品",
-        "content": ""
-      }
-    },
-    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_count": 9,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Checked Items",
-        "title": "最近チェックした商品",
-        "content": ""
-      }
-    },
     "56be019e-42ef-4fa4-947d-adb2568bf49b": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -192,7 +157,7 @@
         "template--19587924001073__cb6a08d3-5817-407b-b749-18dad35f1451-1687345826adc0dd0f-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shirako_7_710x_6b466875-9291-4ce4-b709-b404e104238b.webp",
+            "image": "shopify:\/\/shop_images\/Shirako_7.png",
             "title": "",
             "heading_tag": "h3",
             "content": "",
@@ -217,13 +182,109 @@
         "title": "",
         "content": ""
       }
+    },
+    "08d0db01-c638-443c-b6dd-7497a37c87d2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Shirako_6.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "3b9a92dd-81a3-407e-8bf0-248c9d9565f9": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19587924001073__3b9a92dd-81a3-407e-8bf0-248c9d9565f9-1687345826adc0dd0f-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shirako_5.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19587924001073__3b9a92dd-81a3-407e-8bf0-248c9d9565f9-1687345826adc0dd0f-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b88226b0cc89cb0408b0f818605414c7_150a7412-c2e2-4e2f-9ed9-2f31fd503e57.jpg",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19587924001073__3b9a92dd-81a3-407e-8bf0-248c9d9565f9-1687345826adc0dd0f-0",
+        "template--19587924001073__3b9a92dd-81a3-407e-8bf0-248c9d9565f9-1687345826adc0dd0f-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Related Items",
+        "title": "関連商品",
+        "content": ""
+      }
+    },
+    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Checked Items",
+        "title": "最近チェックした商品",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32",
     "56be019e-42ef-4fa4-947d-adb2568bf49b",
-    "cb6a08d3-5817-407b-b749-18dad35f1451"
+    "cb6a08d3-5817-407b-b749-18dad35f1451",
+    "08d0db01-c638-443c-b6dd-7497a37c87d2",
+    "3b9a92dd-81a3-407e-8bf0-248c9d9565f9",
+    "related-products",
+    "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
 }
