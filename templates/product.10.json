@@ -190,6 +190,140 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "d5dd9e58-10e4-4f35-8b7e-7d499469664b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588452974897__d5dd9e58-10e4-4f35-8b7e-7d499469664b-1687347282ea79631e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "クマザサエキス",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19588452974897__d5dd9e58-10e4-4f35-8b7e-7d499469664b-1687347282ea79631e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>新配合！！<\/p><p>口腔内の炎症を抑え粘膜を保護し、強力な抗菌・制菌力で<strong>腸内環境改善をサポート<\/strong>。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588452974897__d5dd9e58-10e4-4f35-8b7e-7d499469664b-1687347282ea79631e-1",
+        "template--19588452974897__d5dd9e58-10e4-4f35-8b7e-7d499469664b-1687347282ea79631e-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/2212362_s.webp",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "b797fff4-4b20-4acf-ae5a-edb4f46ca696": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588452974897__b797fff4-4b20-4acf-ae5a-edb4f46ca696-1687347282ea79631e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "たもぎ茸",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19588452974897__b797fff4-4b20-4acf-ae5a-edb4f46ca696-1687347282ea79631e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>口腔内を正常に保ち、ニオイ対策や、荒れた粘膜を保護します。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588452974897__b797fff4-4b20-4acf-ae5a-edb4f46ca696-1687347282ea79631e-1",
+        "template--19588452974897__b797fff4-4b20-4acf-ae5a-edb4f46ca696-1687347282ea79631e-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/386352_s.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "962db3ff-781f-44f4-ac19-f279bdc80a03": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19588452974897__962db3ff-781f-44f4-ac19-f279bdc80a03-1687345826adc0dd0f-0": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "甘草（グリチン酸）",
+            "heading_tag": "h3",
+            "content": "<p>甘草のグリチルリチン酸で歯肉炎や口内炎等の炎症対策を。 ・1本で3つの効果。 自然の機能性食品配合により、「口臭予防」「歯肉炎・口内炎を抑える」「おなかの調子を整える」と、1本で3役の口腔ジェルです。 ほんのり甘いハスカップの香り。<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19588452974897__962db3ff-781f-44f4-ac19-f279bdc80a03-1687345826adc0dd0f-1": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "乳酸菌FK-23配合",
+            "heading_tag": "h3",
+            "content": "<p>腸まで届くFK-23を配合。 おなかの調子を整え、体の内側から口臭をケアします。<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19588452974897__962db3ff-781f-44f4-ac19-f279bdc80a03-1687345826adc0dd0f-0",
+        "template--19588452974897__962db3ff-781f-44f4-ac19-f279bdc80a03-1687345826adc0dd0f-1"
+      ],
+      "custom_css": [
+        ".container {padding-top: 50px;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "d21daeb3-1236-41e0-bf63-4930bb02fe6a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "歯科診察の現場から",
+            "heading_tag": "h4"
+          }
+        },
+        "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>ワンちゃん、ネコちゃんの口の中は細菌でいっぱいです。毎日リセットしてあげないと当然のことながら歯肉炎、口内炎や内臓の病気にかかってしまいます。とはいえ、ヒトと同じように歯みがきの習慣がある子たちはかなり少ないと思います。また歯ブラシでは歯肉を傷つけたり、奥歯のケアがしづらいのが現実でしょう。ストレスがなく毎日続けられて、口腔〜胃腸の健康ができたら・・・<\/p><p>そんな願いを形にしたのがこの「NEWクマザサ入りペットの口腔ジェル」です。天然のβ-グルカン、グリチルリチン酸、乳酸菌を加えることにより口の中だけではなく胃腸の環境も整えることで消化管のトータルケアをめざしています。<br\/>高齢のため麻酔による歯石除去ができないワンチちゃんや難治性口内炎のネコちゃんをはじめ、アンチエイジングのための「口に塗る免疫サプリ」としても多くの子たちに愛用してもらっています。ぜひ一度お試しください。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-1",
+        "template--19588452974897__d21daeb3-1236-41e0-bf63-4930bb02fe6a-1687347282ea79631e-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/2023-06-21_205637.png",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -197,6 +331,10 @@
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32",
     "f9ed0aba-4098-4c0a-a8f6-fce827b83278",
-    "1b44f188-aa80-4a97-b40e-966428236853"
+    "1b44f188-aa80-4a97-b40e-966428236853",
+    "d5dd9e58-10e4-4f35-8b7e-7d499469664b",
+    "b797fff4-4b20-4acf-ae5a-edb4f46ca696",
+    "962db3ff-781f-44f4-ac19-f279bdc80a03",
+    "d21daeb3-1236-41e0-bf63-4930bb02fe6a"
   ]
 }
