@@ -87,8 +87,8 @@
         "d92afbf0-2406-4b78-87e5-477795a5d14c": {
           "type": "popup",
           "settings": {
-            "link_text": "Pop-up link text",
-            "popup_page": ""
+            "link_text": "商品詳細",
+            "popup_page": "メディバーム-happy-up"
           }
         }
       },
