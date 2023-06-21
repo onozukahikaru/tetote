@@ -150,11 +150,79 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "4a8cb904-9701-4251-a4d9-168e23742046": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Cheese_EC_01_1100x_9b23bc72-ba47-4ce2-b78a-5db1d0d9f926.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "f09ddd5f-913f-4b33-9bdf-100eb2bfcee2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Cheese_EC_02_1100x_232ba104-9907-4276-b34f-667c62323e67.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "45893c73-2116-4d5c-8815-d0b7bda99297": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/04_1100x_959839c3-dc80-47c0-9fc1-d6f87f4f88ad.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "612c7fe9-f53f-443b-93e6-0cf3d9b42b9c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Cheese_EC_05_1100x_9b151378-d462-4efc-9e22-319bb2746db2.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "4a8cb904-9701-4251-a4d9-168e23742046",
+    "f09ddd5f-913f-4b33-9bdf-100eb2bfcee2",
+    "45893c73-2116-4d5c-8815-d0b7bda99297",
+    "612c7fe9-f53f-443b-93e6-0cf3d9b42b9c"
   ]
 }
