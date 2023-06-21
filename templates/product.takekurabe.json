@@ -116,6 +116,86 @@
         "max_image_zoom_level": 3
       }
     },
+    "7c955b4d-f108-4ecc-bf73-b7e34404ef42": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sakebushi_EC_01_1100x_a4889ad9-d2ba-42f2-b1c0-b6d169d00cf8.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "23df6d53-320d-473a-bcb4-18783ebf74b2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sakebushi_EC_02_1100x_5ef56097-b831-4878-bdef-8ffea4c2f971.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "d499f5bf-6773-4933-9616-950cd3f27647": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sakebushi_EC_03_1100x_32a00643-6f75-4e0e-9d31-babb60fe1310.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "92a15daa-e235-48d1-ba7e-14ecb1a2dbb6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sakebushi_EC_04_1100x_a9bae158-8536-43cf-b725-c85ecd49a37e.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "163aaf68-e763-4c5e-a34b-e0f3674a81bc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sakebushi_EC_05_1100x_74842eea-dc5d-4a9c-8f9a-129c0efc8695.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -154,6 +234,11 @@
   },
   "order": [
     "main",
+    "7c955b4d-f108-4ecc-bf73-b7e34404ef42",
+    "23df6d53-320d-473a-bcb4-18783ebf74b2",
+    "d499f5bf-6773-4933-9616-950cd3f27647",
+    "92a15daa-e235-48d1-ba7e-14ecb1a2dbb6",
+    "163aaf68-e763-4c5e-a34b-e0f3674a81bc",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
