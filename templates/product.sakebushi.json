@@ -116,6 +116,22 @@
         "max_image_zoom_level": 3
       }
     },
+    "45ff4888-3689-4bb7-ae94-16bcbb1b8aa5": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sakebushi_EC_04_1100x_5374d240-1934-45fb-addd-e9542058619c.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -154,6 +170,7 @@
   },
   "order": [
     "main",
+    "45ff4888-3689-4bb7-ae94-16bcbb1b8aa5",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
