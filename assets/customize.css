@@ -416,6 +416,10 @@ p.h2{
 }
 #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list{
     gap: 65px 30px;
+    justify-content: space-around;
+}
+#shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .product-list .product-card{
+    gap: 10px;
 }
 #shopify-section-template--19100854059313__fd5a31cb-1fe9-42f8-b793-c538040ac72c .section-stack{
     gap: 55px;
