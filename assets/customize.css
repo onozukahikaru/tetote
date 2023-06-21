@@ -1655,7 +1655,7 @@ p.h2{
 /* 商品詳細 */
 body.product-page .shopify-section {
   max-width: var(--content-over-media-content-max-width);
-  max-width: var(--image-with-text-content-max-width);
+
   margin-left: auto;
   margin-right: auto;
 }
