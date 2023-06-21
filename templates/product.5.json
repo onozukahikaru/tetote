@@ -149,7 +149,7 @@
         "image": "shopify:\/\/shop_images\/medi_1_535x_7df84f55-f599-42aa-aa27-a2348fc89fcb.jpg",
         "reveal_on_scroll": false,
         "image_position": "start",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": false
       }
     },
@@ -195,6 +195,9 @@
         "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-1",
         "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-2"
       ],
+      "custom_css": [
+        ".container {max-width: 1000px;}"
+      ],
       "settings": {
         "separate_section_with_border": false,
         "columns_per_row": 3,
@@ -235,7 +238,7 @@
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
-        "content_width": "md",
+        "content_width": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
