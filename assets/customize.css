@@ -34,6 +34,9 @@ p.h2{
     min-height: 56px;
     margin: auto;
 }
+.product-card{
+    gap: 10px;
+}
 .product-card__info,
 .product-card__info .v-stack {
     text-align: left;
@@ -1705,4 +1708,12 @@ body.product-page .shopify-section--image-with-text .section-spacing:not(.sectio
         margin-left: 20px;
         margin-right: 20px;
     }
+}
+
+/* アプリ */
+.dBnlQt.dBnlQt.dBnlQt:checked + .sc-dlVyqM::before{
+    background: #006427!important;
+}
+.bepCke{
+    color: rgb(236 107 19)!important;
 }
