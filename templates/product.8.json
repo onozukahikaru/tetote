@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "onetime_purchase_label": "通常注文",
+            "subscription_label": "定期購入"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "block",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "#006428",
+            "payment_button_text_color": "#ffffff"
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        },
+        "d1aea2fc-59ab-4836-a57a-8c8a13ed145e": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/8c410064-0703-476d-add4-f33699a7cbf7",
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "payment_terms",
+        "dd90a88b-e545-4a50-85ee-cd5fb5ace1ef",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "complementary_products",
+        "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
+        "separator",
+        "description"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "container_size": "lg",
+        "product_info_size": 55,
+        "show_sticky_add_to_cart": false,
+        "center_basic_info": true,
+        "desktop_media_layout": "grid_2x_highlighted",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Related Items",
+        "title": "関連商品",
+        "content": ""
+      }
+    },
+    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Checked Items",
+        "title": "最近チェックした商品",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+  ]
+}
