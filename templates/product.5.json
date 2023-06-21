@@ -187,12 +187,68 @@
         "content_width": "sm",
         "remove_vertical_spacing": false
       }
+    },
+    "767caa39-0253-4d63-9431-f224815e7a17": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medi_4_550x_8877b42c-9952-479f-a9fd-808026dfcfaa.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p><strong>北海道のたもぎ茸由来のセラミドをっぷり配合。保湿効果、バリア機能を期待できます。<\/strong><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medi_5_550x_3c52865d-116f-40da-a4bf-f2bdb628b873.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p><strong>ペットの性格や気持ちに合わせて、数種類の100%天然アロマオイルをブレンドした、２タイプをご用意。マッサージにより、さらに心身へのアロマ効果をもたらします。<\/strong><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medi_6_550x_c359a687-2a0d-4f38-828d-beb0224385b5.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p><strong>肌になじみやすい、さらっとした使用感。肌へもペットの被毛へも、うるおいとサラサラ感を、心地よく感じて頂けます。<\/strong><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-0",
+        "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-1",
+        "template--19587825828145__767caa39-0253-4d63-9431-f224815e7a17-16873441115ce54f18-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32",
-    "d3b1c4b2-4dc2-475d-aa79-59d633bf5e48"
+    "d3b1c4b2-4dc2-475d-aa79-59d633bf5e48",
+    "767caa39-0253-4d63-9431-f224815e7a17"
   ]
 }
