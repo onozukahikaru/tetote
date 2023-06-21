@@ -1120,7 +1120,7 @@ p.h2{
         gap: 20px;
     }
 }
-@media  only screen and (max-width: 500px){
+@media  only screen and (max-width: 499px){
     .footer__block .unstyled-list.list li:nth-child(3){
         padding-left: 0;
     }
@@ -1235,9 +1235,26 @@ p.h2{
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
 .section_01 .section_box dl dt span{
     font-size: 16px;
+}
+.section_01 .section_box dl dt::after{
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #144503;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+
+}
+.section_01 .section_box dl dd{
+    margin-block-start: 50px;
 }
 .section_01 .section_box dl dd p:last-child{
     text-align: right;
@@ -1288,6 +1305,9 @@ p.h2{
         font-size: 14px;
         margin: 0;
     }
+    .section_01 .section_box dl dt::after{
+        bottom: -32px;
+    }
     .section_02 h2, 
     .section_03 h2, 
     .section_04 h2, 
@@ -1304,6 +1324,7 @@ p.h2{
     .section_07 .section_title{
         margin-bottom: 45px;
         max-width: none;
+        min-width:auto;
     }
     .section_02 .section_inner, 
     .section_03 .section_inner, 
@@ -1373,7 +1394,7 @@ p.h2{
 }
 @media only screen and (max-width: 425px){
     .section_01 .section_inner{
-        padding-bottom: 250%;
+        padding-bottom: 270%;
     }
     .section_01 .section_box{
         top: 13%;
@@ -1381,7 +1402,7 @@ p.h2{
 }
 @media only screen and (max-width: 375px){
     .section_01 .section_inner{
-        padding-bottom: 310%;
+        padding-bottom: 320%;
     }
 }
 @media only screen and (max-width: 320px){
