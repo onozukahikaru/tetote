@@ -124,41 +124,6 @@
         "max_image_zoom_level": 3
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Related Items",
-        "title": "関連商品",
-        "content": ""
-      }
-    },
-    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_count": 9,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Checked Items",
-        "title": "最近チェックした商品",
-        "content": ""
-      }
-    },
     "827251e5-599a-404e-ba96-5ef26cc8d89e": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -276,15 +241,50 @@
         "title": "",
         "content": ""
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Related Items",
+        "title": "関連商品",
+        "content": ""
+      }
+    },
+    "700c6d21-c325-4462-b507-4e1b0c90fc32": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Checked Items",
+        "title": "最近チェックした商品",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32",
     "827251e5-599a-404e-ba96-5ef26cc8d89e",
     "d4609f90-ee89-493c-b1a2-0edfe4b71c0a",
     "fa2e11fa-ed6e-4649-867f-fcbe6ae8ae07",
-    "33f1bb4d-c42e-47b7-9c0e-7b9d3ac67bf4"
+    "33f1bb4d-c42e-47b7-9c0e-7b9d3ac67bf4",
+    "related-products",
+    "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
 }
