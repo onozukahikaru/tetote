@@ -254,6 +254,44 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "62ef2c9a-dd87-452e-a213-e1e4871c7446": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/kanpo_8_1100x_5de836db-0946-465b-b939-a2a50775d870.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1e26ab6b-05c6-4135-97f5-5f7b7eed0de3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588306895153__1e26ab6b-05c6-4135-97f5-5f7b7eed0de3-1687347282ea79631e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>■あげ方：<br\/>ワンちゃんの健康状態、年齢、運動量を考慮して、 給与量を目安に1日2回に分けてあげて下さい。<\/p><p>粗蛋白質:23.5%以上、粗脂肪:5.0%以上、粗繊維:1.5%以下、粗灰分:4.0%以下、水分:30.0%以下、エネルギー300kcal\/100g<\/p><p>■保存方法：<br\/>直射日光を避け、涼しい場所で保存してください。<br\/>開封後は冷蔵し、賞味期限に関わらず早めに食べきってください。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588306895153__1e26ab6b-05c6-4135-97f5-5f7b7eed0de3-1687347282ea79631e-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/kanpo_5_535x_4587054d-88d3-40ce-ba58-28896bc73a15.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -265,6 +303,8 @@
     "8a587ee8-66b9-4a41-922a-ca10565951d9",
     "43503e2e-2a1a-4eec-9abc-0ba389d38730",
     "76c4fdac-f184-4d9a-93fe-a84121a4ae7f",
-    "6ba9e863-e092-40e2-9e52-313f1b75bfc4"
+    "6ba9e863-e092-40e2-9e52-313f1b75bfc4",
+    "62ef2c9a-dd87-452e-a213-e1e4871c7446",
+    "1e26ab6b-05c6-4135-97f5-5f7b7eed0de3"
   ]
 }
