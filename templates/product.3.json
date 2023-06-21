@@ -254,10 +254,10 @@
       "settings": {
         "separate_section_with_border": false,
         "image": "shopify:\/\/shop_images\/yasuhisasan_3a757b80-5678-4063-b8b9-2b1a97a53ec4.webp",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "fdb0db07-9f59-4615-b983-39b53e6c3826": {
@@ -275,6 +275,60 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "98b9bc60-2989-4fe4-b518-ef13a73f485a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_6_1100x_77426667-04a5-47ca-9d93-03e8812404a2.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "d251040f-8fb0-4e7a-8ac4-aacb2b0b0932": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_7_1100x_42f63853-beb5-4aa9-9742-d0372bcebea5.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "5d1b44f4-98ef-4521-9e0d-cd54819ef8d0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19586928476465__5d1b44f4-98ef-4521-9e0d-cd54819ef8d0-16873391072fa75c84-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>■あげ方：<br\/>ワンちゃんの健康状態、年齢、運動量を考慮して、 給与量を目安に1日2回に分けてあげて下さい。<br\/>・カロリー：鹿・鶏306kcal\/100g、魚311kcal\/100g<br\/><br\/>・鹿・成分値(100gあたり)：粗タンパク質:28.0%以上、粗脂肪:9.5%以上、粗繊維:1.0%以下、 粗灰分:5.5%以下、水分:30.0%以下<br\/><br\/>・鶏・成分値(100gあたり)：粗タンパク質:25.2%以上、粗脂肪:9.1%以上、粗繊維:0.8%以下、 粗灰分:3.5%以下、水分:30.0%以下<br\/><br\/>・魚・成分値(100gあたり)：粗タンパク質:25.2%以上、粗脂肪:9.1%以上、粗繊維:0.8%以下、 粗灰分:3.5%以下、水分:30.0%以下<br\/><br\/>■保存方法：<br\/>直射日光を避け、涼しい場所で保存してください。<br\/>開封後は冷蔵し、賞味期限に関わらず早めに食べきってください<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19586928476465__5d1b44f4-98ef-4521-9e0d-cd54819ef8d0-16873391072fa75c84-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/semimoisuto_4_535x_25b87436-84f9-4e17-8de3-3dbcdd48b40d.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -286,6 +340,9 @@
     "8628b76d-8b54-4a8f-a11a-ea870e91f835",
     "c2ea0f22-1791-49d5-8e2d-d5ea3354f673",
     "85723598-5dd9-4fb9-af0c-8b5a91e07696",
-    "fdb0db07-9f59-4615-b983-39b53e6c3826"
+    "fdb0db07-9f59-4615-b983-39b53e6c3826",
+    "98b9bc60-2989-4fe4-b518-ef13a73f485a",
+    "d251040f-8fb0-4e7a-8ac4-aacb2b0b0932",
+    "5d1b44f4-98ef-4521-9e0d-cd54819ef8d0"
   ]
 }
