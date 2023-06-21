@@ -83,6 +83,13 @@
             "collapse_content": false,
             "show_below_gallery": false
           }
+        },
+        "22aa4c67-1082-460f-bad7-cfef47a6bae5": {
+          "type": "popup",
+          "settings": {
+            "link_text": "商品詳細",
+            "popup_page": "鶏詳細"
+          }
         }
       },
       "block_order": [
@@ -97,7 +104,8 @@
         "complementary_products",
         "d1aea2fc-59ab-4836-a57a-8c8a13ed145e",
         "separator",
-        "description"
+        "description",
+        "22aa4c67-1082-460f-bad7-cfef47a6bae5"
       ],
       "custom_css": [
 
@@ -150,11 +158,174 @@
         "title": "最近チェックした商品",
         "content": ""
       }
+    },
+    "d66c9447-59ea-4ade-a80d-ea7a93b7d469": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_C_1100x_89a0ecc0-c2e6-4ef4-9faa-5c37d4405efe.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "0c68a2cf-5529-4777-baf8-03d87932616b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_1_2_1100x_90d7640f-a682-4e6d-b030-ba2091d1724b.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "3b2dd3bf-bd8b-4d34-a341-0749f4e51d0a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_2_1100x_23e6166e-3055-4242-9898-7bffc9220eca.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "2581c1ba-1f17-4b33-92b9-aeb9441de827": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_3_1100x_8501d073-c3b2-426c-b049-66091570f531.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1b6d8a9b-ade2-460a-990a-8d4e4e72b20d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588383506737__1b6d8a9b-ade2-460a-990a-8d4e4e72b20d-1687347282ea79631e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "開発者の声",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19588383506737__1b6d8a9b-ade2-460a-990a-8d4e4e72b20d-1687347282ea79631e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>どうぶつたちが目をキラキラさせながら食べる風景はまさにしあわせの原点！<\/p><p>てとて、ぺっとのごはんの商品は、動物病院の目線を取り入れた「身体に良くておいしい」がコンセプトです。AAFCOの国際的な栄養基準に沿って設計されており、原材料は“北海道産のお肉、お魚や野菜”にこだわり、また多種類の機能性食品も配合しています。<\/p><p>主原料であるエゾ鹿肉は高たんぱく低脂肪、また核酸を含んでいる鮭の白子などを多用し、これからの効果によりシニアからパピーまでどのステージのワンちゃんにも安心してあげられます。<\/p>"
+          }
+        },
+        "5b297c8c-c993-47d7-b2c3-9add77af3f45": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>ペットインストラクター／ペット栄養管理士<br\/>保久 留美子<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588383506737__1b6d8a9b-ade2-460a-990a-8d4e4e72b20d-1687347282ea79631e-1",
+        "template--19588383506737__1b6d8a9b-ade2-460a-990a-8d4e4e72b20d-1687347282ea79631e-2",
+        "5b297c8c-c993-47d7-b2c3-9add77af3f45"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/yasuhisasan_c17fbd2a-29d1-4a74-ae93-3da021e3e5cf.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "535db13b-417d-4b14-b312-67310630fe31": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_5_1100x_e8baa154-b421-4a24-bc00-5d083b92d70c.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "206f90fb-8dee-4064-8743-f578861c8e3b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/semimoisuto_7_1100x_ade16155-b642-4975-bdd4-3879fd6d2f06.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "fca5af6a-2afb-445d-ada8-0ffff9ec74e7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19588383506737__fca5af6a-2afb-445d-ada8-0ffff9ec74e7-1687347282ea79631e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>■あげ方：<br\/>ワンちゃんの健康状態、年齢、運動量を考慮して、 給与量を目安に1日2回に分けてあげて下さい。<br\/>・カロリー：鹿・鶏306kcal\/100g、魚311kcal\/100g<br\/><br\/>・鹿・成分値(100gあたり)：粗タンパク質:28.0%以上、粗脂肪:9.5%以上、粗繊維:1.0%以下、 粗灰分:5.5%以下、水分:30.0%以下<br\/><br\/>・鶏・成分値(100gあたり)：粗タンパク質:25.2%以上、粗脂肪:9.1%以上、粗繊維:0.8%以下、 粗灰分:3.5%以下、水分:30.0%以下<br\/><br\/>・魚・成分値(100gあたり)：粗タンパク質:25.2%以上、粗脂肪:9.1%以上、粗繊維:0.8%以下、 粗灰分:3.5%以下、水分:30.0%以下<br\/><br\/>■保存方法：<br\/>直射日光を避け、涼しい場所で保存してください。<br\/>開封後は冷蔵し、賞味期限に関わらず早めに食べきってください<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19588383506737__fca5af6a-2afb-445d-ada8-0ffff9ec74e7-1687347282ea79631e-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/semimoisuto_4_535x_092d2670-cdec-4640-a89d-14fa04a1b510.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "700c6d21-c325-4462-b507-4e1b0c90fc32"
+    "700c6d21-c325-4462-b507-4e1b0c90fc32",
+    "d66c9447-59ea-4ade-a80d-ea7a93b7d469",
+    "0c68a2cf-5529-4777-baf8-03d87932616b",
+    "3b2dd3bf-bd8b-4d34-a341-0749f4e51d0a",
+    "2581c1ba-1f17-4b33-92b9-aeb9441de827",
+    "1b6d8a9b-ade2-460a-990a-8d4e4e72b20d",
+    "535db13b-417d-4b14-b312-67310630fe31",
+    "206f90fb-8dee-4064-8743-f578861c8e3b",
+    "fca5af6a-2afb-445d-ada8-0ffff9ec74e7"
   ]
 }
