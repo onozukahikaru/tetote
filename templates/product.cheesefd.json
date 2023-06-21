@@ -186,7 +186,7 @@
 
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
         "recommendations_count": 10,
@@ -202,7 +202,7 @@
     "700c6d21-c325-4462-b507-4e1b0c90fc32": {
       "type": "recently-viewed-products",
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
         "products_count": 9,
