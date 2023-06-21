@@ -1686,6 +1686,9 @@ body.product-page #main .shopify-section--related-products .section-spacing:not(
   margin-block-start: 120px;
   margin-block-end: 120px;
 }
+body.product-page .shopify-section--multi-column .prose {
+  padding-bottom: 30xpx;
+}
 :checked + .block-swatch, .block-swatch.is-selected{
     color: #006427!important;
     border-color: #006427!important;
