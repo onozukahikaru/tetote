@@ -116,6 +116,86 @@
         "max_image_zoom_level": 3
       }
     },
+    "69bd925f-b35d-460a-a172-3f91656b27c5": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Lina_1_1100x_9240ce5f-7e38-43d9-ab38-a0950632be62.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "888696e7-f93a-40f9-8ac6-db2f59a9bde3": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Lina_2_1100x_88c16efd-f1f2-481c-98c5-fac0c5ec2157.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "2a807eec-7d0e-43f2-91fb-5db0905d3b90": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Lina_3_1100x_ffbe7d35-fa8c-4a85-bd17-cf463aa19a93.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "b4a643bf-bd9e-4e56-bd1e-c6bfffe68ee7": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Lina_4_1100x_827c053a-f5ee-4b21-9023-bb4bdf97e907.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "4433e7b6-ee82-4538-9067-c8cc8112657b": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Lina_6_1100x_1f2a18d9-1e3a-47ba-ae07-4a63f7ae1905.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "related-products": {
       "type": "related-products",
       "custom_css": [
@@ -154,6 +234,11 @@
   },
   "order": [
     "main",
+    "69bd925f-b35d-460a-a172-3f91656b27c5",
+    "888696e7-f93a-40f9-8ac6-db2f59a9bde3",
+    "2a807eec-7d0e-43f2-91fb-5db0905d3b90",
+    "b4a643bf-bd9e-4e56-bd1e-c6bfffe68ee7",
+    "4433e7b6-ee82-4538-9067-c8cc8112657b",
     "related-products",
     "700c6d21-c325-4462-b507-4e1b0c90fc32"
   ]
