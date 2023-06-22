@@ -23,8 +23,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/mv_pc.png",
-        "mobile_image": "shopify:\/\/shop_images\/mv_sp.png",
+        "image": "shopify:\/\/shop_images\/main-illust_pc.png",
+        "mobile_image": "shopify:\/\/shop_images\/main-illust_sp.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
