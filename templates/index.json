@@ -68,6 +68,16 @@
         "remove_vertical_spacing": false
       }
     },
+    "874f1ff4-a711-447b-a6f4-030d52feb156": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"shopify-section shopify-section--asahikawa\">\n    <div class=\"section_wrapper\">\n        <h2>どうぶつの視点にたったヒトも<br class=\"only_sp\">どうぶつもそして自然も<br>\n            幸せになる商品をストーリーと<br class=\"only_sp\">共にお届けします。<\/h2>\n        <p>SDGs時代、多様な価値を認め合うことも尊ばれてきている今、<br class=\"only_pc\">\n            わたしたちも前進していくための大切な一歩として、<br class=\"only_pc\">カタカナ“ペット”を使わない文化を、動物園のまち、<br class=\"only_pc\">\n            大雪山の奥に囲まれた自然都市旭川から発信していきます。\n        <\/p>\n    <\/div>\n<\/section>",
+        "text_alignment": "center"
+      }
+    },
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c": {
       "type": "featured-collections",
       "blocks": {
@@ -383,6 +393,7 @@
   "order": [
     "05394f8c-fafb-4d43-8254-705350b38903",
     "53ee0a40-dd88-4145-b7de-c5fa9e68baf2",
+    "874f1ff4-a711-447b-a6f4-030d52feb156",
     "fd5a31cb-1fe9-42f8-b793-c538040ac72c",
     "0ab777a5-d824-41bd-a67d-4fb162a1ff50",
     "96cde627-1142-4e18-b168-0067e4bfbcd3",
