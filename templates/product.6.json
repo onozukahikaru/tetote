@@ -171,7 +171,7 @@
         "template--19587924001073__cb6a08d3-5817-407b-b749-18dad35f1451-1687345826adc0dd0f-1"
       ],
       "custom_css": [
-        ".container {max-width: 1000px;}"
+        ".container {max-width: 1000px; margin: 0 auto;}"
       ],
       "settings": {
         "separate_section_with_border": false,
