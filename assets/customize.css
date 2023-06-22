@@ -1788,6 +1788,13 @@ div.subscription-history{
 dd.huckleberry-subscription-list-id{
     color: #000;
 }
+.huckleberry-subscription-detail-btn.new-add,
+.huckleberry-subscription-detail-btn.add{
+    border-radius: 60px;
+}
+.huckleberry-subscription-detail-btn.add{
+    background-color: #144503;
+}
 @media only screen and (max-width: 999px){
     .back_ac{
         margin: 2rem 20px;
