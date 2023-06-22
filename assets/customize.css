@@ -4,13 +4,14 @@ body{
 }
 
 .shopify-section--image-with-text-overlay .h2{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Klee One', serif;
 }
 .marumi{
     font-family: "kinuta-maruminold-stdn", serif;
     font-weight: 400;
     font-style: normal;
 }
+
 
 .link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse){
     background: none;
@@ -334,9 +335,12 @@ p.h2{
     color: #566E79;
 }
 .shopify-section--image-with-text-overlay:first-child .h2{
-    font-size: 50px;
-    letter-spacing: 0.2rem;
-    color: #034538;
+    font-size: 63px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: white;
+    text-shadow: 0 0 35px #006FA0;
+    display: inline-block;
 }
 .shopify-section--image-with-text-overlay:first-child image-with-text-overlay{
     padding-top: 270px;
@@ -370,24 +374,24 @@ p.h2{
 }
 @media only screen and (max-width: 999px){
     .shopify-section--image-with-text-overlay:first-child .content-over-media:before{
-        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background_489ac592-5ace-4a3a-a6ff-6a5a23e6bb47.jpg?v=1686717365);
+        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/tablet.jpg?v=1687412561);
         background-repeat: repeat-x;
-        background-size: contain;
-        background-position: top;
+        background-size: cover;
+        background-position: center;
         z-index: 0;
     }
     .shopify-section--image-with-text-overlay:first-child .h2{
         font-size: 44px;
-        line-height: 1.2;
+        line-height: 1;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay{
-        padding-top: 370px;
+        padding-top: 20%;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay img{
         min-height: auto;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay > div.content{
-        top: -374px;
+        top: -120px;
     }
     #shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .prose{
         padding: 30px 25px;
@@ -398,6 +402,134 @@ p.h2{
     }#shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .h3 {
         font-size: 18px;
     }
+}
+@media only screen and (max-width: 500px){
+    .shopify-section--image-with-text-overlay:first-child .content-over-media:before{
+        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/sp.jpg?v=1687412560);
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-position: top;
+        z-index: 0;
+    }
+    .shopify-section--image-with-text-overlay:first-child .h2{
+        font-size: 44px;
+        display: block;
+    }
+    .shopify-section--image-with-text-overlay:first-child image-with-text-overlay{
+        padding-top: 50%;
+    }
+    .shopify-section--image-with-text-overlay:first-child image-with-text-overlay img{
+        min-height: auto;
+    }
+    .shopify-section--image-with-text-overlay:first-child image-with-text-overlay > div.content{
+        top: -160px;
+    }
+}
+
+/* 動物の視点 */
+.shopify-section--asahikawa{
+    border-bottom: 3px solid #144503;
+    padding-bottom: 50px;
+}
+.shopify-section--asahikawa .only_sp{
+    display: none;
+}
+.shopify-section--asahikawa .section_wrapper{
+    position: relative;
+}
+.shopify-section--asahikawa .section_wrapper::before{
+    content: '';
+    position: absolute;
+    bottom: -70px;
+    left: 10%;
+    width: 118px;
+    height: 182px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/neko.png?v=1687410691);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shopify-section--asahikawa .section_wrapper::after{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: 10%;
+    width: 150px;
+    height: 182px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/inu.png?v=1687410692);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shopify-section--asahikawa h2{
+    color: #144503;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+.shopify-section--asahikawa p{
+
+}
+@media only screen and (max-width: 999px){
+    .shopify-section--asahikawa .section_wrapper::before{
+        left: 5%;
+        bottom: -50px;
+        width: 51px;
+        height: 70px;
+    }
+    .shopify-section--asahikawa .section_wrapper::after{
+        right: 5%;
+        width: 75px;
+        height: 90px;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .shopify-section--asahikawa .only_sp{
+        display: block;
+    }
+    .shopify-section--asahikawa .only_pc{
+        display: none;
+    }
+    .shopify-section--asahikawa{
+        border-bottom: none;
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .shopify-section--asahikawa::after{
+        content: '';
+        background: #144503;
+        width: 100vw;
+        height: 3px;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        margin: 0 calc(50% - 50vw);
+    }
+    .shopify-section--asahikawa h2{
+        font-size: 21px;
+        margin-bottom: 40px;
+    }
+    .shopify-section--asahikawa p {
+        padding: 0 25px;
+        text-align: left;
+    }
+    .shopify-section--asahikawa .section_wrapper::before{
+        bottom: -40px;
+        left: -30px;
+        width: 51px;
+        height: 70px;
+    }
+    .shopify-section--asahikawa .section_wrapper::after{
+        bottom: -40px;
+        right: -55px;
+        width: 75px;
+        height: 90px;
+    }
+    .shopify-section-template--19100854059313__874f1ff4-a711-447b-a6f4-030d52feb156{
+        overflow: hidden;
+    }
+    
 }
 
 /* おすすめ */
@@ -448,7 +580,8 @@ p.h2{
     background: white;
     border-radius: 15px;
     padding: 60px 22.5% 90px;
-    
+    position: relative;
+    z-index: 1;
 }
 .shopify-section--about .container{
     margin: 0 auto;
@@ -515,28 +648,29 @@ p.h2{
 .shopify-section--about .desc{
     position: relative;
 }
-.shopify-section--about .desc::before{
+.shopify-section--about .prose::before{
     content: '';
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/leaf.png?v=1686530170);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/img_08.png?v=1687410693);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 220px;
-    height: 272px;
-    top: 0;
+    width: 285px;
+    height: 545px;
+    bottom: 0;
     position: absolute;
-    left: -220px;
+    left: 0px;
 }
-.shopify-section--about .desc::after{
+.shopify-section--about .prose::after{
     content: '';
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/leaf.png?v=1686530170);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/img_08.png?v=1687410693);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 220px;
-    height: 272px;
+    width: 285px;
+    height: 545px;
     position: absolute;
-    top: 0;
-    right: -220px;
+    bottom: 0;
+    right: 0px;
     transform: scale(-1, 1);
+    z-index: -1;
 }
 @media only screen and (max-width: 999px){
     .shopify-section--about .prose{
@@ -578,21 +712,16 @@ p.h2{
     .shopify-section--about .section-spacing:not(.section-spacing--padded){
         padding: 40px 0;
     }
-    .shopify-section--about .desc::before{
-        width: 60px;
-        height: 74px;
-        top: auto;
-        bottom: -40px;
-        position: absolute;
-        left: -40px;
+    .shopify-section--about .prose::before{
+        width: 53px;
+        height: 102px;
+        bottom: 40px;
     }
-    .shopify-section--about .desc::after{
-        width: 60px;
-        height: 74px;
+    .shopify-section--about .prose::after{
+        width: 53px;
+        height: 102px;
         position: absolute;
-        top: auto;
-        bottom: -40px;
-        right: -40px;
+        bottom: 40px;
     }
     .shopify-section--about .container{
         margin: 0 25px;
@@ -660,6 +789,15 @@ p.h2{
 }
 
 /* しぜんの物語 */
+.shopify-section--multi-shizen{
+    background: #F1F2EB;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.shopify-section--multi-shizen .section-spacing:not(.section-spacing--padded){
+    margin-block-start: 90px;
+    margin-block-end: 0;
+}
 .shopify-section--multi-shizen .container{
     max-width: 1300px;
 }
@@ -679,6 +817,30 @@ p.h2{
     -ms-box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.1);
     background: white;
+    overflow: hidden;
+}
+.shopify-section--multi-shizen .section-stack{
+    gap: 0;
+}
+.shopify-section--multi-shizen .wrapper_multi-column{
+    position: relative;
+    height: 150px;
+}
+.shopify-section--multi-shizen .wrapper_multi-column::before{
+    content: '';
+    width: 100%;
+    max-width: 1500px;
+    padding-top: 14.28%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/img_09.png?v=1687410692);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .shopify-section--multi-shizen .colum50{
     width: 50%;
@@ -705,7 +867,24 @@ p.h2{
     min-height: 40px;
     margin-block-start: 0!important;
 }
-
+@media only screen and (min-width: 1300px){
+    .shopify-section--multi-shizen .wrapper_multi-column::before{
+        content: '';
+        width: 120%;
+        padding-top: 14.28%;
+        position: absolute;
+        bottom: 0;
+        left: 60%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        display: block;
+        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/img_09.png?v=1687410692);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+}
 @media only screen and (max-width: 999px){
     .shopify-section--multi-shizen .container{
         margin: 0 25px;
@@ -736,6 +915,48 @@ p.h2{
     }
     .shopify-section--multi-shizen .h2{
         font-size: 18px;
+    }
+    .shopify-section--multi-shizen .wrapper_multi-column{
+        height: 110px;
+    }
+    .shopify-section--multi-shizen .wrapper_multi-column::before{
+        content: '';
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    .shopify-section--multi-shizen .section-spacing:not(.section-spacing--padded){
+        margin-block-start: 65px;
+    }
+    .shopify-section--multi-shizen .h2{
+        max-width: 79%;
+        margin: auto;
+    }
+    .shopify-section--multi-shizen .wrapper_multi-column{
+        height: 80px;
+    }
+    .shopify-section--multi-shizen .wrapper_multi-column::before{
+        content: '';
+        width: 100%;
+        padding-top: 24%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        display: block;
+        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/2308.png?v=1687410692);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 375px){
+    .shopify-section--multi-shizen .wrapper_multi-column::before {
+        content: '';
+        width: 100vw;
+        padding-top: 28%;
     }
 }
 
@@ -841,6 +1062,15 @@ p.h2{
 }
 
 /* お知らせ */
+.shopify-section--news{
+    background: #F1F2EB;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.shopify-section--news .section-spacing:not(.section-spacing--padded) {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 .shopify-section--news h2{
     position: relative;
 }
@@ -861,7 +1091,7 @@ p.h2{
 .shopify-section--news .news-list li a{
     display: flex;
     padding: 20px 0;
-    border-bottom: 1px solid #F1F2EB;
+    border-bottom: 1px solid white;
 }
 .shopify-section--news .news-list-info{
     margin-right: 20px;
@@ -880,6 +1110,10 @@ p.h2{
     gap: 55px;
 }
 @media only screen and (max-width: 999px){
+    .shopify-section--news{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .shopify-section--news .container{
         max-width: none;
         padding: 0 25px;
@@ -970,7 +1204,7 @@ p.h2{
     margin-block-start: 0!important;
 }
 .footer .footer__aside{
-    background: #144503;
+    background: #3FA037;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -983,7 +1217,7 @@ p.h2{
     letter-spacing: normal;
 }
 .footer .footer__inner button{
-    background: #144503;
+    background: #3FA037;
     border-radius: 5px;
     font-weight: bold;
     width: 100%;
@@ -1042,7 +1276,7 @@ p.h2{
     position: relative;
 }
 .social-media--list svg{
-    color: #144503;
+    color: #3FA037;
     width: 22px;
 }
 .footer .social-media--list {
