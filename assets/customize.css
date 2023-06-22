@@ -1785,6 +1785,9 @@ div.subscription-history{
     max-width: 1300px;
     margin: 2rem auto;
 }
+dd.huckleberry-subscription-list-id{
+    color: #000;
+}
 @media only screen and (max-width: 999px){
     .back_ac{
         margin: 2rem 20px;
