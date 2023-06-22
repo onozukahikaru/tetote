@@ -1779,7 +1779,6 @@ div.subscription-history{
 .subscription-history .detail-btn,
 .subscription-history .back-btn{
     max-width: 350px;
-    border-radius: 60px;
 }
 .back_ac{
     max-width: 1300px;
