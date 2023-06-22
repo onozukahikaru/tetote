@@ -200,7 +200,7 @@ p.h2{
         padding-inline-end: var(--drawer-body-padding-inline);
     }
     .header-sidebar__footer .text-with-icon{
-        background: #144503;
+        background: #3FA037;
         border-radius: 60px;
         color: white;
         font-size: 13px;
@@ -671,6 +671,21 @@ p.h2{
     right: 0px;
     transform: scale(-1, 1);
     z-index: -1;
+}
+.shopify-section--about .button{
+    color: transparent;
+    background-image: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/wh.png?v=1687424621);
+    background-size: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #3FA037;
+}
+.shopify-section--about .button:hover{
+    color: transparent!important;
+    background-image: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/hover.png?v=1687424559)!important;
+    background-size: 220px!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
 }
 @media only screen and (max-width: 999px){
     .shopify-section--about .prose{
