@@ -1062,6 +1062,7 @@ p.h2{
 @media only screen and (max-width: 999px){
     .shopify-section--blog-posts .container{
         padding: 0px;
+        margin: 0;
     }
     .swiper-slide{
         max-width: 260px;
@@ -1070,7 +1071,9 @@ p.h2{
     .swiper-button-prev{
         display: none;
     }
-
+    .swiper-wrapper.blog-post-list{
+        padding-left: 20px;
+    }
 }
 
 /* お知らせ */
