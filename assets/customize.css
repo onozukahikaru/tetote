@@ -1,6 +1,7 @@
 /* font */
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    overflow: hidden;
 }
 
 .shopify-section--image-with-text-overlay .h2{
