@@ -1071,8 +1071,8 @@ p.h2{
     .swiper-button-prev{
         display: none;
     }
-    .swiper-wrapper.blog-post-list{
-        padding-left: 20px;
+    .shopify-section--blog-posts .swiper{
+        padding: 0 25px;
     }
 }
 
