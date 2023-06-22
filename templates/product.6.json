@@ -233,7 +233,7 @@
         "template--19587924001073__3b9a92dd-81a3-407e-8bf0-248c9d9565f9-1687345826adc0dd0f-1"
       ],
       "custom_css": [
-        ".container {max-width: 1000px;}"
+        ".container {max-width: 1000px; margin: 0 auto;}"
       ],
       "settings": {
         "separate_section_with_border": false,
