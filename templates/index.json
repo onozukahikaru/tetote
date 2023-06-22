@@ -6,13 +6,21 @@
         "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-0": {
           "type": "heading",
           "settings": {
-            "text": "ONE Planet, ONE Health",
+            "text": "ONE Planet,",
+            "heading_tag": "h2"
+          }
+        },
+        "68245519-c389-4b47-bb6e-c9225b7b61c0": {
+          "type": "heading",
+          "settings": {
+            "text": "ONE Health",
             "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-0"
+        "template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903-1686214196d9889435-0",
+        "68245519-c389-4b47-bb6e-c9225b7b61c0"
       ],
       "settings": {
         "image_size": "auto",
@@ -165,7 +173,7 @@
         "229c5e96-9ff5-424f-9fa0-97eea8536242": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/923.png",
+            "image": "shopify:\/\/shop_images\/triangle.png",
             "width_mode": "custom",
             "max_width": 540,
             "mobile_max_width": 320
