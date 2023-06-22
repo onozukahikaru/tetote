@@ -1781,3 +1781,12 @@ div.subscription-history{
     max-width: 350px;
     border-radius: 60px;
 }
+.back_ac{
+    max-width: 1300px;
+    margin: 2rem auto;
+}
+@media only screen and (max-width: 999px){
+    .back_ac{
+        margin: 2rem 20px;
+    }
+}
