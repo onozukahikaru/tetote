@@ -74,7 +74,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"shopify-section--asahikawa\">\n    <div class=\"section_wrapper\">\n        <h2>どうぶつの視点にたったヒトも<br class=\"only_sp\">どうぶつもそして自然も<br>\n            幸せになる商品をストーリーと<br class=\"only_sp\">共にお届けします。<\/h2>\n        <p>SDGs時代、多様な価値を認め合うことも尊ばれてきている今、<br class=\"only_pc\">\n            わたしたちも前進していくための大切な一歩として、<br class=\"only_pc\">カタカナ“ペット”を使わない文化を、動物園のまち、<br class=\"only_pc\">\n            大雪山の奥に囲まれた自然都市旭川から発信していきます。\n        <\/p>\n    <\/div>\n<\/div>",
+        "liquid": "<div class=\"shopify-section--asahikawa container--lg\">\n    <div class=\"section_wrapper\">\n        <h2>どうぶつの視点にたったヒトも<br class=\"only_sp\">どうぶつもそして自然も<br>\n            幸せになる商品をストーリーと<br class=\"only_sp\">共にお届けします。<\/h2>\n        <p>SDGs時代、多様な価値を認め合うことも尊ばれてきている今、<br class=\"only_pc\">\n            わたしたちも前進していくための大切な一歩として、<br class=\"only_pc\">カタカナ“ペット”を使わない文化を、動物園のまち、<br class=\"only_pc\">\n            大雪山の奥に囲まれた自然都市旭川から発信していきます。\n        <\/p>\n    <\/div>\n<\/div>",
         "text_alignment": "center"
       }
     },
