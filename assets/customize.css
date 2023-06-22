@@ -467,9 +467,6 @@ p.h2{
     font-size: 26px;
     margin-bottom: 50px;
 }
-.shopify-section--asahikawa p{
-
-}
 @media only screen and (max-width: 999px){
     .shopify-section--asahikawa .section_wrapper::before{
         left: 5%;
@@ -526,7 +523,7 @@ p.h2{
         width: 75px;
         height: 90px;
     }
-    .shopify-section-template--19100854059313__874f1ff4-a711-447b-a6f4-030d52feb156{
+    #shopify-section-template--19100854059313__874f1ff4-a711-447b-a6f4-030d52feb156{
         overflow: hidden;
     }
     
