@@ -88,7 +88,7 @@ p.h2{
 .header{
     padding-top: 25px;
     padding-bottom: 18px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .header__logo{
     margin-bottom: 15px;
