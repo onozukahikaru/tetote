@@ -5117,7 +5117,7 @@ var MegaMenuDisclosure = class extends MenuDisclosure {
       [this.contentElement, { opacity: [0, 1] }, { duration: 0.25 }],
       { name: "content", at: "-0.5" },
       [linklists, { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] }, { duration: 0.3, at: "content", delay: stagger3(0.1) }],
-      [this.contentElement.querySelector(".mega-menu__promo"), { opacity: [0, 1] }, { duration: 0.3, at: "-0.15" }]
+      [this.contentElement.querySelector(".mega-menu__promo"), { opacity: [0, 1], transform: ["translateY(8px)", "translateY(0)"] }, { duration: 0.3, at: "content", delay: stagger3(0.1) }]
     ]);
   }
   createHideAnimationControls() {
