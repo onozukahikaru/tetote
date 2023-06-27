@@ -591,6 +591,7 @@ p.h2{
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 .shopify-section--about p.h2::before{
@@ -605,7 +606,7 @@ p.h2{
 .shopify-section--about p.h6{
     position: absolute;
     left: 41%;
-    top: 40px;
+    bottom: 110px;
     color: #99A39A;
     font-size: 12px;
 }
@@ -693,6 +694,7 @@ p.h2{
         height: 77px;
     }
     .shopify-section--about p.h2{
+        align-items: flex-start;
         font-size: 20px;
         width: 240px;
         margin: auto;
@@ -705,8 +707,8 @@ p.h2{
         line-height: 1.5;
     }
     .shopify-section--about p.h6{
-        left: 41%;
-        top: 60px;
+        left: 46%;
+        bottom: 105px;
     }
     .shopify-section--about p.h3::before,
     .shopify-section--about p.h3::after {
@@ -738,6 +740,11 @@ p.h2{
         margin: 0 25px;
     }
     
+}
+@media only screen and (max-width: 500px){
+    .shopify-section--about p.h6{
+        left: 41%;
+    }
 }
 
 /* one health project */
