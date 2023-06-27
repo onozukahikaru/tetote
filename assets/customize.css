@@ -435,12 +435,12 @@ p.h2{
 .shopify-section--asahikawa .section_wrapper::before{
     content: '';
     position: absolute;
-    bottom: -70px;
+    bottom: -50px;
     left: 10%;
     width: 118px;
-    height: 182px;
+    height: 132px;
     display: block;
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/neko.png?v=1687410691);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/014ca7b63cb5be2f8ca365a64c3f01ac.png?v=1687822814);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -450,9 +450,9 @@ p.h2{
     bottom: -50px;
     right: 10%;
     width: 150px;
-    height: 182px;
+    height: 142px;
     display: block;
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/inu.png?v=1687410692);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/381c2db41828d4a56044ad0160cb5868.png?v=1687822814);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -466,13 +466,13 @@ p.h2{
     .shopify-section--asahikawa .section_wrapper::before{
         left: 5%;
         bottom: -50px;
-        width: 51px;
+        width: 70px;
         height: 70px;
     }
     .shopify-section--asahikawa .section_wrapper::after{
         right: 5%;
         width: 75px;
-        height: 90px;
+        height: 80px;
     }
 
 }
@@ -509,14 +509,14 @@ p.h2{
     .shopify-section--asahikawa .section_wrapper::before{
         bottom: -40px;
         left: -30px;
-        width: 51px;
-        height: 70px;
+        width: 60px;
+        height: 66px;
     }
     .shopify-section--asahikawa .section_wrapper::after{
         bottom: -40px;
-        right: -55px;
+        right: -30px;
         width: 75px;
-        height: 90px;
+        height: 80px;
     }
     #shopify-section-template--19100854059313__874f1ff4-a711-447b-a6f4-030d52feb156{
         overflow: hidden;
@@ -595,16 +595,16 @@ p.h2{
 }
 .shopify-section--about p.h2::before{
     content: '';
-    width: 75px;
-    height: 90px;
+    width: 105px;
+    height: 110px;
     display: block;
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_pag.png?v=1686530170);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/014ca7b63cb5be2f8ca365a64c3f01ac.png?v=1687822814);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .shopify-section--about p.h6{
     position: absolute;
-    left: 39%;
+    left: 41%;
     top: 40px;
     color: #99A39A;
     font-size: 12px;
@@ -645,26 +645,25 @@ p.h2{
 }
 .shopify-section--about .prose::before{
     content: '';
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/img_08.png?v=1687410693);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/tree-l_2x_cec6014c-fa13-4107-a154-b18fa4f572a7.png?v=1687823093);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 285px;
-    height: 545px;
+    width: 215px;
+    height: 385px;
     bottom: 0;
     position: absolute;
-    left: 0px;
+    left: 3%;
 }
 .shopify-section--about .prose::after{
     content: '';
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/img_08.png?v=1687410693);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/tree-r_2x_c56e4dab-4001-49be-9f4a-e62890daa4f1.png?v=1687823093);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 285px;
-    height: 545px;
+    width: 175px;
+    height: 425px;
     position: absolute;
     bottom: 0;
-    right: 0px;
-    transform: scale(-1, 1);
+    right: 3%;
     z-index: -1;
 }
 .shopify-section--about .button{
@@ -690,12 +689,12 @@ p.h2{
         text-align: left;
     }
     .shopify-section--about p.h2::before{
-        width: 62px;
-        height: 75px;
+        width: 105px;
+        height: 77px;
     }
     .shopify-section--about p.h2{
         font-size: 20px;
-        width: 210px;
+        width: 240px;
         margin: auto;
         line-height: 1.5;
     }
@@ -706,7 +705,7 @@ p.h2{
         line-height: 1.5;
     }
     .shopify-section--about p.h6{
-        left: 36%;
+        left: 41%;
         top: 60px;
     }
     .shopify-section--about p.h3::before,
@@ -726,12 +725,14 @@ p.h2{
         width: 53px;
         height: 102px;
         bottom: 40px;
+        left: -10px;
     }
     .shopify-section--about .prose::after{
         width: 53px;
         height: 102px;
         position: absolute;
         bottom: 40px;
+        right: -10px;
     }
     .shopify-section--about .container{
         margin: 0 25px;
