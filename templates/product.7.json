@@ -171,7 +171,7 @@
         "template--19588261413169__d4609f90-ee89-493c-b1a2-0edfe4b71c0a-1687345826adc0dd0f-1"
       ],
       "custom_css": [
-        ".container {max-width: 1000px; margin: 0 auto;}"
+
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -233,7 +233,7 @@
         "template--19588261413169__33f1bb4d-c42e-47b7-9c0e-7b9d3ac67bf4-1687345826adc0dd0f-1"
       ],
       "custom_css": [
-        ".container {max-width: 1000px; margin: 0 auto;}"
+
       ],
       "settings": {
         "separate_section_with_border": false,
