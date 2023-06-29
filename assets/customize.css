@@ -1966,6 +1966,10 @@ body.product-page .shopify-section--image-with-text-overlay {
 body.product-page .shopify-section--image-with-text .prose {
   padding: 0 15px;
 }
+body.product-page .shopify-section--multi-column .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 body.product-page .shopify-section--multi-column .prose {
   padding-bottom: 50px;
 }
