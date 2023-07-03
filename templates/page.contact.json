@@ -10,6 +10,20 @@
     "db93b192-dcb6-4722-ba6c-5b1c7466ff07": {
       "type": "faq",
       "blocks": {
+        "16ae52ad-5241-43d5-8030-3949e39e3bb2": {
+          "type": "question",
+          "settings": {
+            "question": "<span style=\"text-decoration:underline\">注文後のメールは届かないのですか？<\/span>",
+            "answer": "<p>ご注文受付完了後、当店よりご注文確認のメールが自動的に届きますので内容をご確認下さい。<br\/>※こちらから連絡事項がある場合のみ、改めてメールをお送り致します。<br\/><br\/>迷惑メール等を設定している方は次のドメインの受信制限を解除してください。<br\/>「@tetote-gohan.co.jp」<\/p>"
+          }
+        },
+        "b5f9cdb6-ef92-4e63-9d03-304563ff3239": {
+          "type": "question",
+          "settings": {
+            "question": "<span style=\"text-decoration:underline\">注文の受付は何時までですか？<\/span>",
+            "answer": "<p>注文の受付は基本的に24時間の受付となります。<br\/>　・インターネット(当サイト)によるご注文 \/ 24時間受付<br\/>但し、ご注文の処理は翌日の営業時間内での扱いとなりますので予めご了承下さい。<br\/>※土、日、祝日をはさむ場合は休み明けの処理となります。<\/p>"
+          }
+        },
         "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-1": {
           "type": "question",
           "settings": {
@@ -26,6 +40,8 @@
         }
       },
       "block_order": [
+        "16ae52ad-5241-43d5-8030-3949e39e3bb2",
+        "b5f9cdb6-ef92-4e63-9d03-304563ff3239",
         "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-1",
         "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-2"
       ],
