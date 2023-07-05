@@ -1336,11 +1336,11 @@ p.h2{
 }
 @media only screen and (min-width: 1000px){
     .footer__block .unstyled-list.list li:nth-child(1),
-    .footer__block .unstyled-list.list li:nth-child(4){
+    .footer__block .unstyled-list.list li:nth-child(4n){
         padding-left: 0;
     }
     .footer__block .unstyled-list.list li:nth-child(3)::after,
-    .footer__block .unstyled-list.list li:nth-child(4)::after{
+    .footer__block .unstyled-list.list li:nth-child(3n)::after{
         display: none;
     }
     .footer .container{
@@ -1351,6 +1351,20 @@ p.h2{
 @media (min-width: 999px) and (max-width: 1200px){
     .footer__block-list .footer__block{
         max-width: 45%;
+    }
+    .footer__block .unstyled-list.list li:nth-child(1){
+        padding-left: 25px;
+    }
+    .footer__block .unstyled-list.list li:nth-child(3)::after,
+    .footer__block .unstyled-list.list li:nth-child(3n)::after{
+        display: inline-block;
+    }
+    .footer__block .unstyled-list.list li:nth-child(1),
+    .footer__block .unstyled-list.list li:nth-child(4n){
+        padding-left: 25px;
+    }
+    .footer__block .unstyled-list.list li:nth-child(2n)::after{
+        display: none;
     }
 }
 
@@ -1378,10 +1392,10 @@ p.h2{
     .footer__block--newsletter .form-control{
         max-width: none;
     }
-    .footer__block .unstyled-list.list li:nth-child(1){
-        padding-left: 0;
+    .footer__block .unstyled-list.list li:nth-child(4n){
+        padding-left: 25px;
     }
-    .footer__block .unstyled-list.list li:nth-child(4)::after{
+    .footer__block .unstyled-list.list li:nth-child(3n)::after{
         display: none;
     }
     .footer .footer__inner button{
@@ -1412,9 +1426,12 @@ p.h2{
         gap: 20px;
     }
 }
-@media  only screen and (max-width: 499px){
-    .footer__block .unstyled-list.list li:nth-child(3){
-        padding-left: 0;
+@media  only screen and (max-width: 523px){
+    .footer__block .unstyled-list.list li:nth-child(3n)::after{
+        display: inline-block;
+    }
+    .footer__block .unstyled-list.list li:nth-child(2n)::after{
+        display: none;
     }
 }
 @media  only screen and (max-width: 320px){
