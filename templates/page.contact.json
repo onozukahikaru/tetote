@@ -31,13 +31,6 @@
             "answer": "<p>申し訳ございませんが対応しておりません。<\/p>"
           }
         },
-        "1a44a111-f58c-46d5-a832-e27460d83725": {
-          "type": "question",
-          "settings": {
-            "question": "<span style=\"text-decoration:underline\">モバイル端末(スマートフォン・ipad)からでも買い物ができますか？<\/span>",
-            "answer": "<p>当サイトはパソコン・スマートフォン・マルチ端末対応です。<br\/>ホームページアドレスは、当サイトと同じアドレスとなります。<br\/>https:\/\/tetote-gohan.co.jp\/<\/p>"
-          }
-        },
         "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-1": {
           "type": "question",
           "settings": {
@@ -85,7 +78,6 @@
         "16ae52ad-5241-43d5-8030-3949e39e3bb2",
         "b5f9cdb6-ef92-4e63-9d03-304563ff3239",
         "fadd08c6-941e-4255-bd9f-b72b07635b4a",
-        "1a44a111-f58c-46d5-a832-e27460d83725",
         "template--19100853731633__db93b192-dcb6-4722-ba6c-5b1c7466ff07-16844017294fd3c897-1",
         "da004dd9-56be-45d5-9574-6bf71ab06002",
         "2d0bfd28-9792-41d3-8269-3f4a6796a4d1",
