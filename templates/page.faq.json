@@ -3,41 +3,47 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "category": {
-          "type": "category",
-          "settings": {
-            "title": "Order"
-          }
-        },
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "question": "注文後のメールは届かないのですか？",
+            "answer": "<p>ご注文受付完了後、当店よりご注文確認のメールが自動的に届きますので内容をご確認下さい。<br\/>※こちらから連絡事項がある場合のみ、改めてメールをお送り致します。<br\/><br\/>迷惑メール等を設定している方は次のドメインの受信制限を解除してください。<br\/>「@tetote-gohan.co.jp」<\/p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "question": "注文の受付は何時までですか？",
+            "answer": "<p>注文の受付は基本的に24時間の受付となります。<br\/>　・インターネット(当サイト)によるご注文 \/ 24時間受付<br\/>但し、ご注文の処理は翌日の営業時間内での扱いとなりますので予めご了承下さい。<br\/>※土、日、祝日をはさむ場合は休み明けの処理となります。<\/p>"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "question": "一度の注文で複数の配送先を入力できますか？",
+            "answer": "<p>申し訳ございませんが対応しておりません。<\/p>"
+          }
+        },
+        "9b8cd74a-6e79-4877-b33b-a867aab84434": {
+          "type": "question",
+          "settings": {
+            "question": "モバイル端末(スマートフォン・ipad)からでも買い物ができますか？",
+            "answer": "<p>当サイトはパソコン・スマートフォン・マルチ端末対応です。<br\/>ホームページアドレスは、当サイトと同じアドレスとなります。<br\/>https:\/\/tetote-gohan.co.jp\/<\/p>"
           }
         }
       },
       "block_order": [
-        "category",
         "question-1",
         "question-2",
-        "question-3"
+        "question-3",
+        "9b8cd74a-6e79-4877-b33b-a867aab84434"
       ],
       "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Q&A",
+        "title": "よくあるご質問",
+        "content": "<p>お客様より、よくある質問をご紹介しております。<\/p>"
       }
     }
   },
