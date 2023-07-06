@@ -87,7 +87,7 @@
         "091cef13-09f6-4a57-b0b1-5fc93ef14bcd"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "show_categories": false,
         "subheading": "Q&A",
         "title": "よくあるご質問",
