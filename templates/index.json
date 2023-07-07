@@ -343,8 +343,11 @@
       "block_order": [
         "a2b19005-88f9-49f9-bb5b-166c49a06365"
       ],
+      "custom_css": [
+        ".container {max-width: 1300px; margin-left: auto; margin-right: auto;}"
+      ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
