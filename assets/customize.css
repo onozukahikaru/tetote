@@ -2092,3 +2092,19 @@ dd.huckleberry-subscription-list-id{
         margin: 2rem 20px;
     }
 }
+
+/* インスタグラム */
+#insta-feed h2{
+    font-size: 24px!important;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 3rem!important;
+}
+@media only screen and (max-width: 999px){
+    #insta-feed{
+        padding: 0 16px;
+    }
+    #insta-feed h2{
+        font-size: 21px!important;
+    }
+}
