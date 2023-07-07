@@ -335,9 +335,9 @@
           "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "disabled": true,
           "settings": {
-            "heading_size": 18,
+            "heading_size": 24,
             "feed_width": 100,
-            "html_area": ""
+            "html_area": ".container{\nmax-width: 1300px;\n    margin-left: auto;\n    margin-right: auto;\n}"
           }
         }
       },
