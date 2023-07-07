@@ -2067,6 +2067,13 @@ dd.huckleberry-subscription-list-id{
     color: #000;
     margin-bottom: 3rem!important;
 }
+@media only screen and (min-width: 1300px){
+    #shopify-section-template--19100854059313__168871488922889fa5 .container{
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media only screen and (max-width: 999px){
     #insta-feed{
         padding: 0 16px;
