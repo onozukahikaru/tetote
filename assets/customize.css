@@ -1291,6 +1291,7 @@ p.h2{
 .footer__block .unstyled-list.list{
     display: flex;
     flex-wrap: wrap;
+    margin-left: -25px;
 }
 .footer__block .unstyled-list.list li{
     padding: 0 25px;
@@ -1363,6 +1364,9 @@ p.h2{
     }
     .footer__block-list .link-faded{
         font-size: 13px;
+    }
+    .footer__block .unstyled-list.list{
+        margin-left: -20px;
     }
     .footer__block .unstyled-list.list li{
         padding: 0 20px;
