@@ -293,6 +293,30 @@
         "button_text": "VIEW MORE"
       }
     },
+    "168871488922889fa5": {
+      "type": "apps",
+      "blocks": {
+        "a2b19005-88f9-49f9-bb5b-166c49a06365": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 24,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2b19005-88f9-49f9-bb5b-166c49a06365"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "2363f99a-ddc2-419b-8052-b4acf75e2a42": {
       "type": "news",
       "custom_css": [
@@ -326,30 +350,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "168871488922889fa5": {
-      "type": "apps",
-      "blocks": {
-        "a2b19005-88f9-49f9-bb5b-166c49a06365": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 24,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "a2b19005-88f9-49f9-bb5b-166c49a06365"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
       }
     },
     "f5ec3781-5265-448c-8d98-af0d2794df94": {
@@ -423,9 +423,9 @@
     "96cde627-1142-4e18-b168-0067e4bfbcd3",
     "3a0c540f-9ec3-4e6b-913f-2c146cd38f64",
     "7d927e3d-ba3a-469a-a916-ee21548e9a6c",
+    "168871488922889fa5",
     "2363f99a-ddc2-419b-8052-b4acf75e2a42",
     "8ddc9888-0e7a-45a8-87c4-e1bd5ca619b2",
-    "168871488922889fa5",
     "f5ec3781-5265-448c-8d98-af0d2794df94"
   ]
 }
