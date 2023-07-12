@@ -24,8 +24,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/main-illust_pc.png",
-        "mobile_image": "shopify:\/\/shop_images\/main-illust_sp.png",
+        "image": "shopify:\/\/shop_images\/main-illust_pc_cc25e1d8-f30b-4e71-a803-8b73dd3eec2f.png",
+        "mobile_image": "shopify:\/\/shop_images\/main-illust_sp_9c4e0786-62ea-40a0-b54c-8b3dceaca0a2.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
