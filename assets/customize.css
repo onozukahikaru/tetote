@@ -317,13 +317,6 @@ p.h2{
     padding: 13px;
     line-height: 1;
 }
-.shopify-section--image-with-text-overlay:first-child .content-over-media:before{
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/background.jpg?v=1686530171);
-    background-repeat: repeat-x;
-    background-size: contain;
-    background-position: top;
-    z-index: 0;
-}
 .shopify-section--image-with-text-overlay:first-child p{
     color: #566E79;
 }
@@ -335,12 +328,9 @@ p.h2{
     text-shadow: 0 0 35px #006FA0;
     display: inline-block;
 }
-.shopify-section--image-with-text-overlay:first-child image-with-text-overlay{
-    padding-top: 270px;
-}
 .shopify-section--image-with-text-overlay:first-child image-with-text-overlay > div.content{
     position: absolute;
-    top: -264px;
+    top: 70px;
 }
 #shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .prose {
     border: 2px solid #144503;
@@ -362,31 +352,25 @@ p.h2{
     inset-inline-start: 0;
     bottom: 0;
 }
+#shopify-section-template--19100854059313__05394f8c-fafb-4d43-8254-705350b38903 .content-over-media{
+    max-width: 1300px;
+    margin: 0 auto;
+}
 @media only screen and (min-width: 1300px){
     #shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .container {
         margin: 0 auto;
     }
 }
 @media only screen and (max-width: 999px){
-    .shopify-section--image-with-text-overlay:first-child .content-over-media:before{
-        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/tablet.jpg?v=1687412561);
-        background-repeat: repeat-x;
-        background-size: cover;
-        background-position: center;
-        z-index: 0;
-    }
     .shopify-section--image-with-text-overlay:first-child .h2{
         font-size: 44px;
         line-height: 1;
-    }
-    .shopify-section--image-with-text-overlay:first-child image-with-text-overlay{
-        padding-top: 20%;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay img{
         min-height: auto;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay > div.content{
-        top: -120px;
+        top: 20%;
     }
     #shopify-section-template--19100854059313__53ee0a40-dd88-4145-b7de-c5fa9e68baf2 .prose{
         padding: 30px 25px;
@@ -399,25 +383,15 @@ p.h2{
     }
 }
 @media only screen and (max-width: 500px){
-    .shopify-section--image-with-text-overlay:first-child .content-over-media:before{
-        background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/sp.jpg?v=1687412560);
-        background-repeat: repeat-x;
-        background-size: cover;
-        background-position: top;
-        z-index: 0;
-    }
     .shopify-section--image-with-text-overlay:first-child .h2{
         font-size: 44px;
         display: block;
-    }
-    .shopify-section--image-with-text-overlay:first-child image-with-text-overlay{
-        padding-top: 50%;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay img{
         min-height: auto;
     }
     .shopify-section--image-with-text-overlay:first-child image-with-text-overlay > div.content{
-        top: -160px;
+        top: 10%;
     }
 }
 
