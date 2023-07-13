@@ -573,9 +573,10 @@ p.h2{
     width: 105px;
     height: 110px;
     display: block;
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/014ca7b63cb5be2f8ca365a64c3f01ac.png?v=1687822814);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/8db3530f7c6f0016026043791456324c.png?v=1689208250);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: right;
 }
 .shopify-section--about p.h6{
     position: absolute;
@@ -966,10 +967,10 @@ p.h2{
 }
 .shopify-section--blog-posts h2::before{
     content: '';
-    width: 70px;
-    height: 50px;
+    width: 80px;
+    height: 60px;
     display: block;
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_book.png?v=1686530170);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/news_2x_8cfcbf95-9bc3-4cbb-baf2-bf526ab95c05.png?v=1689208238);
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto 10px;
