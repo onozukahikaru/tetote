@@ -507,10 +507,10 @@ p.h2{
 }
 .shopify-section--featured-collections p.h2::before{
     content: '';
-    width: 43px;
-    height: 50px;
+    width: 53px;
+    height: 60px;
     display: block;
-    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/icon_bag.png?v=1686530169);
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/bag.png?v=1689310257);
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto 10px;
@@ -2046,6 +2046,17 @@ dd.huckleberry-subscription-list-id{
     color: #000;
     margin-bottom: 3rem!important;
 }
+#insta-feed h2::before{
+    content: '';
+    width: 53px;
+    height: 60px;
+    display: block;
+    background: url(https://cdn.shopify.com/s/files/1/0756/3968/5425/files/camera.png?v=1689310257);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+
 @media only screen and (min-width: 1300px){
     #shopify-section-template--19100854059313__168871488922889fa5 .container{
         max-width: 1300px;
